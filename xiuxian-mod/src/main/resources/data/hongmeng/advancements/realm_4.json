@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "title": {
+      "text": "元婴"
+    },
+    "description": {
+      "text": "踏入第 4 境"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "realm_4"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

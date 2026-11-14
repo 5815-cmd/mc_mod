@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_mountain",
+  "features": "hongmeng:leiyin_cao",
+  "step": "vegetal_decoration"
+}

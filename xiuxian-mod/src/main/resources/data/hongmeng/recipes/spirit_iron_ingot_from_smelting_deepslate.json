@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "hongmeng:deepslate_spirit_iron_ore"
+  },
+  "result": "hongmeng:spirit_iron_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

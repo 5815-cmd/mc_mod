@@ -1,0 +1,135 @@
+{
+  "VoidDragonEmperorModel": {
+    "cubes": 28,
+    "parts": 28,
+    "tex_model": [
+      192,
+      192
+    ],
+    "tex_png": [
+      192,
+      192
+    ],
+    "min_y": -25.0,
+    "max_y": 24.0,
+    "height_px": 49.0,
+    "height_blocks": 3.06,
+    "width_px": 120.0,
+    "depth_px": 100.0,
+    "foot_px": 24.0
+  },
+  "BlazeEmperorModel": {
+    "cubes": 34,
+    "parts": 34,
+    "tex_model": [
+      192,
+      192
+    ],
+    "tex_png": [
+      192,
+      192
+    ],
+    "min_y": -35.0,
+    "max_y": 24.0,
+    "height_px": 59.0,
+    "height_blocks": 3.69,
+    "width_px": 50.0,
+    "depth_px": 17.5,
+    "foot_px": 24.0
+  },
+  "BeastLordModel": {
+    "cubes": 29,
+    "parts": 29,
+    "tex_model": [
+      192,
+      128
+    ],
+    "tex_png": [
+      192,
+      128
+    ],
+    "min_y": -1.1,
+    "max_y": 24.0,
+    "height_px": 25.1,
+    "height_blocks": 1.57,
+    "width_px": 20.0,
+    "depth_px": 74.8,
+    "foot_px": 24.0
+  },
+  "BloodDemonModel": {
+    "cubes": 32,
+    "parts": 32,
+    "tex_model": [
+      128,
+      128
+    ],
+    "tex_png": [
+      128,
+      128
+    ],
+    "min_y": -29.2,
+    "max_y": 24.3,
+    "height_px": 53.5,
+    "height_blocks": 3.35,
+    "width_px": 29.4,
+    "depth_px": 19.7,
+    "foot_px": 24.32
+  },
+  "VoidLordModel": {
+    "cubes": 29,
+    "parts": 29,
+    "tex_model": [
+      128,
+      128
+    ],
+    "tex_png": [
+      128,
+      128
+    ],
+    "min_y": -31.0,
+    "max_y": 24.0,
+    "height_px": 55.0,
+    "height_blocks": 3.44,
+    "width_px": 30.4,
+    "depth_px": 21.9,
+    "foot_px": 24.0
+  },
+  "EvilUpperModel": {
+    "cubes": 72,
+    "parts": 72,
+    "tex_model": [
+      1024,
+      1024
+    ],
+    "tex_png": [
+      1024,
+      1024
+    ],
+    "min_y": -148.0,
+    "max_y": 102.0,
+    "height_px": 250.0,
+    "height_blocks": 15.62,
+    "width_px": 112.0,
+    "depth_px": 65.0,
+    "foot_px": 102.0
+  },
+  "HeavenLordModel": {
+    "cubes": 67,
+    "parts": 14,
+    "tex_model": [
+      256,
+      256
+    ],
+    "tex_png": [
+      256,
+      256
+    ],
+    "min_y": -86.0,
+    "max_y": 24.0,
+    "height_px": 110.0,
+    "height_blocks": 6.88,
+    "width_px": 44.0,
+    "depth_px": 28.0,
+    "foot_px": 24.0
+  }
+}

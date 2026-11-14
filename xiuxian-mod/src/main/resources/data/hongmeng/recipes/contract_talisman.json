@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "LGL",
+    "PLP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "L": {
+      "item": "hongmeng:lingye"
+    },
+    "G": {
+      "item": "hongmeng:spirit_crystal"
+    }
+  },
+  "result": {
+    "item": "hongmeng:contract_talisman",
+    "count": 2
+  }
+}

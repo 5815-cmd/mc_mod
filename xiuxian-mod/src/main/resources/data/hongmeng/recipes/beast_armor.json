@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "SGS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "G": {
+      "item": "hongmeng:spirit_crystal"
+    }
+  },
+  "result": {
+    "item": "hongmeng:beast_armor",
+    "count": 1
+  }
+}

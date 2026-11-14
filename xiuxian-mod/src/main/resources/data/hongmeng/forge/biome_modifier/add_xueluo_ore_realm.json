@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:demon_cavern",
+    "hongmeng:demon_grove",
+    "hongmeng:demon_scorch",
+    "hongmeng:void_abyss"
+  ],
+  "features": "hongmeng:xueluo_ore",
+  "step": "underground_ores"
+}

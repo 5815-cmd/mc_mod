@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:epoch_ruins",
+    "hongmeng:beast_bonefield",
+    "hongmeng:demon_scorch"
+  ],
+  "features": "hongmeng:huoyan_hua_realm_normal",
+  "step": "vegetal_decoration"
+}

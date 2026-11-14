@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 72,
+    "separation": 28,
+    "salt": 20261204
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:beast_pen",
+      "weight": 1
+    }
+  ]
+}

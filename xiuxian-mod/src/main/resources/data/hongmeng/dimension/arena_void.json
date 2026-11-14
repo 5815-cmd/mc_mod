@@ -1,0 +1,25 @@
+{
+  "type": "hongmeng:arena_void",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "hongmeng:arena_void_rift",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:end_stone",
+          "height": 20
+        },
+        {
+          "block": "minecraft:polished_blackstone",
+          "height": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:beast_bonefield",
+    "hongmeng:demon_scorch"
+  ],
+  "features": "hongmeng:leiyin_cao_realm_dense",
+  "step": "vegetal_decoration"
+}

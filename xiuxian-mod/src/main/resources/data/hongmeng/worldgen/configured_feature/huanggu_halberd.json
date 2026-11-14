@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:iron_bars"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:stone_brick_wall"
+          },
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

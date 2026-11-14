@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDD"
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:puppet_core"
+    },
+    "B": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "C": {
+      "item": "hongmeng:career_armor_jian_9_leggings"
+    },
+    "D": {
+      "item": "hongmeng:xueluo_essence"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_jian_10_leggings",
+    "count": 1
+  }
+}

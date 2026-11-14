@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "ICI",
+    "IBI"
+  ],
+  "key": {
+    "I": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "S": {
+      "item": "hongmeng:lingye"
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    },
+    "B": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "hongmeng:alchemy_furnace",
+    "count": 1
+  }
+}

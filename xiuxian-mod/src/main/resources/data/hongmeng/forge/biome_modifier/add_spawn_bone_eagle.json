@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:beast_bonefield"
+  ],
+  "spawners": {
+    "type": "hongmeng:bone_eagle",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

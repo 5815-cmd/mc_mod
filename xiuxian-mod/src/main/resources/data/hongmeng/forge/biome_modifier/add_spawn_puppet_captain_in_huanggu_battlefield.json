@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:huanggu_battlefield"
+  ],
+  "spawners": {
+    "type": "hongmeng:puppet_captain",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hongmeng:spirit_stone"
+    },
+    {
+      "item": "hongmeng:spirit_stone"
+    },
+    {
+      "item": "hongmeng:spirit_stone"
+    },
+    {
+      "item": "hongmeng:spirit_stone"
+    },
+    {
+      "item": "hongmeng:spirit_stone"
+    },
+    {
+      "item": "hongmeng:spirit_stone"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:lingye"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:pill_ningyuan",
+    "count": 1
+  }
+}

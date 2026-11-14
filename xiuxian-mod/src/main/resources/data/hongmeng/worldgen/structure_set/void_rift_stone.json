@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 30,
+    "salt": 20261209
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:void_rift_stone",
+      "weight": 1
+    }
+  ]
+}

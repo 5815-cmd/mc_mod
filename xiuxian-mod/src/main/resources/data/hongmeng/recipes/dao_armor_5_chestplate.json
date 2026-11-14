@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MAM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "A": {
+      "item": "hongmeng:dao_armor_4_chestplate"
+    }
+  },
+  "result": {
+    "item": "hongmeng:dao_armor_5_chestplate",
+    "count": 1
+  }
+}

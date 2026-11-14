@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABB",
+    "BBC",
+    "CDD"
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:huoyan_hua_petal"
+    },
+    "B": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "C": {
+      "item": "hongmeng:lingye"
+    },
+    "D": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_ti_1_helmet",
+    "count": 1
+  }
+}

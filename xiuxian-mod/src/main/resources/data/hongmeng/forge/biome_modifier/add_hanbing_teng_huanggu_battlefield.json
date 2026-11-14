@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:huanggu_battlefield"
+  ],
+  "features": "hongmeng:hanbing_teng_huanggu_battlefield",
+  "step": "vegetal_decoration"
+}

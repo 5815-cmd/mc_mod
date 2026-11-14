@@ -1,0 +1,3172 @@
+{
+  "class": "VoidLordModel",
+  "zh": "虚空道主",
+  "en": "VoidLord",
+  "identifier": "geometry.void_lord",
+  "tex": [
+    256,
+    256
+  ],
+  "parts": [
+    {
+      "name": "robe",
+      "parent": null,
+      "pivot": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -20.0,
+            -4.0,
+            -9.0
+          ],
+          "size": [
+            40.0,
+            4.0,
+            18.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            0,
+            66
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -17.0,
+            -10.0,
+            -7.0
+          ],
+          "size": [
+            34.0,
+            6.0,
+            14.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            117,
+            68
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -14.0,
+            -16.0,
+            -6.0
+          ],
+          "size": [
+            28.0,
+            6.0,
+            12.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            53,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            -20.0,
+            -4.0
+          ],
+          "size": [
+            18.0,
+            4.0,
+            8.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            43,
+            145
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            -22.0,
+            8.0
+          ],
+          "size": [
+            24.0,
+            18.0,
+            2.0
+          ],
+          "mat": "cloth",
+          "uv": [
+            122,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hem_f",
+      "parent": "robe",
+      "pivot": [
+        0.0,
+        0.0,
+        -9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -20.0,
+            -8.0,
+            -2.0
+          ],
+          "size": [
+            40.0,
+            8.0,
+            3.0
+          ],
+          "mat": "cloth",
+          "uv": [
+            50,
+            159
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hem_b",
+      "parent": "robe",
+      "pivot": [
+        0.0,
+        0.0,
+        9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -18.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            36.0,
+            8.0,
+            2.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            176,
+            162
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hem_l",
+      "parent": "robe",
+      "pivot": [
+        -20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -8.0,
+            -9.0
+          ],
+          "size": [
+            3.0,
+            8.0,
+            18.0
+          ],
+          "mat": "cloth",
+          "uv": [
+            45,
+            39
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hem_r",
+      "parent": "robe",
+      "pivot": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -9.0
+          ],
+          "size": [
+            3.0,
+            8.0,
+            18.0
+          ],
+          "mat": "cloth",
+          "uv": [
+            88,
+            39
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tendril0",
+      "parent": "robe",
+      "pivot": [
+        -14.0,
+        0.0,
+        -10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            8.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            184,
+            128
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tendril1",
+      "parent": "robe",
+      "pivot": [
+        13.0,
+        0.0,
+        -11.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            8.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            118,
+            129
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tendril2",
+      "parent": "robe",
+      "pivot": [
+        -11.0,
+        0.0,
+        12.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            8.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            43,
+            131
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tendril3",
+      "parent": "robe",
+      "pivot": [
+        10.0,
+        0.0,
+        9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            8.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            241,
+            135
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tendril4",
+      "parent": "robe",
+      "pivot": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            8.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            96,
+            145
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tendril5",
+      "parent": "robe",
+      "pivot": [
+        -2.0,
+        0.0,
+        -9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            8.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            105,
+            145
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tent_a_up",
+      "parent": "robe",
+      "pivot": [
+        16.0,
+        0.0,
+        5.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -14.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            14.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            214,
+            68
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tent_a_tip",
+      "parent": "tent_a_up",
+      "pivot": [
+        0.0,
+        -14.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -9.0,
+            -1.0
+          ],
+          "size": [
+            1.0,
+            9.0,
+            1.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            127,
+            129
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tent_b_up",
+      "parent": "robe",
+      "pivot": [
+        -15.0,
+        0.0,
+        6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -13.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            13.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            211,
+            127
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tent_b_tip",
+      "parent": "tent_b_up",
+      "pivot": [
+        0.0,
+        -13.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            1.0,
+            8.0,
+            1.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            219,
+            25
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "waist",
+      "parent": "robe",
+      "pivot": [
+        0.0,
+        -20.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            -6.0,
+            -5.0
+          ],
+          "size": [
+            18.0,
+            10.0,
+            10.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            65,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            -6.0,
+            -6.0
+          ],
+          "size": [
+            20.0,
+            3.0,
+            12.0
+          ],
+          "mat": "gold",
+          "uv": [
+            53,
+            129
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            -3.0,
+            -6.0
+          ],
+          "size": [
+            18.0,
+            2.0,
+            12.0
+          ],
+          "mat": "cloth",
+          "uv": [
+            118,
+            144
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -6.0,
+            -9.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            82,
+            181
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "torso",
+      "parent": "waist",
+      "pivot": [
+        0.0,
+        -6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -15.0,
+            -24.0,
+            -6.0
+          ],
+          "size": [
+            30.0,
+            22.0,
+            12.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            134,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -16.0,
+            -22.0,
+            -7.0
+          ],
+          "size": [
+            32.0,
+            18.0,
+            14.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            134,
+            35
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -14.0,
+            -20.0,
+            -8.0
+          ],
+          "size": [
+            28.0,
+            16.0,
+            1.0
+          ],
+          "mat": "cloth",
+          "uv": [
+            134,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -24.0,
+            7.0
+          ],
+          "size": [
+            4.0,
+            20.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            237,
+            0
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -4.0,
+            -18.0,
+            -9.0
+          ],
+          "size": [
+            8.0,
+            8.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            75,
+            171
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            -20.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            14.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            218,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            13.0,
+            -20.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            14.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            227,
+            118
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "pauldron_l",
+      "parent": "torso",
+      "pivot": [
+        -14.0,
+        -24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -11.0,
+            -3.0,
+            -7.0
+          ],
+          "size": [
+            12.0,
+            6.0,
+            14.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            175,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            -6.0,
+            -6.0
+          ],
+          "size": [
+            10.0,
+            4.0,
+            11.0
+          ],
+          "mat": "gold",
+          "uv": [
+            134,
+            128
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -9.0,
+            -3.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            25,
+            147
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "pauldron_r",
+      "parent": "torso",
+      "pivot": [
+        14.0,
+        -24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -3.0,
+            -7.0
+          ],
+          "size": [
+            12.0,
+            6.0,
+            14.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            0,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            -6.0
+          ],
+          "size": [
+            10.0,
+            4.0,
+            11.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            131
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            8.0,
+            -9.0,
+            -3.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            229,
+            173
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "neck",
+      "parent": "torso",
+      "pivot": [
+        0.0,
+        -24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -30.0,
+            -5.0
+          ],
+          "size": [
+            12.0,
+            30.0,
+            10.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            -4.0,
+            -8.0
+          ],
+          "size": [
+            16.0,
+            4.0,
+            16.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            8.0,
+            -28.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            22.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            219,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            -28.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            18.0,
+            2.0
+          ],
+          "mat": "void_black",
+          "uv": [
+            248,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -8.0,
+            -6.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            129,
+            207
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "pivot": [
+        0.0,
+        -30.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -14.0,
+            -22.0,
+            -8.0
+          ],
+          "size": [
+            28.0,
+            22.0,
+            16.0
+          ],
+          "mat": "bone",
+          "uv": [
+            45,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            -19.0,
+            -9.0
+          ],
+          "size": [
+            30.0,
+            4.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            115,
+            200
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -6.0,
+            -9.0
+          ],
+          "size": [
+            22.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            180,
+            200
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -4.0,
+            -24.0,
+            -9.0
+          ],
+          "size": [
+            8.0,
+            3.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            70,
+            207
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            -24.0,
+            -7.0
+          ],
+          "size": [
+            7.0,
+            3.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            91,
+            207
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            5.0,
+            -24.0,
+            -7.0
+          ],
+          "size": [
+            7.0,
+            3.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            110,
+            207
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -19.0,
+            -20.0,
+            -5.0
+          ],
+          "size": [
+            4.0,
+            16.0,
+            4.0
+          ],
+          "mat": "bone",
+          "uv": [
+            25,
+            41
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            15.0,
+            -20.0,
+            -5.0
+          ],
+          "size": [
+            4.0,
+            16.0,
+            4.0
+          ],
+          "mat": "bone",
+          "uv": [
+            227,
+            44
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            11.0,
+            -20.0,
+            8.0
+          ],
+          "size": [
+            2.0,
+            18.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            244,
+            44
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            0.0,
+            -22.0,
+            9.0
+          ],
+          "size": [
+            2.0,
+            20.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            228,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -18.0,
+            8.0
+          ],
+          "size": [
+            2.0,
+            16.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            227,
+            65
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            8.0,
+            -23.0,
+            -3.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            184,
+            139
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            -23.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            247,
+            199
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -19.0,
+            -9.0
+          ],
+          "size": [
+            22.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            85,
+            213
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -7.0,
+            -9.0
+          ],
+          "size": [
+            22.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            132,
+            213
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            -19.0,
+            -9.0
+          ],
+          "size": [
+            2.0,
+            12.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            228,
+            84
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            10.0,
+            -19.0,
+            -9.0
+          ],
+          "size": [
+            2.0,
+            12.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            177,
+            128
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -13.0,
+        -10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            18.0,
+            10.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            137,
+            159
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "pupil",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -13.0,
+        -11.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -3.0,
+            0.0
+          ],
+          "size": [
+            6.0,
+            6.0,
+            1.0
+          ],
+          "mat": "pupil",
+          "uv": [
+            234,
+            191
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "lid_up",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -18.0,
+        -10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -10.0,
+            -2.0,
+            0.0
+          ],
+          "size": [
+            20.0,
+            3.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            184,
+            207
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "lid_dn",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -8.0,
+        -10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            20.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            62
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crack_a",
+      "parent": "head",
+      "pivot": [
+        -10.0,
+        -16.0,
+        -10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            5.0,
+            1.0
+          ],
+          "mat": "crack",
+          "uv": [
+            220,
+            127
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            2.0,
+            0.0
+          ],
+          "size": [
+            3.0,
+            1.0,
+            1.0
+          ],
+          "mat": "crack",
+          "uv": [
+            214,
+            85
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crack_b",
+      "parent": "head",
+      "pivot": [
+        10.0,
+        -14.0,
+        -10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            4.0,
+            1.0
+          ],
+          "mat": "crack",
+          "uv": [
+            250,
+            135
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_0_a",
+      "parent": "torso",
+      "pivot": [
+        12.0,
+        -22.0,
+        3.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.62
+      ],
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            20.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            94,
+            171
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_0_b",
+      "parent": "wing_l_0_a",
+      "pivot": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            18.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            0,
+            182
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_0_c",
+      "parent": "wing_l_0_b",
+      "pivot": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            16.0,
+            6.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            41,
+            191
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_1_a",
+      "parent": "torso",
+      "pivot": [
+        12.0,
+        -15.0,
+        3.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            20.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            139,
+            173
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_1_b",
+      "parent": "wing_l_1_a",
+      "pivot": [
+        22.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            18.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            41,
+            182
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_1_c",
+      "parent": "wing_l_1_b",
+      "pivot": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            16.0,
+            6.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            123,
+            191
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_2_a",
+      "parent": "torso",
+      "pivot": [
+        12.0,
+        -8.0,
+        3.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.26
+      ],
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            18.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            139,
+            182
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_2_b",
+      "parent": "wing_l_2_a",
+      "pivot": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            16.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            160,
+            191
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_l_2_c",
+      "parent": "wing_l_2_b",
+      "pivot": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            14.0,
+            6.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            221,
+            182
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_0_a",
+      "parent": "torso",
+      "pivot": [
+        -12.0,
+        -22.0,
+        3.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.62
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -22.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            20.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            184,
+            173
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_0_b",
+      "parent": "wing_r_0_a",
+      "pivot": [
+        -22.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -20.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            18.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            180,
+            182
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_0_c",
+      "parent": "wing_r_0_b",
+      "pivot": [
+        -20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -18.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            16.0,
+            6.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            197,
+            191
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_1_a",
+      "parent": "torso",
+      "pivot": [
+        -12.0,
+        -15.0,
+        3.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -22.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            20.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            94,
+            180
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_1_b",
+      "parent": "wing_r_1_a",
+      "pivot": [
+        -22.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -20.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            18.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            82,
+            189
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_1_c",
+      "parent": "wing_r_1_b",
+      "pivot": [
+        -20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -18.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            16.0,
+            6.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            78,
+            198
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_2_a",
+      "parent": "torso",
+      "pivot": [
+        -12.0,
+        -8.0,
+        3.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.26
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -20.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            18.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_purple",
+          "uv": [
+            0,
+            191
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_2_b",
+      "parent": "wing_r_2_a",
+      "pivot": [
+        -20.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -18.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            16.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            0,
+            200
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_r_2_c",
+      "parent": "wing_r_2_b",
+      "pivot": [
+        -18.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -16.0,
+            -3.0,
+            -1.0
+          ],
+          "size": [
+            14.0,
+            6.0,
+            2.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            37,
+            200
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_ll_up",
+      "parent": "torso",
+      "pivot": [
+        14.0,
+        -22.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            6.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            228,
+            23
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_ll_el",
+      "parent": "arm_ll_up",
+      "pivot": [
+        0.0,
+        14.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -2.0
+          ],
+          "size": [
+            5.0,
+            12.0,
+            5.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            236,
+            65
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_ll_hand",
+      "parent": "arm_ll_el",
+      "pivot": [
+        0.0,
+        12.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            4.0,
+            6.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            160
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            1.0,
+            2.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            14.0,
+            2.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            236,
+            118
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_rl_up",
+      "parent": "torso",
+      "pivot": [
+        -14.0,
+        -22.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            6.0
+          ],
+          "mat": "void_purple",
+          "uv": [
+            0,
+            41
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_rl_el",
+      "parent": "arm_rl_up",
+      "pivot": [
+        0.0,
+        14.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -2.0
+          ],
+          "size": [
+            5.0,
+            12.0,
+            5.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            236,
+            83
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_rl_hand",
+      "parent": "arm_rl_el",
+      "pivot": [
+        0.0,
+        12.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            4.0,
+            6.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            171
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            2.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            14.0,
+            2.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            245,
+            118
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_ls_up",
+      "parent": "torso",
+      "pivot": [
+        15.0,
+        -14.0,
+        4.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            10.0,
+            6.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            228,
+            101
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_ls_el",
+      "parent": "arm_ls_up",
+      "pivot": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -2.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            5.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            220,
+            135
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_ls_hand",
+      "parent": "arm_ls_el",
+      "pivot": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            4.0,
+            6.0
+          ],
+          "mat": "bone",
+          "uv": [
+            25,
+            171
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            1.0,
+            2.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            14.0,
+            2.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            193,
+            127
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_rs_up",
+      "parent": "torso",
+      "pivot": [
+        -15.0,
+        -14.0,
+        4.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            10.0,
+            6.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            193,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_rs_el",
+      "parent": "arm_rs_up",
+      "pivot": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -2.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            5.0
+          ],
+          "mat": "robe_blue",
+          "uv": [
+            179,
+            144
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_rs_hand",
+      "parent": "arm_rs_el",
+      "pivot": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            4.0,
+            6.0
+          ],
+          "mat": "bone",
+          "uv": [
+            50,
+            171
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            2.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            14.0,
+            2.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            202,
+            127
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rune0",
+      "parent": null,
+      "pivot": [
+        30.0,
+        -50.0,
+        6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -3.0,
+            -2.0
+          ],
+          "size": [
+            7.0,
+            7.0,
+            5.0
+          ],
+          "mat": "stone",
+          "uv": [
+            0,
+            147
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -2.0,
+            -3.0
+          ],
+          "size": [
+            5.0,
+            5.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            244,
+            173
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rune1",
+      "parent": null,
+      "pivot": [
+        -32.0,
+        -40.0,
+        -5.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -3.0,
+            -2.0
+          ],
+          "size": [
+            7.0,
+            7.0,
+            5.0
+          ],
+          "mat": "stone",
+          "uv": [
+            200,
+            149
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -2.0,
+            -3.0
+          ],
+          "size": [
+            5.0,
+            5.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            234,
+            199
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rune2",
+      "parent": null,
+      "pivot": [
+        24.0,
+        -32.0,
+        10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -3.0,
+            -2.0
+          ],
+          "size": [
+            7.0,
+            7.0,
+            5.0
+          ],
+          "mat": "stone",
+          "uv": [
+            225,
+            149
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -2.0,
+            -3.0
+          ],
+          "size": [
+            5.0,
+            5.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            229,
+            206
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rune3",
+      "parent": null,
+      "pivot": [
+        -26.0,
+        -68.0,
+        2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -3.0,
+            -2.0
+          ],
+          "size": [
+            7.0,
+            7.0,
+            5.0
+          ],
+          "mat": "stone",
+          "uv": [
+            25,
+            158
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -2.0,
+            -3.0
+          ],
+          "size": [
+            5.0,
+            5.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            242,
+            206
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "halo",
+      "parent": null,
+      "pivot": [
+        0.0,
+        -56.0,
+        14.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            17.0,
+            -1.0,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            200,
+            144
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            11.1,
+            13.1,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            209
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            19.0,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            17,
+            209
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -17.1,
+            13.1,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            34,
+            209
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -23.0,
+            -1.0,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            51,
+            209
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -17.1,
+            -15.1,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            184,
+            212
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            -21.0,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            201,
+            212
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            11.1,
+            -15.1,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            68,
+            213
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "halo_runes",
+      "parent": null,
+      "pivot": [
+        0.0,
+        -56.0,
+        14.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            18.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            140,
+            207
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            18.0,
+            -2.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            151,
+            207
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -22.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            162,
+            207
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -22.0,
+            -2.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mat": "crystal",
+          "uv": [
+            173,
+            207
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    }
+  ]
+}

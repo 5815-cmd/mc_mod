@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "hongmeng:zhenyuan_ore",
+    "hongmeng:kongming_ore",
+    "hongmeng:boss_summon_altar_void",
+    "hongmeng:deepslate_kongming_ore"
+  ]
+}

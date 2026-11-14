@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 28,
+    "salt": 20261303
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:heaven_star_altar",
+      "weight": 1
+    }
+  ]
+}

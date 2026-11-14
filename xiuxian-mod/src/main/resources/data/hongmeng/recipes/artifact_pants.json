@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "I I",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "hongmeng:lingye"
+    },
+    "I": {
+      "item": "hongmeng:spirit_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "hongmeng:artifact_1_pants",
+    "count": 1
+  }
+}

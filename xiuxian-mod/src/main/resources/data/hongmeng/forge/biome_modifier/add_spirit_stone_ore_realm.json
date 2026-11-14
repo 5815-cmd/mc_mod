@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:beast_bonefield",
+    "hongmeng:beast_grove",
+    "hongmeng:beast_mire",
+    "hongmeng:demon_cavern",
+    "hongmeng:demon_grove",
+    "hongmeng:demon_scorch",
+    "hongmeng:epoch_meadow",
+    "hongmeng:epoch_paddy",
+    "hongmeng:epoch_ruins",
+    "hongmeng:void_abyss",
+    "hongmeng:void_isles",
+    "hongmeng:void_stardust"
+  ],
+  "features": "hongmeng:spirit_stone_ore",
+  "step": "underground_ores"
+}

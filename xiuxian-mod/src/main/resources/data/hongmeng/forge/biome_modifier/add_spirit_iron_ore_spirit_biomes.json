@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:lingmai_valley",
+    "hongmeng:yunmeng_marsh",
+    "hongmeng:huanggu_battlefield"
+  ],
+  "features": "hongmeng:spirit_iron_ore",
+  "step": "underground_ores"
+}

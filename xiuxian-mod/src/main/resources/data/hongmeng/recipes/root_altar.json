@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CKC",
+    "KLK",
+    "CKC"
+  ],
+  "key": {
+    "C": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "K": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "L": {
+      "item": "hongmeng:lingye"
+    }
+  },
+  "result": {
+    "item": "hongmeng:root_altar",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAB",
+    "BCB",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:blood_core"
+    },
+    "B": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "C": {
+      "item": "hongmeng:career_armor_xue_8_leggings"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_xue_9_leggings",
+    "count": 1
+  }
+}

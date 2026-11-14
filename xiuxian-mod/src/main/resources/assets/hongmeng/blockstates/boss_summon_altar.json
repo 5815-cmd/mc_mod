@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "hongmeng:block/boss_summon_altar" },
+    "lit=true": { "model": "hongmeng:block/boss_summon_altar_lit" }
+  }
+}

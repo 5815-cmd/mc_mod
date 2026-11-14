@@ -1,0 +1,17 @@
+{
+  "type": "hongmeng:heaven_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 20261101,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "hongmeng:heaven_cloudsea",
+        "hongmeng:heaven_starfall",
+        "hongmeng:heaven_palace"
+      ],
+      "scale": 64
+    }
+  }
+}

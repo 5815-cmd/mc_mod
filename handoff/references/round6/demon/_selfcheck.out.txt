@@ -1,0 +1,27 @@
+﻿[PASS] class BloodDemonModel extends EntityModel<CultivationMonsterEntity>
+[PASS] public static LayerDefinition createBodyLayer()
+[PASS] 构造器 BloodDemonModel(ModelPart root)
+[PASS] LOWEST_PIXEL_Y = 24.0（double，契约 §1）
+[PASS] LayerDefinition.create(mesh, 256, 256)（贴图 256²）
+[PASS] cube ≥ 85（契约 §2D）
+[PASS] 站高 6.0 格 ±15%（96px）
+[PASS] 肩宽 4 格 ±15%（64px）
+[PASS] 最低点 y = 24.00px（脚底踩地，GROUND_LIFT=0）
+[PASS] UV 越界 0 / 跨足迹重叠 0
+[PASS] 真洞 0（贴图 100% 不透明）
+[PASS] 挂点断开 0
+[PASS] 贴图实际尺寸 = LayerDefinition 声明 256×256
+[PASS] _glow.png 与主贴图同尺寸（256×256）
+[PASS] 发光层非空（血眼/血核/刃口/冠宝石）
+[PASS] setupAnim 引用的部件字段都存在
+[PASS] setupAnim 无 += / *= 自增赋值
+[PASS] 三头/六臂/袍摆/血核/血雾 动画齐全
+[PASS] renderer 保留 LAYER = "blood_demon"
+[PASS] renderer 构造器签名不变 (Context, String texName)
+[PASS] renderer 已加 RankGlowLayer（契约 §1）
+[PASS] renderer 仍按 LOWEST_PIXEL_Y 算 GROUND_LIFT
+[PASS] before 证据齐全（旧三视图/旧剪影/旧 128² 贴图）
+
+数字：cube=113  parts=114  高=97.1px(6.07格)  宽=64.0px(4.00格)  深=36.4px  脚底=24.00px  UV=0/0  洞=0  glow=363px
+
+SELF-CHECK: PASS

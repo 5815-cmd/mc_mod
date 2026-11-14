@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAB",
+    "BC ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "B": {
+      "item": "hongmeng:zhenyuan_crystal"
+    },
+    "C": {
+      "item": "hongmeng:career_armor_jian_6_helmet"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_jian_7_helmet",
+    "count": 1
+  }
+}

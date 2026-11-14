@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:lingye"
+    },
+    "title": {
+      "text": "帝境"
+    },
+    "description": {
+      "text": "踏入第 9 境"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "realm_9"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

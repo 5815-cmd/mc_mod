@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:root_altar"
+    },
+    "title": {
+      "text": "初次觉醒"
+    },
+    "description": {
+      "text": "测出灵根，踏入修仙之门"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/deepslate.png"
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "awaken"
+      }
+    }
+  }
+}

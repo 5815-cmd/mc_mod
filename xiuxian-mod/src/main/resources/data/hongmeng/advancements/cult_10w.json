@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:pill_exp_perfect"
+    },
+    "title": {
+      "text": "登堂入室"
+    },
+    "description": {
+      "text": "累计修为达到 10 万"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "cult_10w"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

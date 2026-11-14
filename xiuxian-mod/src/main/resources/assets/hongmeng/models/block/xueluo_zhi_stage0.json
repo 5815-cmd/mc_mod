@@ -1,0 +1,159 @@
+{
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "t_body": "hongmeng:block/xueluo_zhi_stage0"
+  },
+  "elements": [
+    {
+      "name": "stalk",
+      "from": [
+        6.5,
+        0.0,
+        7.95
+      ],
+      "to": [
+        9.5,
+        4.0,
+        8.05
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            12.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            12.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        }
+      }
+    },
+    {
+      "name": "stalk",
+      "from": [
+        7.95,
+        0.0,
+        6.5
+      ],
+      "to": [
+        8.05,
+        4.0,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            12.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            12.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.95,
+          0.0,
+          6.5
+        ],
+        "axis": "y",
+        "angle": 45.0
+      }
+    },
+    {
+      "name": "cap",
+      "from": [
+        4.0,
+        4.0,
+        7.9
+      ],
+      "to": [
+        12.0,
+        6.2,
+        8.1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            9.8,
+            16.0,
+            12.0
+          ],
+          "texture": "t_body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            9.8,
+            16.0,
+            12.0
+          ],
+          "texture": "t_body"
+        }
+      }
+    },
+    {
+      "name": "cap",
+      "from": [
+        4.0,
+        4.0,
+        7.9
+      ],
+      "to": [
+        12.0,
+        6.2,
+        8.1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            9.8,
+            16.0,
+            12.0
+          ],
+          "texture": "t_body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            9.8,
+            16.0,
+            12.0
+          ],
+          "texture": "t_body"
+        }
+      },
+      "rotation": {
+        "origin": [
+          4.0,
+          4.0,
+          7.9
+        ],
+        "axis": "y",
+        "angle": 45.0
+      }
+    }
+  ]
+}

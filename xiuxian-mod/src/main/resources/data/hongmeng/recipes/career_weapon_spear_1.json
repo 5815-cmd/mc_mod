@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABA",
+    "CBB",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "C": {
+      "item": "hongmeng:lingye"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_weapon_spear_1",
+    "count": 1
+  }
+}

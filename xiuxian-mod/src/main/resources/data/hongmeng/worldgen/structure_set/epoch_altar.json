@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 16,
+    "salt": 20261201
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:epoch_altar",
+      "weight": 1
+    }
+  ]
+}

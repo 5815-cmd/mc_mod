@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 24,
+    "salt": 20261205
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:demon_gate",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:demon_cavern"
+  ],
+  "spawners": {
+    "type": "hongmeng:demon_spider",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

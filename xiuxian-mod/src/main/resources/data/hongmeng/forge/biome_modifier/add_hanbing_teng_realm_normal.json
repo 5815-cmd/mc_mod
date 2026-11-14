@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:beast_grove",
+    "hongmeng:demon_cavern",
+    "hongmeng:void_isles"
+  ],
+  "features": "hongmeng:hanbing_teng_realm_normal",
+  "step": "vegetal_decoration"
+}

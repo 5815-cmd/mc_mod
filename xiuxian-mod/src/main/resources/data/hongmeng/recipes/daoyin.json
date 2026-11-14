@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hongmeng:kongming_essence"
+    },
+    {
+      "item": "hongmeng:kongming_essence"
+    },
+    {
+      "item": "hongmeng:kongming_essence"
+    },
+    {
+      "item": "hongmeng:kongming_essence"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:zhenyuan_crystal"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:daoyin",
+    "count": 1
+  }
+}

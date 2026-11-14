@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:beast_bonefield",
+    "hongmeng:beast_mire",
+    "hongmeng:demon_cavern",
+    "hongmeng:void_abyss",
+    "hongmeng:void_isles",
+    "hongmeng:void_stardust"
+  ],
+  "features": "hongmeng:kongming_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "hongmeng:block/boss_summon_altar_epoch_lit",
+    "bottom": "hongmeng:block/boss_summon_altar_epoch_side_lit",
+    "side": "hongmeng:block/boss_summon_altar_epoch_side_lit"
+  }
+}

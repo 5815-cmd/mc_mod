@@ -1,0 +1,163 @@
+    private static void careerArmorSetRules() {
+        section("职业甲（按境界分件，200 件）");
+
+        check("职业甲境界数 = 10（练气~鸿蒙）",
+                com.hongmeng.xiuxian.item.armor.CareerArmorRealm.MAX_REALM == 10,
+                com.hongmeng.xiuxian.item.armor.CareerArmorRealm.MAX_REALM + " 境");
+
+        // ---- 境界 → 外观档：1~3 初阶 / 4~6 进阶 / 7~10 名器 ----
+        var realmApi = com.hongmeng.xiuxian.item.armor.CareerArmorRealm.class;
+        var t = com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.class;
+        boolean bandOk =
+                com.hongmeng.xiuxian.item.armor.CareerArmorRealm.bandOf(1)
+                        == com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.BASIC
+                        && com.hongmeng.xiuxian.item.armor.CareerArmorRealm.bandOf(3)
+                        == com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.BASIC
+                        && com.hongmeng.xiuxian.item.armor.CareerArmorRealm.bandOf(4)
+                        == com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.ADVANCED
+                        && com.hongmeng.xiuxian.item.armor.CareerArmorRealm.bandOf(6)
+                        == com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.ADVANCED
+                        && com.hongmeng.xiuxian.item.armor.CareerArmorRealm.bandOf(7)
+                        == com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.MASTER
+                        && com.hongmeng.xiuxian.item.armor.CareerArmorRealm.bandOf(10)
+                        == com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.MASTER;
+        check("境界 → 外观档：1~3 初阶 / 4~6 进阶 / 7~10 名器", bandOk, "");
+
+        // ---- 200 个物品 ID 唯一 ----
+        java.util.Set<String> ids = new java.util.HashSet<>();
+        boolean uniqueOk = true;
+        for (var c : com.hongmeng.xiuxian.talent.Career.values()) {
+            for (int realm = 1; realm <= 10; realm++) {
+                for (String slot : com.hongmeng.xiuxian.item.armor.CareerArmorRealm.SLOTS) {
+                    if (!ids.add(com.hongmeng.xiuxian.item.armor.CareerArmorRealm
+                            .itemName(c, realm, slot))) {
+                        uniqueOk = false;
+                    }
+                }
+            }
+        }
+        check("200 个职业甲物品 ID 全部唯一", uniqueOk && ids.size() == 200,
+                ids.size() + "/200");
+
+        // ---- 每境：四件之和 = 固定总值；< 道袍；随境界单调 ----
+        boolean sumOk = true;
+        boolean belowDao = true;
+        boolean monoOk = true;
+        StringBuilder detail = new StringBuilder();
+        int prevTotal = -1;
+        for (int realm = 1; realm <= 10; realm++) {
+            int total = com.hongmeng.xiuxian.item.armor.CareerArmorRealm.totalArmorAt(realm);
+            int sum = 0;
+            for (int i = 0; i < 4; i++) {
+                sum += com.hongmeng.xiuxian.item.armor.CareerArmorRealm.armorFor(realm, i);
+            }
+            if (sum != total) {
+                sumOk = false;
+                detail.append("境").append(realm).append(": ").append(sum)
+                        .append("/").append(total).append(" ");
+            }
+            double dao = com.hongmeng.xiuxian.core.RealmStats.armorTotal(realm);
+            if (total >= dao) {
+                belowDao = false;
+            }
+            if (realm > 1 && total < prevTotal) {
+                monoOk = false;
+            }
+            prevTotal = total;
+        }
+        check("每境四件护甲之和 = 该境界固定总值", sumOk,
+                sumOk ? "10 境全部成立" : detail.toString());
+        check("每境护甲低于同境道袍（纯防御仍归道袍）", belowDao, "");
+        check("职业甲护甲随境界单调不降", monoOk, "");
+
+        // ---- 部位分配 3/6/5/2 ----
+        boolean shareOk = com.hongmeng.xiuxian.item.armor.CareerArmorRealm.armorFor(10, 1)
+                > com.hongmeng.xiuxian.item.armor.CareerArmorRealm.armorFor(10, 2)
+                && com.hongmeng.xiuxian.item.armor.CareerArmorRealm.armorFor(10, 2)
+                > com.hongmeng.xiuxian.item.armor.CareerArmorRealm.armorFor(10, 0)
+                && com.hongmeng.xiuxian.item.armor.CareerArmorRealm.armorFor(10, 0)
+                > com.hongmeng.xiuxian.item.armor.CareerArmorRealm.armorFor(10, 3);
+        check("四件分配 3/6/5/2（胸 > 腿 > 头 > 靴）", shareOk, "");
+
+        // ---- 生命 / 韧性 / 耐久 ----
+        check("生命加成 初阶 +2%/件、进阶 +3%/件、名器 +4%/件",
+                Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorRealm.healthPerPiece(1)
+                        - 0.02D) < 1.0E-9D
+                        && Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorRealm
+                        .healthPerPiece(4) - 0.03D) < 1.0E-9D
+                        && Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorRealm
+                        .healthPerPiece(7) - 0.04D) < 1.0E-9D, "");
+        check("单件韧性 0.5（与最早道途甲一致）",
+                Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorRealm.toughness()
+                        - 0.5D) < 1.0E-9D, "");
+        boolean durOk = true;
+        for (int realm = 2; realm <= 10; realm++) {
+            if (com.hongmeng.xiuxian.item.armor.CareerArmorRealm.durabilityAt(realm, 1)
+                    <= com.hongmeng.xiuxian.item.armor.CareerArmorRealm
+                    .durabilityAt(realm - 1, 1)) {
+                durOk = false;
+            }
+        }
+        check("耐久随境界提高", durOk, "");
+
+        // ---- 15 组外观/套装效果档完整 ----
+        var sets = com.hongmeng.xiuxian.item.armor.CareerArmorSet.values();
+        check("15 组外观/套装效果档完整（5 职业 × 初/进/名器）", sets.length == 15,
+                sets.length + " 组");
+
+        // ---- 2/4 件套表逐条一致 ----
+        String[][] expect = {
+                {"JIAN_BASIC", "2:ATTACK_SPEED=0.08;4:SWORD_INTENT=0.20;"},
+                {"JIAN_ADVANCED", "2:SWORD_INTENT_FULL_DAMAGE=0.15;"
+                        + "4:SWORD_QI_RANGE=0.30;4:SWORD_AURA=0.25;"},
+                {"XUE_BASIC", "2:LIFESTEAL=0.08;4:BLOOD_MAX=0.20;"},
+                {"XUE_ADVANCED", "2:STAGGER_RATIO=0.15;"
+                        + "4:LOW_HP_DAMAGE=0.25;4:BLOOD_DASH_CD=0.20;"},
+                {"MO_BASIC", "2:PENETRATION=0.10;4:DEMON_GAIN=0.20;"},
+                {"MO_ADVANCED", "2:DEMON_CAP=0.25;"
+                        + "4:OVERFLOW_BURST=0.30;4:SELF_DAMAGE_CUT=0.50;"},
+                {"GUI_BASIC", "2:SOUL_MARK_DURATION=40.00;4:GHOST_REALM_RADIUS=0.20;"},
+                {"GUI_ADVANCED", "2:SOUL_BURST_DAMAGE=0.20;"
+                        + "4:PHASE_CD=0.25;4:GHOST_SLOW=0.15;"},
+                {"TI_BASIC", "2:KNOCKBACK_RESIST=0.50;4:SURGE_GAIN=0.20;"},
+                {"TI_ADVANCED", "2:LAST_STAND_TICKS=20.00;"
+                        + "4:SURGE_BURST=0.30;4:SHOCK_RADIUS=0.20;"},
+                {"JIAN_MASTER", "2:ATTACK_SPEED=0.10;"
+                        + "4:SWORD_QI_RANGE=0.40;4:SWORD_AURA=0.35;"},
+                {"XUE_MASTER", "2:LIFESTEAL=0.10;"
+                        + "4:LOW_HP_DAMAGE=0.35;4:BLOOD_MAX=0.30;"},
+                {"MO_MASTER", "2:PENETRATION=0.15;"
+                        + "4:DEMON_CAP=0.35;4:OVERFLOW_BURST=0.40;"},
+                {"GUI_MASTER", "2:SOUL_MARK_DURATION=60.00;"
+                        + "4:SOUL_BURST_DAMAGE=0.30;4:PHASE_CD=0.35;"},
+                {"TI_MASTER", "2:KNOCKBACK_RESIST=0.70;"
+                        + "4:SURGE_BURST=0.45;4:SHOCK_RADIUS=0.30;"},
+        };
+        int tableBad = 0;
+        StringBuilder tableDetail = new StringBuilder();
+        for (var s : sets) {
+            String expected = null;
+            for (String[] row : expect) {
+                if (row[0].equals(s.name())) {
+                    expected = row[1];
+                    break;
+                }
+            }
+            String actual = careerSetSignature(s);
+            if (expected == null || !expected.equals(actual)) {
+                tableBad++;
+                tableDetail.append(s.name()).append(" 实际=").append(actual).append(" ");
+            }
+        }
+        check("2/4 件套效果表逐条一致", tableBad == 0,
+                tableBad == 0 ? "15 组全部对上" : ("不一致：" + tableDetail));
+
+        boolean nonEmpty = true;
+        for (var s : sets) {
+            if (s.setTwo().length == 0 || s.setFour().length == 0) {
+                nonEmpty = false;
+            }
+        }
+        check("每套 2 件套与 4 件套都有实际效果（不是白板）", nonEmpty, "");
+    }
+

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hongmeng:spirit_crystal_ore"
+    },
+    {
+      "item": "minecraft:deepslate"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:deepslate_spirit_crystal_ore",
+    "count": 1
+  }
+}

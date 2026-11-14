@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "B": {
+      "item": "hongmeng:zhenyuan_crystal"
+    },
+    "C": {
+      "item": "hongmeng:career_weapon_spear_6"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_weapon_spear_7",
+    "count": 1
+  }
+}

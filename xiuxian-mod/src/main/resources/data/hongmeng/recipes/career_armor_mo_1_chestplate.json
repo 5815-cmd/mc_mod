@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABA",
+    "AAA",
+    "CDD"
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "B": {
+      "item": "hongmeng:kongming_lan_petal"
+    },
+    "C": {
+      "item": "hongmeng:lingye"
+    },
+    "D": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_mo_1_chestplate",
+    "count": 1
+  }
+}

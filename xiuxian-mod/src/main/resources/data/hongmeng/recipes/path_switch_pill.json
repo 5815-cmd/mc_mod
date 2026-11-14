@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "CXC",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "item": "hongmeng:xueluo_zhi_petal"
+    },
+    "C": {
+      "item": "hongmeng:kongming_ore"
+    },
+    "X": {
+      "item": "hongmeng:spirit_crystal_ore"
+    }
+  },
+  "result": {
+    "item": "hongmeng:path_switch_pill",
+    "count": 1
+  }
+}

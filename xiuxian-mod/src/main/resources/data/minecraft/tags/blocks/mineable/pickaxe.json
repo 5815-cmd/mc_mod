@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "hongmeng:zhenyuan_ore",
+    "hongmeng:spirit_iron_ore",
+    "hongmeng:deepslate_spirit_iron_ore",
+    "hongmeng:spirit_crystal_ore",
+    "hongmeng:deepslate_spirit_crystal_ore",
+    "hongmeng:kongming_ore",
+    "hongmeng:xueluo_ore",
+    "hongmeng:boss_summon_altar",
+    "hongmeng:boss_summon_altar_epoch",
+    "hongmeng:boss_summon_altar_beast",
+    "hongmeng:boss_summon_altar_demon",
+    "hongmeng:boss_summon_altar_void",
+    "hongmeng:root_altar",
+    "hongmeng:epoch_portal_frame",
+    "hongmeng:beast_portal_frame",
+    "hongmeng:demon_portal_frame",
+    "hongmeng:void_portal_frame",
+    "hongmeng:alchemy_furnace",
+    "hongmeng:spirit_stone_ore",
+    "hongmeng:deepslate_kongming_ore",
+    "hongmeng:deepslate_xueluo_ore",
+    "hongmeng:deepslate_spirit_stone_ore"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hongmeng:spirit_grass"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:lingye",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:huanggu_battlefield"
+  ],
+  "spawners": {
+    "type": "hongmeng:stone_golem",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:demon_scorch",
+    "hongmeng:demon_grove",
+    "hongmeng:demon_cavern"
+  ],
+  "features": "hongmeng:lingmu_grove_demon",
+  "step": "vegetal_decoration"
+}

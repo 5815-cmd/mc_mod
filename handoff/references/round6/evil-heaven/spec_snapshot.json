@@ -1,0 +1,2676 @@
+{
+  "class": "HeavenLordModel",
+  "zh": "仙庭之主",
+  "en": "Heaven Lord",
+  "identifier": "geometry.heaven_lord_model",
+  "tex": [
+    256,
+    256
+  ],
+  "parts": [
+    {
+      "name": "body",
+      "parent": null,
+      "pivot": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -52.0,
+            -8.0,
+            -2.0
+          ],
+          "size": [
+            104.0,
+            8.0,
+            2.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            0,
+            177
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -52.0,
+            -8.0,
+            0.0
+          ],
+          "size": [
+            104.0,
+            8.0,
+            2.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            0,
+            188
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -50.0,
+            -15.0,
+            -2.0
+          ],
+          "size": [
+            100.0,
+            7.0,
+            2.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            0,
+            210
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -50.0,
+            -15.0,
+            0.0
+          ],
+          "size": [
+            100.0,
+            7.0,
+            2.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            0,
+            220
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -48.0,
+            -21.0,
+            -2.0
+          ],
+          "size": [
+            96.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            0,
+            230
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -48.0,
+            -21.0,
+            0.0
+          ],
+          "size": [
+            96.0,
+            6.0,
+            2.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            0,
+            239
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -52.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            4.0,
+            8.0,
+            2.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            182,
+            77
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            48.0,
+            -8.0,
+            -1.0
+          ],
+          "size": [
+            4.0,
+            8.0,
+            2.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            0,
+            165
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -20.0,
+            -38.0,
+            -5.0
+          ],
+          "size": [
+            40.0,
+            18.0,
+            10.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            0,
+            64
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -21.0,
+            -40.0,
+            -4.0
+          ],
+          "size": [
+            42.0,
+            2.0,
+            8.0
+          ],
+          "mat": "gold",
+          "uv": [
+            105,
+            199
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -22.0,
+            -24.0,
+            -4.0
+          ],
+          "size": [
+            44.0,
+            2.0,
+            8.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            0,
+            199
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -42.0,
+            -7.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            59,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -28.0,
+            -7.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            70,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -14.0,
+            -7.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            81,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            10.0,
+            -7.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            206,
+            199
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            24.0,
+            -7.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            217,
+            199
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            38.0,
+            -7.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            228,
+            199
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -34.0,
+            -15.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            1.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            74,
+            150
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            -15.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            1.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            30,
+            165
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            8.0,
+            -15.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            1.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            41,
+            165
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            30.0,
+            -15.0,
+            -3.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            1.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            52,
+            165
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            26.0,
+            -74.0,
+            7.0
+          ],
+          "size": [
+            2.0,
+            46.0,
+            1.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -28.0,
+            -74.0,
+            7.0
+          ],
+          "size": [
+            2.0,
+            46.0,
+            1.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            7,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -38.0,
+            -60.0,
+            4.0
+          ],
+          "size": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            236,
+            163
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            34.0,
+            -42.0,
+            2.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            13,
+            165
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -32.0,
+            -28.0,
+            -4.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            239,
+            199
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -50.0,
+            -56.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            74,
+            159
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -50.0,
+            -52.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            219,
+            228
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -46.0,
+            -56.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            248,
+            234
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -46.0,
+            -52.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            13,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -42.0,
+            -56.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            22,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -50.0,
+            -48.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            31,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -42.0,
+            -52.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            40,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -46.0,
+            -48.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            49,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -42.0,
+            -48.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            58,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -38.0,
+            -56.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            67,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -50.0,
+            -44.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            76,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -38.0,
+            -52.0,
+            6.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            85,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "chest",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -42.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -21.0,
+            -24.0,
+            -5.0
+          ],
+          "size": [
+            42.0,
+            20.0,
+            10.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            95,
+            33
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -23.0,
+            -22.0,
+            -7.0
+          ],
+          "size": [
+            46.0,
+            18.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            93
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            -19.0,
+            -8.0
+          ],
+          "size": [
+            14.0,
+            15.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            183,
+            130
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -23.0,
+            -22.0,
+            5.0
+          ],
+          "size": [
+            46.0,
+            18.0,
+            2.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            0,
+            114
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -22.0,
+            -24.0,
+            -5.0
+          ],
+          "size": [
+            44.0,
+            2.0,
+            10.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            74,
+            164
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            -30.0,
+            -4.0
+          ],
+          "size": [
+            18.0,
+            6.0,
+            8.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            97,
+            133
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -5.0,
+            -42.0,
+            -3.0
+          ],
+          "size": [
+            10.0,
+            12.0,
+            6.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            150,
+            130
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -16.0,
+            -22.0,
+            -8.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            94,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            13.0,
+            -22.0,
+            -8.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            103,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulderL",
+      "parent": "chest",
+      "pivot": [
+        24.0,
+        -30.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -12.0,
+            -5.0
+          ],
+          "size": [
+            30.0,
+            14.0,
+            10.0
+          ],
+          "mat": "gold",
+          "uv": [
+            101,
+            64
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            0.0,
+            -17.0,
+            -4.0
+          ],
+          "size": [
+            26.0,
+            6.0,
+            8.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            183,
+            148
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            22.0,
+            -15.0,
+            -4.0
+          ],
+          "size": [
+            6.0,
+            11.0,
+            8.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            182,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            2.0,
+            -23.0,
+            -3.0
+          ],
+          "size": [
+            5.0,
+            7.0,
+            5.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            232,
+            89
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            14.0,
+            -21.0,
+            3.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            4.0
+          ],
+          "mat": "gold",
+          "uv": [
+            222,
+            21
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulderR",
+      "parent": "chest",
+      "pivot": [
+        -24.0,
+        -30.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -28.0,
+            -12.0,
+            -5.0
+          ],
+          "size": [
+            30.0,
+            14.0,
+            10.0
+          ],
+          "mat": "gold",
+          "uv": [
+            101,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -26.0,
+            -17.0,
+            -4.0
+          ],
+          "size": [
+            26.0,
+            6.0,
+            8.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            85,
+            149
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -4.0,
+            -15.0,
+            -4.0
+          ],
+          "size": [
+            6.0,
+            11.0,
+            8.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            211,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -24.0,
+            -23.0,
+            -3.0
+          ],
+          "size": [
+            5.0,
+            7.0,
+            5.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            154,
+            149
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            -21.0,
+            3.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            4.0
+          ],
+          "mat": "gold",
+          "uv": [
+            239,
+            21
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "sleeveL",
+      "parent": "shoulderL",
+      "pivot": [
+        9.0,
+        4.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            18.0,
+            22.0,
+            10.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            95,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            22.0,
+            -4.0
+          ],
+          "size": [
+            14.0,
+            18.0,
+            8.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            14,
+            35
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            40.0,
+            -2.0
+          ],
+          "size": [
+            16.0,
+            3.0,
+            4.0
+          ],
+          "mat": "gold",
+          "uv": [
+            213,
+            183
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "sleeveR",
+      "parent": "shoulderR",
+      "pivot": [
+        -9.0,
+        4.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            18.0,
+            22.0,
+            10.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            152,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            22.0,
+            -4.0
+          ],
+          "size": [
+            14.0,
+            18.0,
+            8.0
+          ],
+          "mat": "robe_dark",
+          "uv": [
+            200,
+            62
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            40.0,
+            -2.0
+          ],
+          "size": [
+            16.0,
+            3.0,
+            4.0
+          ],
+          "mat": "gold",
+          "uv": [
+            213,
+            191
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "armL",
+      "parent": "chest",
+      "pivot": [
+        28.0,
+        -20.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            12.0,
+            8.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            222,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "forearmL",
+      "parent": "armL",
+      "pivot": [
+        0.0,
+        12.0,
+        -1.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            6.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            182,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "handL",
+      "parent": "forearmL",
+      "pivot": [
+        0.0,
+        14.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            10.0,
+            6.0,
+            8.0
+          ],
+          "mat": "skin_gold",
+          "uv": [
+            0,
+            150
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "armR",
+      "parent": "chest",
+      "pivot": [
+        -28.0,
+        -20.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            12.0,
+            8.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            59,
+            35
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "forearmR",
+      "parent": "armR",
+      "pivot": [
+        0.0,
+        12.0,
+        -1.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            6.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            207,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "handR",
+      "parent": "forearmR",
+      "pivot": [
+        0.0,
+        14.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            10.0,
+            6.0,
+            8.0
+          ],
+          "mat": "skin_gold",
+          "uv": [
+            37,
+            150
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "gui",
+      "parent": "handR",
+      "pivot": [
+        0.0,
+        0.0,
+        -8.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -28.0,
+            -1.0
+          ],
+          "size": [
+            4.0,
+            28.0,
+            2.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            209,
+            0
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            -32.0,
+            -1.0
+          ],
+          "size": [
+            6.0,
+            4.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            213,
+            176
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "orb",
+      "parent": "handL",
+      "pivot": [
+        0.0,
+        -2.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            -4.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            216,
+            130
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -6.0,
+            -1.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            112,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -42.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -14.0,
+            -22.0,
+            -6.0
+          ],
+          "size": [
+            28.0,
+            22.0,
+            12.0
+          ],
+          "mat": "robe_white",
+          "uv": [
+            14,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            -19.0,
+            -7.0
+          ],
+          "size": [
+            24.0,
+            16.0,
+            2.0
+          ],
+          "mat": "skin_gold",
+          "uv": [
+            97,
+            114
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -22.0,
+            -6.0
+          ],
+          "size": [
+            22.0,
+            2.0,
+            3.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            197,
+            235
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            -5.0,
+            -7.0
+          ],
+          "size": [
+            20.0,
+            3.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            197,
+            241
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            -15.0,
+            -8.0
+          ],
+          "size": [
+            5.0,
+            4.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            242,
+            241
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            2.0,
+            -15.0,
+            -8.0
+          ],
+          "size": [
+            5.0,
+            4.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            197,
+            247
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            -20.0,
+            -8.0
+          ],
+          "size": [
+            6.0,
+            2.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            210,
+            252
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            -2.0,
+            -5.0
+          ],
+          "size": [
+            3.0,
+            6.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            63,
+            165
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            9.0,
+            -2.0,
+            -5.0
+          ],
+          "size": [
+            3.0,
+            6.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            236,
+            174
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -18.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -16.0,
+            -4.0,
+            -6.0
+          ],
+          "size": [
+            32.0,
+            4.0,
+            10.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            135
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            18.0,
+            4.0,
+            8.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            183,
+            163
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -2.0,
+            -7.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            0,
+            248
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            2.0,
+            -7.0
+          ],
+          "size": [
+            30.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            121,
+            252
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -17.0,
+            2.0,
+            5.0
+          ],
+          "size": [
+            34.0,
+            2.0,
+            1.0
+          ],
+          "mat": "cloth_dark",
+          "uv": [
+            121,
+            248
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -14.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            232,
+            102
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            249,
+            102
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -6.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            249,
+            110
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            249,
+            118
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            2.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            249,
+            126
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            6.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            249,
+            134
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            10.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            175,
+            149
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            14.0,
+            4.0,
+            -7.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "jade_glow",
+          "uv": [
+            247,
+            174
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            4.0,
+            5.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ],
+          "mat": "cloth_dark",
+          "uv": [
+            175,
+            157
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -6.0,
+            4.0,
+            5.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ],
+          "mat": "cloth_dark",
+          "uv": [
+            245,
+            213
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            0.0,
+            4.0,
+            5.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ],
+          "mat": "cloth_dark",
+          "uv": [
+            205,
+            228
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            6.0,
+            4.0,
+            5.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ],
+          "mat": "cloth_dark",
+          "uv": [
+            212,
+            228
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -24.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            8.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            210,
+            247
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            16.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            8.0,
+            2.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            231,
+            247
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "halo",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -34.0,
+        8.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -13.0,
+            -13.0,
+            0.0
+          ],
+          "size": [
+            26.0,
+            26.0,
+            2.0
+          ],
+          "mat": "gold_dark",
+          "uv": [
+            200,
+            33
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -6.0,
+            -6.0,
+            -1.0
+          ],
+          "size": [
+            12.0,
+            12.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            150,
+            114
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            16.0,
+            -2.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            239,
+            206
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            14.0,
+            7.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            206,
+            207
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            7.0,
+            14.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            219,
+            207
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            16.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            232,
+            213
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            14.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            205,
+            214
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -18.0,
+            7.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            218,
+            214
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -20.0,
+            -2.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            231,
+            220
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -18.0,
+            -11.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            244,
+            220
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -18.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            205,
+            221
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -20.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            218,
+            221
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            7.0,
+            -18.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            231,
+            227
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            14.0,
+            -11.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            244,
+            227
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            21.0,
+            -1.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            0,
+            48
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            15.0,
+            15.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            245,
+            62
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            21.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            182,
+            64
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -17.0,
+            15.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            191,
+            64
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -23.0,
+            -1.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            245,
+            75
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -17.0,
+            -17.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            240,
+            102
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            -23.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            240,
+            115
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            15.0,
+            -17.0,
+            1.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "sun_glow",
+          "uv": [
+            85,
+            135
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    }
+  ]
+}

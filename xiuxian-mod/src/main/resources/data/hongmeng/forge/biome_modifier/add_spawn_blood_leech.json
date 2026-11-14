@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:beast_mire"
+  ],
+  "spawners": {
+    "type": "hongmeng:blood_leech",
+    "weight": 10,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

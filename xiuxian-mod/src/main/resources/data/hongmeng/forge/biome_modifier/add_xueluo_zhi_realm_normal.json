@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:demon_scorch",
+    "hongmeng:demon_cavern",
+    "hongmeng:void_isles"
+  ],
+  "features": "hongmeng:xueluo_zhi_realm_normal",
+  "step": "vegetal_decoration"
+}

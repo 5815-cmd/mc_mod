@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XKX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "hongmeng:xueluo_essence"
+    },
+    "K": {
+      "item": "hongmeng:kongming_essence"
+    }
+  },
+  "result": {
+    "item": "hongmeng:void_portal_frame",
+    "count": 1
+  }
+}

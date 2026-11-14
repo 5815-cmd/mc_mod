@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 26,
+    "separation": 7,
+    "salt": 20261232
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:void_grounded_stele",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABA",
+    "BBB",
+    "CB "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:lingye"
+    },
+    "B": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_weapon_war_scythe_1",
+    "count": 1
+  }
+}

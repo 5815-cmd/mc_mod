@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CWC",
+    "WDW",
+    "CWC"
+  ],
+  "key": {
+    "C": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "W": {
+      "item": "hongmeng:lingye"
+    },
+    "D": {
+      "item": "hongmeng:daoyin"
+    }
+  },
+  "result": {
+    "item": "hongmeng:pill_xiling",
+    "count": 1
+  }
+}

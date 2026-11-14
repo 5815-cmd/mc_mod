@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:demon_scorch",
+    "hongmeng:epoch_meadow",
+    "hongmeng:epoch_paddy",
+    "hongmeng:void_isles",
+    "hongmeng:void_stardust"
+  ],
+  "features": "hongmeng:spirit_crystal_ore",
+  "step": "underground_ores"
+}

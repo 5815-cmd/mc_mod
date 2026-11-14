@@ -1,0 +1,25 @@
+{
+  "type": "hongmeng:arena_epoch",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "hongmeng:arena_epoch_hall",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:deepslate",
+          "height": 20
+        },
+        {
+          "block": "minecraft:polished_deepslate",
+          "height": 3
+        }
+      ]
+    }
+  }
+}

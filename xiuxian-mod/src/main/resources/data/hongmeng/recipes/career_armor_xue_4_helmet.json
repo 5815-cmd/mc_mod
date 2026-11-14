@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAB",
+    " C ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "B": {
+      "item": "hongmeng:zhenyuan_crystal"
+    },
+    "C": {
+      "item": "hongmeng:career_armor_xue_3_helmet"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_xue_4_helmet",
+    "count": 1
+  }
+}

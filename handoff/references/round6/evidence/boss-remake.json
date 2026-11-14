@@ -1,0 +1,1748 @@
+{
+  "generated": "2026-11-07 18:52:03",
+  "elapsed_s": 45.5,
+  "wait_s": 0.0,
+  "contract": "工程/21-Boss模型重制契约.md §1/§3",
+  "remade": [
+    "dragon",
+    "blaze",
+    "beast",
+    "demon",
+    "void",
+    "evil",
+    "heaven"
+  ],
+  "models": {
+    "dragon": {
+      "key": "dragon",
+      "item": "A",
+      "id": "void_dragon_emperor",
+      "zh": "虚空龙帝",
+      "cls": "VoidDragonEmperorModel",
+      "status": "PASS",
+      "problems": [],
+      "warnings": [],
+      "checks": [
+        {
+          "name": "cube ≥ 90",
+          "expect": "≥90",
+          "actual": "121",
+          "pass": true
+        },
+        {
+          "name": "模型高（契约目标）",
+          "expect": "103~123px（6.44~7.69 格）",
+          "actual": "121.9px（7.62 格）",
+          "pass": true
+        },
+        {
+          "name": "宽度/翼展（契约目标）",
+          "expect": "224~256px（14.00~16.00 格）",
+          "actual": "238.6px（14.91 格）",
+          "pass": true
+        },
+        {
+          "name": "长度/鼻尾（契约目标）",
+          "expect": "173~211px（10.81~13.19 格）",
+          "actual": "196.5px（12.28 格）",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition 贴图尺寸（契约新尺寸）",
+          "expect": "512×512",
+          "actual": "512×512",
+          "pass": true
+        },
+        {
+          "name": "PNG 贴图尺寸（契约新尺寸）",
+          "expect": "512×512",
+          "actual": "512×512",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition.create 入参尺寸",
+          "expect": "512×512",
+          "actual": "512×512",
+          "pass": true
+        },
+        {
+          "name": "glow 贴图尺寸与主贴图一致",
+          "expect": "512×512（必须有）",
+          "actual": "512×512",
+          "pass": true
+        },
+        {
+          "name": "UV 越界",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "跨足迹 UV 重叠",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "真洞（采样到透明纹素）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "挂点硬断开（>10px 未豁免）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "Renderer API 兼容",
+          "expect": "类名/createBodyLayer/构造器/LAYER id/注册 一致",
+          "actual": "OK",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "gaps_hard": [],
+      "gaps_exempt": [],
+      "gaps_warn": [],
+      "renderer_issues": [],
+      "renderer_notes": [],
+      "parts": 56,
+      "cubes": 121,
+      "tex_model": [
+        512,
+        512
+      ],
+      "tex_png": [
+        512,
+        512
+      ],
+      "glow_png": [
+        512,
+        512
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "uv_shared": 27042,
+      "uv_coverage": 0.172,
+      "holes_all": 0,
+      "flat_faces": 1,
+      "min_y": -97.9,
+      "max_y": 24.0,
+      "height_px": 121.9,
+      "height_blocks": 7.62,
+      "width_px": 238.55,
+      "depth_px": 196.51,
+      "old": {
+        "cubes": 28,
+        "height_px": 49.0,
+        "width_px": 120.0,
+        "depth_px": 100.0,
+        "tex_model": [
+          192,
+          192
+        ]
+      },
+      "holes_real": 0,
+      "holes_allowed": 0,
+      "hole_detail": {},
+      "gaps_all": [],
+      "renderer": "VoidDragonEmperorRenderer",
+      "lift": 0.0,
+      "lift_expr": null,
+      "world_foot": 0.001,
+      "foot_px": 24.0,
+      "hitbox": [
+        3.5,
+        9.1
+      ],
+      "target_h_px": 121.3,
+      "h_delta_pct": 0.5
+    },
+    "blaze": {
+      "key": "blaze",
+      "item": "B",
+      "id": "blaze_emperor",
+      "zh": "焚天炎帝",
+      "cls": "BlazeEmperorModel",
+      "status": "PASS",
+      "problems": [],
+      "warnings": [],
+      "checks": [
+        {
+          "name": "cube ≥ 80",
+          "expect": "≥80",
+          "actual": "118",
+          "pass": true
+        },
+        {
+          "name": "模型高（契约目标）",
+          "expect": "88~104px（5.50~6.50 格）",
+          "actual": "96.0px（6.00 格）",
+          "pass": true
+        },
+        {
+          "name": "宽度/翼展（契约目标）",
+          "expect": "65~79px（4.06~4.94 格）",
+          "actual": "72.0px（4.50 格）",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "PNG 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition.create 入参尺寸",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "glow 贴图尺寸与主贴图一致",
+          "expect": "256×256（必须有）",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "UV 越界",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "跨足迹 UV 重叠",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "真洞（采样到透明纹素）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "挂点硬断开（>10px 未豁免）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "Renderer API 兼容",
+          "expect": "类名/createBodyLayer/构造器/LAYER id/注册 一致",
+          "actual": "OK",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "gaps_hard": [],
+      "gaps_exempt": [],
+      "gaps_warn": [],
+      "renderer_issues": [],
+      "renderer_notes": [],
+      "parts": 32,
+      "cubes": 118,
+      "tex_model": [
+        256,
+        256
+      ],
+      "tex_png": [
+        256,
+        256
+      ],
+      "glow_png": [
+        256,
+        256
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "uv_shared": 0,
+      "uv_coverage": 0.64,
+      "holes_all": 0,
+      "flat_faces": 2,
+      "min_y": -72.0,
+      "max_y": 24.0,
+      "height_px": 96.0,
+      "height_blocks": 6.0,
+      "width_px": 72.0,
+      "depth_px": 26.0,
+      "old": {
+        "cubes": 34,
+        "height_px": 59.0,
+        "width_px": 50.0,
+        "depth_px": 17.5,
+        "tex_model": [
+          192,
+          192
+        ]
+      },
+      "holes_real": 0,
+      "holes_allowed": 0,
+      "hole_detail": {},
+      "gaps_all": [],
+      "renderer": "BlazeEmperorRenderer",
+      "lift": 0.0,
+      "lift_expr": null,
+      "world_foot": 0.001,
+      "foot_px": 24.0,
+      "hitbox": [
+        5.4,
+        6.7
+      ],
+      "target_h_px": 95.7,
+      "h_delta_pct": 0.3
+    },
+    "beast": {
+      "key": "beast",
+      "item": "C",
+      "id": "beast_boss",
+      "zh": "万兽之主",
+      "cls": "BeastLordModel",
+      "status": "PASS",
+      "problems": [],
+      "warnings": [],
+      "checks": [
+        {
+          "name": "cube ≥ 70",
+          "expect": "≥70",
+          "actual": "86",
+          "pass": true
+        },
+        {
+          "name": "模型高（契约目标）",
+          "expect": "60~74px（3.75~4.62 格）",
+          "actual": "67.3px（4.21 格）",
+          "pass": true
+        },
+        {
+          "name": "宽度/翼展（契约目标）",
+          "expect": "45~57px（2.81~3.56 格）",
+          "actual": "52.0px（3.25 格）",
+          "pass": true
+        },
+        {
+          "name": "长度/鼻尾（契约目标）",
+          "expect": "130~158px（8.12~9.88 格）",
+          "actual": "144.0px（9.00 格）",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "PNG 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition.create 入参尺寸",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "glow 贴图尺寸与主贴图一致",
+          "expect": "256×256（必须有）",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "UV 越界",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "跨足迹 UV 重叠",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "真洞（采样到透明纹素）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "挂点硬断开（>10px 未豁免）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "Renderer API 兼容",
+          "expect": "类名/createBodyLayer/构造器/LAYER id/注册 一致",
+          "actual": "OK",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "gaps_hard": [],
+      "gaps_exempt": [],
+      "gaps_warn": [],
+      "renderer_issues": [],
+      "renderer_notes": [],
+      "parts": 23,
+      "cubes": 86,
+      "tex_model": [
+        256,
+        256
+      ],
+      "tex_png": [
+        256,
+        256
+      ],
+      "glow_png": [
+        256,
+        256
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "uv_shared": 0,
+      "uv_coverage": 0.659,
+      "holes_all": 0,
+      "flat_faces": 0,
+      "min_y": -43.35,
+      "max_y": 24.0,
+      "height_px": 67.35,
+      "height_blocks": 4.21,
+      "width_px": 52.0,
+      "depth_px": 144.0,
+      "old": {
+        "cubes": 29,
+        "height_px": 25.1,
+        "width_px": 20.0,
+        "depth_px": 74.8,
+        "tex_model": [
+          192,
+          128
+        ]
+      },
+      "holes_real": 0,
+      "holes_allowed": 0,
+      "hole_detail": {},
+      "gaps_all": [],
+      "renderer": "BeastLordRenderer",
+      "lift": 0.0,
+      "lift_expr": "(BeastLordModel.LOWEST_PIXEL_Y - 24) / 16.0D",
+      "world_foot": 0.001,
+      "foot_px": 24.0,
+      "hitbox": [
+        4.6,
+        4.95
+      ],
+      "target_h_px": 70.7,
+      "h_delta_pct": -4.8
+    },
+    "demon": {
+      "key": "demon",
+      "item": "D",
+      "id": "demon_boss",
+      "zh": "血魔老祖",
+      "cls": "BloodDemonModel",
+      "status": "PASS",
+      "problems": [],
+      "warnings": [],
+      "checks": [
+        {
+          "name": "cube ≥ 85",
+          "expect": "≥85",
+          "actual": "113",
+          "pass": true
+        },
+        {
+          "name": "模型高（契约目标）",
+          "expect": "88~104px（5.50~6.50 格）",
+          "actual": "97.1px（6.07 格）",
+          "pass": true
+        },
+        {
+          "name": "宽度/翼展（契约目标）",
+          "expect": "58~70px（3.62~4.38 格）",
+          "actual": "64.0px（4.00 格）",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "PNG 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition.create 入参尺寸",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "glow 贴图尺寸与主贴图一致",
+          "expect": "256×256（必须有）",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "UV 越界",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "跨足迹 UV 重叠",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "真洞（采样到透明纹素）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "挂点硬断开（>10px 未豁免）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "Renderer API 兼容",
+          "expect": "类名/createBodyLayer/构造器/LAYER id/注册 一致",
+          "actual": "OK",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "gaps_hard": [],
+      "gaps_exempt": [],
+      "gaps_warn": [],
+      "renderer_issues": [],
+      "renderer_notes": [],
+      "parts": 114,
+      "cubes": 113,
+      "tex_model": [
+        256,
+        256
+      ],
+      "tex_png": [
+        256,
+        256
+      ],
+      "glow_png": [
+        256,
+        256
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "uv_shared": 0,
+      "uv_coverage": 0.586,
+      "holes_all": 0,
+      "flat_faces": 1,
+      "min_y": -73.06,
+      "max_y": 24.0,
+      "height_px": 97.06,
+      "height_blocks": 6.07,
+      "width_px": 64.0,
+      "depth_px": 36.43,
+      "old": {
+        "cubes": 32,
+        "height_px": 53.5,
+        "width_px": 29.4,
+        "depth_px": 19.7,
+        "tex_model": [
+          128,
+          128
+        ]
+      },
+      "holes_real": 0,
+      "holes_allowed": 0,
+      "hole_detail": {},
+      "gaps_all": [],
+      "renderer": "BloodDemonRenderer",
+      "lift": 0.0,
+      "lift_expr": "(BloodDemonModel.LOWEST_PIXEL_Y - 24) / 16.0D",
+      "world_foot": 0.001,
+      "foot_px": 24.0,
+      "hitbox": [
+        5.2,
+        7.4
+      ],
+      "target_h_px": 105.7,
+      "h_delta_pct": -8.2
+    },
+    "void": {
+      "key": "void",
+      "item": "E",
+      "id": "void_boss",
+      "zh": "虚空道主",
+      "cls": "VoidLordModel",
+      "status": "PASS",
+      "problems": [],
+      "warnings": [],
+      "checks": [
+        {
+          "name": "cube ≥ 85",
+          "expect": "≥85",
+          "actual": "119",
+          "pass": true
+        },
+        {
+          "name": "模型高（契约目标）",
+          "expect": "96~112px（6.00~7.00 格）",
+          "actual": "104.0px（6.50 格）",
+          "pass": true
+        },
+        {
+          "name": "宽度/翼展（契约目标）",
+          "expect": "130~158px（8.12~9.88 格）",
+          "actual": "142.8px（8.93 格）",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "PNG 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition.create 入参尺寸",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "glow 贴图尺寸与主贴图一致",
+          "expect": "256×256（必须有）",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "UV 越界",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "跨足迹 UV 重叠",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "真洞（采样到透明纹素）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "挂点硬断开（>10px 未豁免）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "Renderer API 兼容",
+          "expect": "类名/createBodyLayer/构造器/LAYER id/注册 一致",
+          "actual": "OK",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "gaps_hard": [],
+      "gaps_exempt": [],
+      "gaps_warn": [],
+      "renderer_issues": [],
+      "renderer_notes": [],
+      "parts": 63,
+      "cubes": 119,
+      "tex_model": [
+        256,
+        256
+      ],
+      "tex_png": [
+        256,
+        256
+      ],
+      "glow_png": [
+        256,
+        256
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "uv_shared": 0,
+      "uv_coverage": 0.614,
+      "holes_all": 0,
+      "flat_faces": 7,
+      "min_y": -80.0,
+      "max_y": 24.0,
+      "height_px": 104.0,
+      "height_blocks": 6.5,
+      "width_px": 142.8,
+      "depth_px": 27.0,
+      "old": {
+        "cubes": 29,
+        "height_px": 55.0,
+        "width_px": 30.4,
+        "depth_px": 21.9,
+        "tex_model": [
+          128,
+          128
+        ]
+      },
+      "holes_real": 0,
+      "holes_allowed": 0,
+      "hole_detail": {},
+      "gaps_all": [],
+      "renderer": "VoidLordRenderer",
+      "lift": 0.0,
+      "lift_expr": "(VoidLordModel.LOWEST_PIXEL_Y - 24) / 16.0D",
+      "world_foot": 0.001,
+      "foot_px": 24.0,
+      "hitbox": [
+        4.5,
+        8.9
+      ],
+      "target_h_px": 118.7,
+      "h_delta_pct": -12.4
+    },
+    "evil": {
+      "key": "evil",
+      "item": "F1",
+      "id": "evil_gazer",
+      "zh": "恶·三阶段上身",
+      "cls": "EvilUpperModel",
+      "status": "PASS",
+      "problems": [],
+      "warnings": [
+        "脚底世界高度 -4.874 格（本模型豁免）",
+        "挂点间距 sternumL→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 sternumR→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 spikePL1→padL2 5.0px（3~10px，只记警告）",
+        "挂点间距 spikePR1→padR2 5.0px（3~10px，只记警告）",
+        "挂点间距 sleeveL→padL0 8.0px（3~10px，只记警告）",
+        "挂点间距 sleeveR→padR0 8.0px（3~10px，只记警告）",
+        "挂点间距 armL→chest 6.0px（3~10px，只记警告）",
+        "挂点间距 armR→chest 6.0px（3~10px，只记警告）",
+        "挂点间距 eyeC2→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 eyeC3→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 spikeB2→chest 6.0px（3~10px，只记警告）",
+        "挂点间距 spikeB3→chest 6.0px（3~10px，只记警告）",
+        "挂点间距 spikeB4→chest 8.0px（3~10px，只记警告）",
+        "挂点间距 spikeB5→chest 8.0px（3~10px，只记警告）",
+        "挂点间距 spine0→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 spine1→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 spine2→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 spine3→chest 4.0px（3~10px，只记警告）",
+        "挂点间距 coreL→chest 6.0px（3~10px，只记警告）",
+        "挂点间距 coreR→chest 6.0px（3~10px，只记警告）",
+        "挂点间距 ribL0→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 ribR0→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 ribL1→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 ribR1→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 ribL2→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 ribR2→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 ribL3→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 ribR3→chest 5.0px（3~10px，只记警告）"
+      ],
+      "checks": [
+        {
+          "name": "cube ≥ 120",
+          "expect": "≥120",
+          "actual": "120",
+          "pass": true
+        },
+        {
+          "name": "模型高（契约目标）",
+          "expect": "240~265px（15.00~16.56 格）",
+          "actual": "254.0px（15.88 格）",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition 贴图尺寸（契约新尺寸）",
+          "expect": "1024×1024",
+          "actual": "1024×1024",
+          "pass": true
+        },
+        {
+          "name": "PNG 贴图尺寸（契约新尺寸）",
+          "expect": "1024×1024",
+          "actual": "1024×1024",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition.create 入参尺寸",
+          "expect": "1024×1024",
+          "actual": "1024×1024",
+          "pass": true
+        },
+        {
+          "name": "UV 越界",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "跨足迹 UV 重叠",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "真洞（采样到透明纹素）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "挂点硬断开（>10px 未豁免）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "Renderer API 兼容",
+          "expect": "类名/createBodyLayer/构造器/LAYER id/注册 一致",
+          "actual": "OK",
+          "pass": true
+        }
+      ],
+      "notes": [
+        "恶为天穹特殊定位：脚底不按 24 基准判（沿用 audit_all code_is_evil 口径）",
+        "本模型原设计无 glow 层（契约未要求新增）"
+      ],
+      "gaps_hard": [],
+      "gaps_exempt": [],
+      "gaps_warn": [
+        {
+          "part": "sternumL",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "sternumR",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "spikePL1",
+          "parent": "padL2",
+          "px": 5.0
+        },
+        {
+          "part": "spikePR1",
+          "parent": "padR2",
+          "px": 5.0
+        },
+        {
+          "part": "sleeveL",
+          "parent": "padL0",
+          "px": 8.0
+        },
+        {
+          "part": "sleeveR",
+          "parent": "padR0",
+          "px": 8.0
+        },
+        {
+          "part": "armL",
+          "parent": "chest",
+          "px": 6.0
+        },
+        {
+          "part": "armR",
+          "parent": "chest",
+          "px": 6.0
+        },
+        {
+          "part": "eyeC2",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "eyeC3",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "spikeB2",
+          "parent": "chest",
+          "px": 6.0
+        },
+        {
+          "part": "spikeB3",
+          "parent": "chest",
+          "px": 6.0
+        },
+        {
+          "part": "spikeB4",
+          "parent": "chest",
+          "px": 8.0
+        },
+        {
+          "part": "spikeB5",
+          "parent": "chest",
+          "px": 8.0
+        },
+        {
+          "part": "spine0",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "spine1",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "spine2",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "spine3",
+          "parent": "chest",
+          "px": 4.0
+        },
+        {
+          "part": "coreL",
+          "parent": "chest",
+          "px": 6.0
+        },
+        {
+          "part": "coreR",
+          "parent": "chest",
+          "px": 6.0
+        },
+        {
+          "part": "ribL0",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "ribR0",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "ribL1",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "ribR1",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "ribL2",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "ribR2",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "ribL3",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "ribR3",
+          "parent": "chest",
+          "px": 5.0
+        }
+      ],
+      "renderer_issues": [],
+      "renderer_notes": [],
+      "parts": 120,
+      "cubes": 120,
+      "tex_model": [
+        1024,
+        1024
+      ],
+      "tex_png": [
+        1024,
+        1024
+      ],
+      "glow_png": null,
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "uv_shared": 0,
+      "uv_coverage": 0.249,
+      "holes_all": 0,
+      "flat_faces": 100,
+      "min_y": -152.0,
+      "max_y": 102.0,
+      "height_px": 254.0,
+      "height_blocks": 15.88,
+      "width_px": 166.0,
+      "depth_px": 82.0,
+      "old": {
+        "cubes": 72,
+        "height_px": 250.0,
+        "width_px": 112.0,
+        "depth_px": 65.0,
+        "tex_model": [
+          1024,
+          1024
+        ]
+      },
+      "holes_real": 0,
+      "holes_allowed": 0,
+      "hole_detail": {},
+      "gaps_all": [
+        [
+          "sternumL",
+          "chest",
+          4.0
+        ],
+        [
+          "sternumR",
+          "chest",
+          4.0
+        ],
+        [
+          "spikePL1",
+          "padL2",
+          5.0
+        ],
+        [
+          "spikePR1",
+          "padR2",
+          5.0
+        ],
+        [
+          "sleeveL",
+          "padL0",
+          8.0
+        ],
+        [
+          "sleeveR",
+          "padR0",
+          8.0
+        ],
+        [
+          "armL",
+          "chest",
+          6.0
+        ],
+        [
+          "armR",
+          "chest",
+          6.0
+        ],
+        [
+          "eyeC2",
+          "chest",
+          4.0
+        ],
+        [
+          "eyeC3",
+          "chest",
+          4.0
+        ],
+        [
+          "spikeB2",
+          "chest",
+          6.0
+        ],
+        [
+          "spikeB3",
+          "chest",
+          6.0
+        ],
+        [
+          "spikeB4",
+          "chest",
+          8.0
+        ],
+        [
+          "spikeB5",
+          "chest",
+          8.0
+        ],
+        [
+          "spine0",
+          "chest",
+          4.0
+        ],
+        [
+          "spine1",
+          "chest",
+          4.0
+        ],
+        [
+          "spine2",
+          "chest",
+          4.0
+        ],
+        [
+          "spine3",
+          "chest",
+          4.0
+        ],
+        [
+          "coreL",
+          "chest",
+          6.0
+        ],
+        [
+          "coreR",
+          "chest",
+          6.0
+        ],
+        [
+          "ribL0",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR0",
+          "chest",
+          5.0
+        ],
+        [
+          "ribL1",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR1",
+          "chest",
+          5.0
+        ],
+        [
+          "ribL2",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR2",
+          "chest",
+          5.0
+        ],
+        [
+          "ribL3",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR3",
+          "chest",
+          5.0
+        ]
+      ],
+      "renderer": "EvilGazerRenderer",
+      "lift": 0.0,
+      "lift_expr": null,
+      "world_foot": -4.874,
+      "foot_px": 102.0,
+      "hitbox": [
+        8.0,
+        21.0
+      ],
+      "target_h_px": 280.0,
+      "h_delta_pct": -9.3
+    },
+    "heaven": {
+      "key": "heaven",
+      "item": "F2",
+      "id": "heaven_lord",
+      "zh": "仙庭之主",
+      "cls": "HeavenLordModel",
+      "status": "PASS",
+      "problems": [],
+      "warnings": [
+        "挂点间距 armL→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 armR→chest 5.0px（3~10px，只记警告）",
+        "挂点间距 gui→handR 4.0px（3~10px，只记警告）",
+        "挂点间距 orb→handL 3.6px（3~10px，只记警告）"
+      ],
+      "checks": [
+        {
+          "name": "cube ≥ 100",
+          "expect": "≥100",
+          "actual": "123",
+          "pass": true
+        },
+        {
+          "name": "模型高（契约目标）",
+          "expect": "101~119px（6.31~7.44 格）",
+          "actual": "106.0px（6.62 格）",
+          "pass": true
+        },
+        {
+          "name": "宽度/肩宽下限（契约目标）",
+          "expect": "≥96px",
+          "actual": "104.0px",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "PNG 贴图尺寸（契约新尺寸）",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "LayerDefinition.create 入参尺寸",
+          "expect": "256×256",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "glow 贴图尺寸与主贴图一致",
+          "expect": "256×256（必须有）",
+          "actual": "256×256",
+          "pass": true
+        },
+        {
+          "name": "UV 越界",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "跨足迹 UV 重叠",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "真洞（采样到透明纹素）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "挂点硬断开（>10px 未豁免）",
+          "expect": "0",
+          "actual": "0",
+          "pass": true
+        },
+        {
+          "name": "Renderer API 兼容",
+          "expect": "类名/createBodyLayer/构造器/LAYER id/注册 一致",
+          "actual": "OK",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "gaps_hard": [],
+      "gaps_exempt": [],
+      "gaps_warn": [
+        {
+          "part": "armL",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "armR",
+          "parent": "chest",
+          "px": 5.0
+        },
+        {
+          "part": "gui",
+          "parent": "handR",
+          "px": 4.0
+        },
+        {
+          "part": "orb",
+          "parent": "handL",
+          "px": 3.6
+        }
+      ],
+      "renderer_issues": [],
+      "renderer_notes": [],
+      "parts": 17,
+      "cubes": 123,
+      "tex_model": [
+        256,
+        256
+      ],
+      "tex_png": [
+        256,
+        256
+      ],
+      "glow_png": [
+        256,
+        256
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "uv_shared": 0,
+      "uv_coverage": 0.805,
+      "holes_all": 0,
+      "flat_faces": 4,
+      "min_y": -82.0,
+      "max_y": 24.0,
+      "height_px": 106.0,
+      "height_blocks": 6.62,
+      "width_px": 104.0,
+      "depth_px": 27.0,
+      "old": {
+        "cubes": 67,
+        "height_px": 110.0,
+        "width_px": 44.0,
+        "depth_px": 28.0,
+        "tex_model": [
+          256,
+          256
+        ]
+      },
+      "holes_real": 0,
+      "holes_allowed": 0,
+      "hole_detail": {},
+      "gaps_all": [
+        [
+          "armL",
+          "chest",
+          5.0
+        ],
+        [
+          "armR",
+          "chest",
+          5.0
+        ],
+        [
+          "gui",
+          "handR",
+          4.0
+        ],
+        [
+          "orb",
+          "handL",
+          3.6
+        ]
+      ],
+      "renderer": "HeavenLordRenderer",
+      "lift": 0.0,
+      "lift_expr": "(HeavenLordModel.LOWEST_PIXEL_Y - 24) / 16.0D",
+      "world_foot": 0.001,
+      "foot_px": 24.0,
+      "hitbox": [
+        4.0,
+        7.9
+      ],
+      "target_h_px": 105.3,
+      "h_delta_pct": 0.6
+    }
+  },
+  "silhouette": {
+    "pairs": [
+      {
+        "a": "dragon",
+        "b": "blaze",
+        "iou": 0.292
+      },
+      {
+        "a": "dragon",
+        "b": "beast",
+        "iou": 0.457
+      },
+      {
+        "a": "dragon",
+        "b": "demon",
+        "iou": 0.305
+      },
+      {
+        "a": "dragon",
+        "b": "void",
+        "iou": 0.344
+      },
+      {
+        "a": "dragon",
+        "b": "evil",
+        "iou": 0.222
+      },
+      {
+        "a": "dragon",
+        "b": "heaven",
+        "iou": 0.306
+      },
+      {
+        "a": "blaze",
+        "b": "beast",
+        "iou": 0.394
+      },
+      {
+        "a": "blaze",
+        "b": "demon",
+        "iou": 0.596
+      },
+      {
+        "a": "blaze",
+        "b": "void",
+        "iou": 0.523
+      },
+      {
+        "a": "blaze",
+        "b": "evil",
+        "iou": 0.62
+      },
+      {
+        "a": "blaze",
+        "b": "heaven",
+        "iou": 0.647
+      },
+      {
+        "a": "beast",
+        "b": "demon",
+        "iou": 0.429
+      },
+      {
+        "a": "beast",
+        "b": "void",
+        "iou": 0.379
+      },
+      {
+        "a": "beast",
+        "b": "evil",
+        "iou": 0.404
+      },
+      {
+        "a": "beast",
+        "b": "heaven",
+        "iou": 0.522
+      },
+      {
+        "a": "demon",
+        "b": "void",
+        "iou": 0.559
+      },
+      {
+        "a": "demon",
+        "b": "evil",
+        "iou": 0.65
+      },
+      {
+        "a": "demon",
+        "b": "heaven",
+        "iou": 0.611
+      },
+      {
+        "a": "void",
+        "b": "evil",
+        "iou": 0.447
+      },
+      {
+        "a": "void",
+        "b": "heaven",
+        "iou": 0.495
+      },
+      {
+        "a": "evil",
+        "b": "heaven",
+        "iou": 0.595
+      }
+    ],
+    "pool_size": 5,
+    "vs_pool": [
+      {
+        "key": "dragon",
+        "id": "void_dragon_emperor",
+        "nearest": "epoch_boss",
+        "nearest_zh": "傀儡祖师",
+        "iou": 0.314,
+        "flagged": false
+      },
+      {
+        "key": "blaze",
+        "id": "blaze_emperor",
+        "nearest": "epoch_boss",
+        "nearest_zh": "傀儡祖师",
+        "iou": 0.664,
+        "flagged": false
+      },
+      {
+        "key": "beast",
+        "id": "beast_boss",
+        "nearest": "epoch_boss",
+        "nearest_zh": "傀儡祖师",
+        "iou": 0.419,
+        "flagged": false
+      },
+      {
+        "key": "demon",
+        "id": "demon_boss",
+        "nearest": "demon_general",
+        "nearest_zh": "魔道统领",
+        "iou": 0.728,
+        "flagged": true
+      },
+      {
+        "key": "void",
+        "id": "void_boss",
+        "nearest": "demon_general",
+        "nearest_zh": "魔道统领",
+        "iou": 0.546,
+        "flagged": false
+      },
+      {
+        "key": "evil",
+        "id": "evil_gazer",
+        "nearest": "epoch_boss",
+        "nearest_zh": "傀儡祖师",
+        "iou": 0.597,
+        "flagged": false
+      },
+      {
+        "key": "heaven",
+        "id": "heaven_lord",
+        "nearest": "epoch_boss",
+        "nearest_zh": "傀儡祖师",
+        "iou": 0.639,
+        "flagged": false
+      }
+    ]
+  },
+  "old_baseline": {
+    "VoidDragonEmperorModel": {
+      "cubes": 28,
+      "parts": 28,
+      "tex_model": [
+        192,
+        192
+      ],
+      "tex_png": [
+        192,
+        192
+      ],
+      "min_y": -25.0,
+      "max_y": 24.0,
+      "height_px": 49.0,
+      "height_blocks": 3.06,
+      "width_px": 120.0,
+      "depth_px": 100.0,
+      "foot_px": 24.0
+    },
+    "BlazeEmperorModel": {
+      "cubes": 34,
+      "parts": 34,
+      "tex_model": [
+        192,
+        192
+      ],
+      "tex_png": [
+        192,
+        192
+      ],
+      "min_y": -35.0,
+      "max_y": 24.0,
+      "height_px": 59.0,
+      "height_blocks": 3.69,
+      "width_px": 50.0,
+      "depth_px": 17.5,
+      "foot_px": 24.0
+    },
+    "BeastLordModel": {
+      "cubes": 29,
+      "parts": 29,
+      "tex_model": [
+        192,
+        128
+      ],
+      "tex_png": [
+        192,
+        128
+      ],
+      "min_y": -1.1,
+      "max_y": 24.0,
+      "height_px": 25.1,
+      "height_blocks": 1.57,
+      "width_px": 20.0,
+      "depth_px": 74.8,
+      "foot_px": 24.0
+    },
+    "BloodDemonModel": {
+      "cubes": 32,
+      "parts": 32,
+      "tex_model": [
+        128,
+        128
+      ],
+      "tex_png": [
+        128,
+        128
+      ],
+      "min_y": -29.2,
+      "max_y": 24.3,
+      "height_px": 53.5,
+      "height_blocks": 3.35,
+      "width_px": 29.4,
+      "depth_px": 19.7,
+      "foot_px": 24.32
+    },
+    "VoidLordModel": {
+      "cubes": 29,
+      "parts": 29,
+      "tex_model": [
+        128,
+        128
+      ],
+      "tex_png": [
+        128,
+        128
+      ],
+      "min_y": -31.0,
+      "max_y": 24.0,
+      "height_px": 55.0,
+      "height_blocks": 3.44,
+      "width_px": 30.4,
+      "depth_px": 21.9,
+      "foot_px": 24.0
+    },
+    "EvilUpperModel": {
+      "cubes": 72,
+      "parts": 72,
+      "tex_model": [
+        1024,
+        1024
+      ],
+      "tex_png": [
+        1024,
+        1024
+      ],
+      "min_y": -148.0,
+      "max_y": 102.0,
+      "height_px": 250.0,
+      "height_blocks": 15.62,
+      "width_px": 112.0,
+      "depth_px": 65.0,
+      "foot_px": 102.0
+    },
+    "HeavenLordModel": {
+      "cubes": 67,
+      "parts": 14,
+      "tex_model": [
+        256,
+        256
+      ],
+      "tex_png": [
+        256,
+        256
+      ],
+      "min_y": -86.0,
+      "max_y": 24.0,
+      "height_px": 110.0,
+      "height_blocks": 6.88,
+      "width_px": 44.0,
+      "depth_px": 28.0,
+      "foot_px": 24.0
+    }
+  },
+  "old_snapshot": "工程/角色设计/round6/evidence/baseline/old",
+  "full_audit": {
+    "ok": true,
+    "rows": 55,
+    "hard_entities": [],
+    "warnings": 25,
+    "sil_pairs": 45,
+    "regressions": [],
+    "hitbox_warnings": [
+      {
+        "id": "spirit_wolf",
+        "zh": "灵狼",
+        "h_delta_pct": 36.0
+      },
+      {
+        "id": "crimson_flame_wolf",
+        "zh": "赤炎狼",
+        "h_delta_pct": 40.1
+      },
+      {
+        "id": "thunder_eagle",
+        "zh": "雷鹰",
+        "h_delta_pct": 26.5
+      },
+      {
+        "id": "frost_python",
+        "zh": "玄冰蟒",
+        "h_delta_pct": -28.3
+      },
+      {
+        "id": "contract_wolf",
+        "zh": "契约灵狼",
+        "h_delta_pct": 36.0
+      },
+      {
+        "id": "jiaolong",
+        "zh": "蛟龙",
+        "h_delta_pct": -54.6
+      },
+      {
+        "id": "jiaolong_spit",
+        "zh": "蛟龙之息",
+        "h_delta_pct": -50.0
+      },
+      {
+        "id": "lava_hound",
+        "zh": "熔岩犬",
+        "h_delta_pct": 32.3
+      }
+    ],
+    "hitbox_new": [],
+    "evil_before": {
+      "cubes": 72,
+      "height_blocks": 15.62,
+      "world_foot": -4.874,
+      "uv_oob": 0,
+      "uv_cross_overlap": 0,
+      "holes_real": 0,
+      "warnings": [
+        "天穹特殊定位，脚底不按 24 基准判"
+      ]
+    },
+    "evil_after": {
+      "cubes": 120,
+      "height_blocks": 15.88,
+      "world_foot": -4.874,
+      "uv_oob": 0,
+      "uv_cross_overlap": 0,
+      "holes_real": 0,
+      "warnings": [
+        "天穹特殊定位，脚底不按 24 基准判",
+        "挂点间距偏大 28 处（4~10px，多为分节/悬空设计）：sternumL->chest 4px, sternumR->chest 4px, spikePL1->padL2 5px"
+      ]
+    },
+    "audit_md": "工程/角色设计/审计/13-Boss重制-全量模型审计.md",
+    "audit_json": "工程/角色设计/审计/13-Boss重制-全量模型审计.json",
+    "elapsed_s": 23.2,
+    "stdout_tail": "  ! npc        wandering_merchant     <-> realm_guide            IoU=0.83\n  ! npc        pill_merchant          <-> artifact_refiner       IoU=0.81\n  ! npc        artifact_refiner       <-> realm_guide            IoU=0.82\n\n���棺����/��ɫ���/���/13-Boss����-ȫ��ģ�����.md\nӲ����ʵ�壺0 / 55����Ӱ�����ƶԣ�45",
+    "prev_audit": "12-恶实机修复终版-全量模型审计.json"
+  },
+  "overall_pass": true,
+  "waiting_new_version": false
+}

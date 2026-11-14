@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hongmeng:lingye"
+    },
+    {
+      "item": "hongmeng:lingye"
+    },
+    {
+      "item": "hongmeng:spirit_grass"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:pill_huiling",
+    "count": 2
+  }
+}

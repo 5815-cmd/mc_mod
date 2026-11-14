@@ -1,0 +1,2040 @@
+{
+  "class": "BeastLordModel",
+  "zh": "万兽之主",
+  "en": "BeastLord",
+  "identifier": "geometry.beast_lord_model",
+  "tex": [
+    256,
+    256
+  ],
+  "parts": [
+    {
+      "name": "body",
+      "parent": null,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -16.0,
+            -16.0,
+            -32.0
+          ],
+          "size": [
+            32.0,
+            20.0,
+            12.0
+          ],
+          "mat": "hide",
+          "uv": [
+            93,
+            37
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -12.0,
+            -12.0,
+            -20.0
+          ],
+          "size": [
+            24.0,
+            18.0,
+            18.0
+          ],
+          "mat": "hide_dark",
+          "uv": [
+            97,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -14.0,
+            -8.0,
+            -2.0
+          ],
+          "size": [
+            28.0,
+            14.0,
+            18.0
+          ],
+          "mat": "hide",
+          "uv": [
+            0,
+            37
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        }
+      ]
+    },
+    {
+      "name": "neck",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -12.0,
+        -30.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -7.0,
+            -8.0,
+            -14.0
+          ],
+          "size": [
+            14.0,
+            12.0,
+            12.0
+          ],
+          "mat": "hide",
+          "uv": [
+            109,
+            126
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "pivot": [
+        0.0,
+        -10.0,
+        -14.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -16.0,
+            -16.0,
+            -14.0
+          ],
+          "size": [
+            32.0,
+            20.0,
+            16.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -17.0,
+            -18.0,
+            -22.0
+          ],
+          "size": [
+            34.0,
+            4.0,
+            7.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            218
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -10.0,
+            -5.0,
+            -24.0
+          ],
+          "size": [
+            20.0,
+            8.0,
+            9.0
+          ],
+          "mat": "bone",
+          "uv": [
+            39,
+            171
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -8.0,
+            -8.0,
+            -32.0
+          ],
+          "size": [
+            16.0,
+            6.0,
+            7.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            123,
+            217
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            7.0,
+            -12.0,
+            -18.0
+          ],
+          "size": [
+            8.0,
+            4.0,
+            2.0
+          ],
+          "mat": "eye_glow",
+          "uv": [
+            178,
+            180
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            -12.0,
+            -18.0
+          ],
+          "size": [
+            8.0,
+            4.0,
+            2.0
+          ],
+          "mat": "eye_glow",
+          "uv": [
+            104,
+            231
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            3.0,
+            -22.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            246,
+            131
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -4.0,
+            3.0,
+            -22.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            246,
+            140
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            2.0,
+            3.0,
+            -22.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            240,
+            149
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            6.0,
+            3.0,
+            -22.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            149,
+            151
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "horn_l",
+      "parent": "head",
+      "pivot": [
+        13.0,
+        -12.0,
+        -8.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -2.0,
+            -6.0
+          ],
+          "size": [
+            6.0,
+            8.0,
+            8.0
+          ],
+          "mat": "horn",
+          "uv": [
+            149,
+            169
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            5.0,
+            -4.0,
+            2.0
+          ],
+          "size": [
+            5.0,
+            7.0,
+            7.0
+          ],
+          "mat": "horn",
+          "uv": [
+            84,
+            127
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            9.0,
+            -6.0,
+            10.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            7.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            77,
+            203
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "horn_r",
+      "parent": "head",
+      "pivot": [
+        -13.0,
+        -12.0,
+        -8.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -2.0,
+            -6.0
+          ],
+          "size": [
+            6.0,
+            8.0,
+            8.0
+          ],
+          "mat": "horn",
+          "uv": [
+            98,
+            171
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            -4.0,
+            2.0
+          ],
+          "size": [
+            5.0,
+            7.0,
+            7.0
+          ],
+          "mat": "horn",
+          "uv": [
+            98,
+            188
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -13.0,
+            -6.0,
+            10.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            7.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            100,
+            203
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "jaw",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -11.0,
+            -5.0,
+            -24.0
+          ],
+          "size": [
+            22.0,
+            7.0,
+            12.0
+          ],
+          "mat": "bone",
+          "uv": [
+            80,
+            151
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -9.0,
+            -2.0,
+            -30.0
+          ],
+          "size": [
+            18.0,
+            4.0,
+            5.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            0,
+            230
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -9.0,
+            -6.0,
+            -20.0
+          ],
+          "size": [
+            2.0,
+            7.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            47,
+            117
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -4.0,
+            -6.0,
+            -20.0
+          ],
+          "size": [
+            2.0,
+            7.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            56,
+            117
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            2.0,
+            -6.0,
+            -20.0
+          ],
+          "size": [
+            2.0,
+            7.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            65,
+            117
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            7.0,
+            -6.0,
+            -20.0
+          ],
+          "size": [
+            2.0,
+            7.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            246,
+            121
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -6.0,
+            -3.0,
+            -22.0
+          ],
+          "size": [
+            12.0,
+            2.0,
+            10.0
+          ],
+          "mat": "mouth_glow",
+          "uv": [
+            197,
+            217
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hump_front",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -14.0,
+        -24.0
+      ],
+      "rot": [
+        -0.12,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -20.0,
+            -8.0
+          ],
+          "size": [
+            12.0,
+            22.0,
+            9.0
+          ],
+          "mat": "bone",
+          "uv": [
+            182,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            7.0,
+            -16.0,
+            -8.0
+          ],
+          "size": [
+            8.0,
+            18.0,
+            9.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            199,
+            94
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -15.0,
+            -16.0,
+            -8.0
+          ],
+          "size": [
+            8.0,
+            18.0,
+            9.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            74,
+            99
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            17.0,
+            -14.0,
+            -12.0
+          ],
+          "size": [
+            5.0,
+            7.0,
+            8.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            47,
+            101
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -22.0,
+            -14.0,
+            -12.0
+          ],
+          "size": [
+            5.0,
+            7.0,
+            8.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            0,
+            187
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -4.0,
+            -24.0,
+            -16.0
+          ],
+          "size": [
+            8.0,
+            7.0,
+            12.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            199,
+            148
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -3.0,
+            -29.0,
+            -6.0
+          ],
+          "size": [
+            5.0,
+            10.0,
+            5.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            234,
+            94
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "hump_mid",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -12.0,
+        -10.0
+      ],
+      "rot": [
+        -0.05,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -13.0,
+            -20.0,
+            -6.0
+          ],
+          "size": [
+            10.0,
+            22.0,
+            8.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            2.0,
+            -20.0,
+            -6.0
+          ],
+          "size": [
+            10.0,
+            22.0,
+            8.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            37,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -9.0,
+            -26.0,
+            -4.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            4.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            237,
+            55
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            5.0,
+            -25.0,
+            -4.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            4.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            237,
+            79
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "hump_rear",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -8.0,
+        2.0
+      ],
+      "rot": [
+        0.06,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -18.0,
+            -4.0
+          ],
+          "size": [
+            9.0,
+            20.0,
+            8.0
+          ],
+          "mat": "bone",
+          "uv": [
+            164,
+            94
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            7.0,
+            -14.0,
+            -4.0
+          ],
+          "size": [
+            7.0,
+            16.0,
+            8.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            225,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -14.0,
+            -14.0,
+            -4.0
+          ],
+          "size": [
+            7.0,
+            16.0,
+            8.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            162,
+            123
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -2.0,
+            -24.0,
+            -2.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            4.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            164,
+            82
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "rib_l",
+      "parent": "body",
+      "pivot": [
+        -15.0,
+        -6.0,
+        -20.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            -11.0,
+            -4.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            8.0
+          ],
+          "mat": "rib_glow",
+          "uv": [
+            27,
+            189
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -4.0,
+            -5.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            8.0
+          ],
+          "mat": "rib_glow",
+          "uv": [
+            52,
+            189
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -4.0,
+            1.0,
+            6.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            8.0
+          ],
+          "mat": "rib_glow",
+          "uv": [
+            123,
+            202
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "rib_r",
+      "parent": "body",
+      "pivot": [
+        15.0,
+        -6.0,
+        -20.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -11.0,
+            -4.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            8.0
+          ],
+          "mat": "rib_glow",
+          "uv": [
+            148,
+            202
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            0.0,
+            -5.0,
+            1.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            8.0
+          ],
+          "mat": "rib_glow",
+          "uv": [
+            225,
+            202
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            0.0,
+            1.0,
+            6.0
+          ],
+          "size": [
+            4.0,
+            6.0,
+            8.0
+          ],
+          "mat": "rib_glow",
+          "uv": [
+            0,
+            203
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "core",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -6.0,
+        -33.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            11.0,
+            3.0
+          ],
+          "mat": "core_glow",
+          "uv": [
+            225,
+            187
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            -5.0,
+            -3.0
+          ],
+          "size": [
+            16.0,
+            3.0,
+            3.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            218,
+            230
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -8.0,
+            8.0,
+            -3.0
+          ],
+          "size": [
+            16.0,
+            2.0,
+            3.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            125,
+            231
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -9.0,
+            -2.0,
+            -3.0
+          ],
+          "size": [
+            3.0,
+            11.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            237,
+            25
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            6.0,
+            -2.0,
+            -3.0
+          ],
+          "size": [
+            3.0,
+            11.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            237,
+            40
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "shoulder_l",
+      "parent": "body",
+      "pivot": [
+        -14.0,
+        -10.0,
+        -28.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -12.0,
+            -14.0,
+            -8.0
+          ],
+          "size": [
+            12.0,
+            18.0,
+            10.0
+          ],
+          "mat": "bone",
+          "uv": [
+            74,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -10.0,
+            -20.0,
+            -5.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            4.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            237,
+            67
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "shoulder_r",
+      "parent": "body",
+      "pivot": [
+        14.0,
+        -10.0,
+        -28.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -14.0,
+            -8.0
+          ],
+          "size": [
+            12.0,
+            18.0,
+            10.0
+          ],
+          "mat": "bone",
+          "uv": [
+            119,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            6.0,
+            -20.0,
+            -5.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            4.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            164,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "leg_fl",
+      "parent": "body",
+      "pivot": [
+        -15.0,
+        -10.0,
+        -26.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            14.0,
+            16.0,
+            9.0
+          ],
+          "mat": "hide",
+          "uv": [
+            0,
+            101
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -6.0,
+            16.0,
+            -2.0
+          ],
+          "size": [
+            11.0,
+            13.0,
+            7.0
+          ],
+          "mat": "hide_dark",
+          "uv": [
+            43,
+            148
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -8.0,
+            29.0,
+            -6.0
+          ],
+          "size": [
+            14.0,
+            5.0,
+            10.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            127,
+            186
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -7.0,
+            32.0,
+            -12.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            84,
+            142
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            32.0,
+            -12.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            77,
+            189
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            3.0,
+            32.0,
+            -12.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            83,
+            218
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "leg_fr",
+      "parent": "body",
+      "pivot": [
+        15.0,
+        -10.0,
+        -26.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            14.0,
+            16.0,
+            9.0
+          ],
+          "mat": "hide",
+          "uv": [
+            199,
+            122
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -6.0,
+            16.0,
+            -2.0
+          ],
+          "size": [
+            11.0,
+            13.0,
+            7.0
+          ],
+          "mat": "hide_dark",
+          "uv": [
+            162,
+            148
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -8.0,
+            29.0,
+            -6.0
+          ],
+          "size": [
+            14.0,
+            5.0,
+            10.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            176,
+            187
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -7.0,
+            32.0,
+            -12.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            83,
+            227
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            32.0,
+            -12.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            47,
+            230
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            3.0,
+            32.0,
+            -12.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            197,
+            230
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "leg_bl",
+      "parent": "body",
+      "pivot": [
+        -15.0,
+        -8.0,
+        16.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -7.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            15.0,
+            18.0,
+            12.0
+          ],
+          "mat": "hide",
+          "uv": [
+            182,
+            32
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -6.0,
+            18.0,
+            2.0
+          ],
+          "size": [
+            11.0,
+            10.0,
+            8.0
+          ],
+          "mat": "hide_dark",
+          "uv": [
+            0,
+            149
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -7.0,
+            28.0,
+            0.0
+          ],
+          "size": [
+            15.0,
+            4.0,
+            9.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            173,
+            203
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -6.0,
+            28.0,
+            -6.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            234,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            28.0,
+            -6.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            236,
+            168
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "leg_br",
+      "parent": "body",
+      "pivot": [
+        15.0,
+        -8.0,
+        16.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            15.0,
+            18.0,
+            12.0
+          ],
+          "mat": "hide",
+          "uv": [
+            182,
+            63
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -5.0,
+            18.0,
+            2.0
+          ],
+          "size": [
+            11.0,
+            10.0,
+            8.0
+          ],
+          "mat": "hide_dark",
+          "uv": [
+            0,
+            168
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -8.0,
+            28.0,
+            0.0
+          ],
+          "size": [
+            15.0,
+            4.0,
+            9.0
+          ],
+          "mat": "bone_dark",
+          "uv": [
+            25,
+            204
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -5.0,
+            28.0,
+            -6.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            178,
+            169
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            0.0,
+            28.0,
+            -6.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            6.0
+          ],
+          "mat": "claw",
+          "uv": [
+            127,
+            171
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tail_1",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -6.0,
+        16.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -4.0,
+            0.0
+          ],
+          "size": [
+            12.0,
+            12.0,
+            14.0
+          ],
+          "mat": "hide",
+          "uv": [
+            109,
+            99
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        }
+      ]
+    },
+    {
+      "name": "tail_2",
+      "parent": "tail_1",
+      "pivot": [
+        0.0,
+        -2.0,
+        14.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "mat": "hide_dark",
+          "uv": [
+            43,
+            127
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            -1.0,
+            -12.0,
+            3.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            240,
+            158
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "tail_3",
+      "parent": "tail_2",
+      "pivot": [
+        0.0,
+        -2.0,
+        10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            -8.0,
+            0.0
+          ],
+          "size": [
+            8.0,
+            8.0,
+            10.0
+          ],
+          "mat": "hide",
+          "uv": [
+            199,
+            168
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        },
+        {
+          "pos": [
+            0.0,
+            -13.0,
+            3.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            236,
+            179
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "tail_4",
+      "parent": "tail_3",
+      "pivot": [
+        0.0,
+        -2.0,
+        10.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -10.0,
+            0.0
+          ],
+          "size": [
+            6.0,
+            6.0,
+            7.0
+          ],
+          "mat": "hide_dark",
+          "uv": [
+            170,
+            217
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "pelt"
+        }
+      ]
+    },
+    {
+      "name": "tail_blade",
+      "parent": "tail_4",
+      "pivot": [
+        0.0,
+        -2.0,
+        7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            -12.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            10.0,
+            11.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            127
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -1.0,
+            -18.0,
+            2.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone_white",
+          "uv": [
+            149,
+            160
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    }
+  ]
+}

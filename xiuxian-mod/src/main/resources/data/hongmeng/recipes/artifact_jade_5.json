@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MAM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "A": {
+      "item": "hongmeng:artifact_4_jade"
+    }
+  },
+  "result": {
+    "item": "hongmeng:artifact_5_jade",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 128,
+    "separation": 72,
+    "salt": 20261111
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:xianmen_main_hall",
+      "weight": 1
+    }
+  ]
+}

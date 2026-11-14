@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:void_isles",
+    "hongmeng:void_stardust",
+    "hongmeng:void_abyss"
+  ],
+  "features": "hongmeng:kongming_ore_vein_void",
+  "step": "underground_ores"
+}

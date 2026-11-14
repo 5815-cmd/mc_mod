@@ -1,0 +1,3232 @@
+{
+  "class": "VoidDragonEmperorModel",
+  "zh": "虚空龙帝",
+  "en": "VoidDragonEmperor",
+  "identifier": "geometry.void_dragon_emperor_model",
+  "tex": [
+    512,
+    512
+  ],
+  "parts": [
+    {
+      "name": "torso",
+      "parent": null,
+      "pivot": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -13.0,
+            -22.0,
+            -20.0
+          ],
+          "size": [
+            26.0,
+            22.0,
+            20.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -9.0,
+            -7.0,
+            -9.0
+          ],
+          "size": [
+            18.0,
+            7.0,
+            18.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            194,
+            36
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -8.0,
+            -4.0,
+            -4.0
+          ],
+          "size": [
+            16.0,
+            4.0,
+            16.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            316,
+            63
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -8.0,
+            -20.0,
+            -21.0
+          ],
+          "size": [
+            16.0,
+            14.0,
+            2.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            55,
+            43
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            -32.0,
+            -12.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            10.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            486,
+            75
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.5,
+            -31.0,
+            -10.0
+          ],
+          "size": [
+            3.0,
+            4.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            181,
+            87
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -1.5,
+            -29.0,
+            -2.0
+          ],
+          "size": [
+            3.0,
+            4.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            486,
+            88
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            12.0,
+            -27.0,
+            -9.0
+          ],
+          "size": [
+            11.0,
+            8.0,
+            12.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            381,
+            63
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "stone"
+        },
+        {
+          "pos": [
+            -23.0,
+            -27.0,
+            -9.0
+          ],
+          "size": [
+            11.0,
+            8.0,
+            12.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            381,
+            63
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "stone"
+        }
+      ]
+    },
+    {
+      "name": "neck1",
+      "parent": "torso",
+      "pivot": [
+        0.0,
+        -22.0,
+        -12.0
+      ],
+      "rot": [
+        0.18,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -13.0,
+            -6.5
+          ],
+          "size": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            271,
+            33
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -3.0,
+            -13.0,
+            -7.5
+          ],
+          "size": [
+            6.0,
+            3.0,
+            2.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            128,
+            81
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "neck2",
+      "parent": "neck1",
+      "pivot": [
+        0.0,
+        -13.0,
+        0.0
+      ],
+      "rot": [
+        0.14,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -13.0,
+            -6.0
+          ],
+          "size": [
+            12.0,
+            13.0,
+            12.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            267,
+            60
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "neck3",
+      "parent": "neck2",
+      "pivot": [
+        0.0,
+        -13.0,
+        0.0
+      ],
+      "rot": [
+        0.08,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -12.0,
+            -6.0
+          ],
+          "size": [
+            12.0,
+            12.0,
+            12.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            437,
+            61
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -1.5,
+            -13.0,
+            -3.0
+          ],
+          "size": [
+            3.0,
+            4.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            0,
+            90
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "neck3",
+      "pivot": [
+        0.0,
+        -12.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -13.0,
+            -16.0,
+            -12.0
+          ],
+          "size": [
+            26.0,
+            13.0,
+            24.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            93,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -8.0,
+            -11.0,
+            -25.0
+          ],
+          "size": [
+            16.0,
+            7.0,
+            13.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            203,
+            62
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -6.5,
+            -7.0,
+            -24.0
+          ],
+          "size": [
+            13.0,
+            4.0,
+            13.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            128,
+            87
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            8.0,
+            -15.0,
+            -13.0
+          ],
+          "size": [
+            9.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            85,
+            118
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            9.0,
+            -12.0,
+            -12.0
+          ],
+          "size": [
+            7.0,
+            5.0,
+            3.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            145,
+            127
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "stone"
+        },
+        {
+          "pos": [
+            10.0,
+            -11.0,
+            -13.0
+          ],
+          "size": [
+            5.0,
+            3.0,
+            1.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            498,
+            56
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            11.0,
+            -10.0,
+            -4.0
+          ],
+          "size": [
+            4.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            262,
+            104
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            12.0,
+            -8.0,
+            3.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            5.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            66,
+            121
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            8.0,
+            -13.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            5.0,
+            8.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            457,
+            104
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            9.0,
+            -12.0,
+            4.0
+          ],
+          "size": [
+            8.0,
+            4.0,
+            10.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            85,
+            103
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            10.0,
+            -11.0,
+            14.0
+          ],
+          "size": [
+            7.0,
+            3.0,
+            10.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            422,
+            104
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            11.0,
+            -11.0,
+            24.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            3.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            181,
+            98
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            -6.0,
+            -37.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            500,
+            24
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -4.8,
+            -6.0,
+            -37.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            498,
+            32
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -1.6,
+            -6.0,
+            -37.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            355,
+            33
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            1.6,
+            -6.0,
+            -37.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            498,
+            40
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            4.8,
+            -6.0,
+            -37.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            355,
+            41
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            8.0,
+            -6.0,
+            -37.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            498,
+            48
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -17.0,
+            -15.0,
+            -13.0
+          ],
+          "size": [
+            9.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            85,
+            118
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -16.0,
+            -12.0,
+            -12.0
+          ],
+          "size": [
+            7.0,
+            5.0,
+            3.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            145,
+            127
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "stone"
+        },
+        {
+          "pos": [
+            -15.0,
+            -11.0,
+            -13.0
+          ],
+          "size": [
+            5.0,
+            3.0,
+            1.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            498,
+            56
+          ],
+          "mirror": true,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            -10.0,
+            -4.0
+          ],
+          "size": [
+            4.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            262,
+            104
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -15.0,
+            -8.0,
+            3.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            5.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            66,
+            121
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -16.0,
+            -13.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            5.0,
+            8.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            457,
+            104
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -17.0,
+            -12.0,
+            4.0
+          ],
+          "size": [
+            8.0,
+            4.0,
+            10.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            85,
+            103
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -17.0,
+            -11.0,
+            14.0
+          ],
+          "size": [
+            7.0,
+            3.0,
+            10.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            422,
+            104
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -15.0,
+            -11.0,
+            24.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            3.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            181,
+            98
+          ],
+          "mirror": true,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "lowerJaw",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -2.0,
+        -25.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.5,
+            0.0,
+            -2.0
+          ],
+          "size": [
+            13.0,
+            4.0,
+            11.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            373,
+            104
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -6.0,
+            -3.5,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            355,
+            49
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -3.0,
+            -3.5,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            322,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            0.0,
+            -3.5,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            331,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            3.0,
+            -3.5,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            340,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            6.0,
+            -3.5,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "void_bone",
+          "uv": [
+            349,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "wingL",
+      "parent": "torso",
+      "pivot": [
+        14.0,
+        -26.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -7.0,
+            -8.0
+          ],
+          "size": [
+            14.0,
+            9.0,
+            16.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            93,
+            38
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "stone"
+        }
+      ]
+    },
+    {
+      "name": "wingArmL",
+      "parent": "wingL",
+      "pivot": [
+        2.0,
+        -2.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.55
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -4.0,
+            -4.0
+          ],
+          "size": [
+            32.0,
+            8.0,
+            8.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            181,
+            104
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            0.0,
+            -5.0,
+            -5.0
+          ],
+          "size": [
+            32.0,
+            1.0,
+            1.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            0,
+            130
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "membraneArmL",
+      "parent": "wingArmL",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -14.0,
+            -2.0
+          ],
+          "size": [
+            34.0,
+            28.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            364,
+            32
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "wingForeL",
+      "parent": "wingArmL",
+      "pivot": [
+        32.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.03
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -3.5,
+            -3.5
+          ],
+          "size": [
+            42.0,
+            7.0,
+            7.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            262,
+            120
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "membraneForeL",
+      "parent": "wingForeL",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -15.0,
+            -2.0
+          ],
+          "size": [
+            44.0,
+            30.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            271,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "wingWristL",
+      "parent": "wingForeL",
+      "pivot": [
+        42.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -1.5,
+            -4.5,
+            -4.5
+          ],
+          "size": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            154,
+            38
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "stone"
+        }
+      ]
+    },
+    {
+      "name": "wingClawL",
+      "parent": "wingArmL",
+      "pivot": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.9
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            10.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            116,
+            127
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerL0",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            122,
+            105
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            24.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            0,
+            121
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerL1",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.94
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            122,
+            116
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            24.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            33,
+            121
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerL2",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        1.46
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            422,
+            118
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            24.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            181,
+            121
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerL3",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        2.07
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            361,
+            120
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            24.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            214,
+            121
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "membraneL0",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.3
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            316,
+            84
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneL1",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.72
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            43,
+            85
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneL2",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        1.2
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            203,
+            86
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneL3",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        1.76
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            401,
+            86
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneL4",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        2.2
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            288,
+            102
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneL5",
+      "parent": "wingWristL",
+      "pivot": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        2.55
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            0,
+            103
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "wingR",
+      "parent": "torso",
+      "pivot": [
+        -14.0,
+        -26.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -11.0,
+            -7.0,
+            -8.0
+          ],
+          "size": [
+            14.0,
+            9.0,
+            16.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            93,
+            38
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "stone"
+        }
+      ]
+    },
+    {
+      "name": "wingArmR",
+      "parent": "wingR",
+      "pivot": [
+        -2.0,
+        -2.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        0.55
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -32.0,
+            -4.0,
+            -4.0
+          ],
+          "size": [
+            32.0,
+            8.0,
+            8.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            181,
+            104
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -32.0,
+            -5.0,
+            -5.0
+          ],
+          "size": [
+            32.0,
+            1.0,
+            1.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            0,
+            130
+          ],
+          "mirror": true,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wingForeR",
+      "parent": "wingArmR",
+      "pivot": [
+        -32.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -0.03
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -42.0,
+            -3.5,
+            -3.5
+          ],
+          "size": [
+            42.0,
+            7.0,
+            7.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            262,
+            120
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "wingWristR",
+      "parent": "wingForeR",
+      "pivot": [
+        -42.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -7.5,
+            -4.5,
+            -4.5
+          ],
+          "size": [
+            9.0,
+            9.0,
+            9.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            154,
+            38
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "stone"
+        }
+      ]
+    },
+    {
+      "name": "wingClawR",
+      "parent": "wingArmR",
+      "pivot": [
+        -6.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -0.9
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -10.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            10.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            116,
+            127
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerR0",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -0.5
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -24.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            122,
+            105
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -36.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            0,
+            121
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerR1",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -0.94
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -24.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            122,
+            116
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -36.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            33,
+            121
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerR2",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -1.46
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -24.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            422,
+            118
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -36.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            181,
+            121
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "fingerR3",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -2.07
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -24.0,
+            -2.5,
+            -2.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            361,
+            120
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -36.0,
+            -2.0,
+            -2.0
+          ],
+          "size": [
+            12.0,
+            4.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            214,
+            121
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "membraneR0",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -0.3
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -40.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            316,
+            84
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneR1",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -0.72
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -40.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            43,
+            85
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneR2",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -1.2
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -40.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            203,
+            86
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneR3",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -1.76
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -40.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            401,
+            86
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneR4",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -2.2
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -40.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            288,
+            102
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneR5",
+      "parent": "wingWristR",
+      "pivot": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        -2.55
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -40.0,
+            -7.5,
+            -1.0
+          ],
+          "size": [
+            40.0,
+            15.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            0,
+            103
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneArmR",
+      "parent": "wingArmR",
+      "pivot": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -34.0,
+            -14.0,
+            -2.0
+          ],
+          "size": [
+            34.0,
+            28.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            364,
+            32
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "membraneForeR",
+      "parent": "wingForeR",
+      "pivot": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -44.0,
+            -15.0,
+            -2.0
+          ],
+          "size": [
+            44.0,
+            30.0,
+            2.0
+          ],
+          "mat": "void_membrane",
+          "uv": [
+            271,
+            0
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "cloth"
+        }
+      ]
+    },
+    {
+      "name": "legL",
+      "parent": "torso",
+      "pivot": [
+        11.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -7.0
+          ],
+          "size": [
+            18.0,
+            16.0,
+            15.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            433,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "shinL",
+      "parent": "legL",
+      "pivot": [
+        0.0,
+        16.0,
+        2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            12.0,
+            12.0,
+            12.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            154,
+            62
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "footL",
+      "parent": "shinL",
+      "pivot": [
+        0.0,
+        12.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.5,
+            0.0,
+            -10.0
+          ],
+          "size": [
+            13.0,
+            4.0,
+            16.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            55,
+            64
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "stone"
+        },
+        {
+          "pos": [
+            -5.0,
+            1.0,
+            -16.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            490,
+            110
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -1.5,
+            1.0,
+            -17.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            7.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            288,
+            86
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            2.0,
+            1.0,
+            -16.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            481,
+            120
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "legR",
+      "parent": "torso",
+      "pivot": [
+        -11.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -7.0
+          ],
+          "size": [
+            18.0,
+            16.0,
+            15.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            433,
+            0
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "shinR",
+      "parent": "legR",
+      "pivot": [
+        -0.0,
+        16.0,
+        2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            12.0,
+            12.0,
+            12.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            154,
+            62
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "footR",
+      "parent": "shinR",
+      "pivot": [
+        -0.0,
+        12.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.5,
+            0.0,
+            -10.0
+          ],
+          "size": [
+            13.0,
+            4.0,
+            16.0
+          ],
+          "mat": "void_scale2",
+          "uv": [
+            55,
+            64
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "stone"
+        },
+        {
+          "pos": [
+            2.0,
+            1.0,
+            -16.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            490,
+            110
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -1.5,
+            1.0,
+            -17.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            7.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            288,
+            86
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -5.0,
+            1.0,
+            -16.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            481,
+            120
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "armL",
+      "parent": "torso",
+      "pivot": [
+        8.0,
+        -24.0,
+        -14.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.5,
+            0.0,
+            -3.5
+          ],
+          "size": [
+            7.0,
+            9.0,
+            7.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            114,
+            64
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "foreL",
+      "parent": "armL",
+      "pivot": [
+        0.0,
+        9.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.5,
+            0.0,
+            -2.5
+          ],
+          "size": [
+            5.0,
+            8.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            486,
+            61
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -2.5,
+            8.0,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            500,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            0.0,
+            8.0,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            500,
+            8
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            2.5,
+            8.0,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            500,
+            16
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "armR",
+      "parent": "torso",
+      "pivot": [
+        -8.0,
+        -24.0,
+        -14.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.5,
+            0.0,
+            -3.5
+          ],
+          "size": [
+            7.0,
+            9.0,
+            7.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            114,
+            64
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "foreR",
+      "parent": "armR",
+      "pivot": [
+        -0.0,
+        9.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.5,
+            0.0,
+            -2.5
+          ],
+          "size": [
+            5.0,
+            8.0,
+            5.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            486,
+            61
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            0.5,
+            8.0,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            500,
+            0
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -2.0,
+            8.0,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            500,
+            8
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        },
+        {
+          "pos": [
+            -4.5,
+            8.0,
+            -10.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            500,
+            16
+          ],
+          "mirror": true,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "tail1",
+      "parent": "torso",
+      "pivot": [
+        0.0,
+        -2.0,
+        15.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            12.0,
+            9.0,
+            26.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            194,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "tail2",
+      "parent": "tail1",
+      "pivot": [
+        0.0,
+        4.0,
+        26.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            -4.0,
+            -0.5
+          ],
+          "size": [
+            10.0,
+            7.0,
+            24.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            364,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -1.5,
+            -5.0,
+            5.0
+          ],
+          "size": [
+            3.0,
+            4.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            19,
+            90
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "tail3",
+      "parent": "tail2",
+      "pivot": [
+        0.0,
+        4.0,
+        24.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            -3.5,
+            -0.5
+          ],
+          "size": [
+            8.0,
+            6.0,
+            22.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            437,
+            32
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        },
+        {
+          "pos": [
+            -1.5,
+            -5.0,
+            5.0
+          ],
+          "size": [
+            3.0,
+            4.0,
+            6.0
+          ],
+          "mat": "void_claw",
+          "uv": [
+            490,
+            99
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "bone"
+        }
+      ]
+    },
+    {
+      "name": "tail4",
+      "parent": "tail3",
+      "pivot": [
+        0.0,
+        3.0,
+        22.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.5,
+            -2.5,
+            -0.5
+          ],
+          "size": [
+            7.0,
+            5.0,
+            20.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            0,
+            43
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "tail5",
+      "parent": "tail4",
+      "pivot": [
+        0.0,
+        3.0,
+        20.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.5,
+            -2.0,
+            -0.5
+          ],
+          "size": [
+            5.0,
+            4.0,
+            16.0
+          ],
+          "mat": "void_scale",
+          "uv": [
+            0,
+            69
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": "obsidian"
+        }
+      ]
+    },
+    {
+      "name": "tailBlade",
+      "parent": "tail5",
+      "pivot": [
+        0.0,
+        2.0,
+        16.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -4.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            8.0,
+            14.0
+          ],
+          "mat": "void_glow",
+          "uv": [
+            322,
+            33
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    }
+  ]
+}

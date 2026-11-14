@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 56,
+    "separation": 20,
+    "salt": 20261203
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:beast_totem",
+      "weight": 1
+    }
+  ]
+}

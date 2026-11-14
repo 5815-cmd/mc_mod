@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:zhaohua_dan"
+    },
+    "title": {
+      "text": "先天之资"
+    },
+    "description": {
+      "text": "觉醒为先天灵根"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "root_innate"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

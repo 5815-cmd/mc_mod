@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "hongmeng:block/boss_summon_altar_demon",
+    "bottom": "hongmeng:block/boss_summon_altar_demon_side",
+    "side": "hongmeng:block/boss_summon_altar_demon_side"
+  }
+}

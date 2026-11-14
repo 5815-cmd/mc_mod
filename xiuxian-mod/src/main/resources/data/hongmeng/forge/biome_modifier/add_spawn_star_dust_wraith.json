@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:void_stardust"
+  ],
+  "spawners": {
+    "type": "hongmeng:star_dust_wraith",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "generated_at": "2026-11-07 17:42:13",
+  "texture": {
+    "path": "xiuxian-mod/src/main/resources/assets/hongmeng/textures/entity/evil_phases.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "sha16": "308f844612214e32"
+  },
+  "models": {
+    "phase1": {
+      "class": "EvilArmModel",
+      "cubes": 39,
+      "parts": 39,
+      "tex": [
+        1024,
+        1024
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "holes_real": 0,
+      "gaps": [
+        [
+          "forearm",
+          "elbow",
+          8.0
+        ],
+        [
+          "tent0",
+          "forearm",
+          3.2
+        ],
+        [
+          "tent2",
+          "forearm",
+          3.2
+        ]
+      ],
+      "gap_max_px": 8.0,
+      "hard_gaps": [],
+      "top_px": -54.0,
+      "bottom_px": 157.0,
+      "height_px": 211.0,
+      "height_blocks": 13.19,
+      "width_px": 72.0,
+      "depth_px": 60.0,
+      "x_range": [
+        -36.0,
+        36.0
+      ],
+      "y_range": [
+        -54.0,
+        157.0
+      ],
+      "z_range": [
+        -34.0,
+        26.0
+      ],
+      "flat_faces": 48,
+      "size_ok": true
+    },
+    "phase2": {
+      "class": "EvilHeadModel",
+      "cubes": 47,
+      "parts": 47,
+      "tex": [
+        1024,
+        1024
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "holes_real": 0,
+      "gaps": [
+        [
+          "arm2",
+          "head",
+          10.0
+        ]
+      ],
+      "gap_max_px": 10.0,
+      "hard_gaps": [],
+      "top_px": -92.0,
+      "bottom_px": 95.0,
+      "height_px": 187.0,
+      "height_blocks": 11.69,
+      "width_px": 96.0,
+      "depth_px": 73.0,
+      "x_range": [
+        -60.0,
+        36.0
+      ],
+      "y_range": [
+        -92.0,
+        95.0
+      ],
+      "z_range": [
+        -38.0,
+        35.0
+      ],
+      "flat_faces": 60,
+      "size_ok": true
+    },
+    "phase3": {
+      "class": "EvilUpperModel",
+      "cubes": 120,
+      "parts": 120,
+      "tex": [
+        1024,
+        1024
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "holes_real": 0,
+      "gaps": [
+        [
+          "sleeveL",
+          "padL0",
+          8.0
+        ],
+        [
+          "sleeveR",
+          "padR0",
+          8.0
+        ],
+        [
+          "spikeB4",
+          "chest",
+          8.0
+        ],
+        [
+          "spikeB5",
+          "chest",
+          8.0
+        ],
+        [
+          "armL",
+          "chest",
+          6.0
+        ],
+        [
+          "armR",
+          "chest",
+          6.0
+        ],
+        [
+          "spikeB2",
+          "chest",
+          6.0
+        ],
+        [
+          "spikeB3",
+          "chest",
+          6.0
+        ],
+        [
+          "coreL",
+          "chest",
+          6.0
+        ],
+        [
+          "coreR",
+          "chest",
+          6.0
+        ],
+        [
+          "spikePL1",
+          "padL2",
+          5.0
+        ],
+        [
+          "spikePR1",
+          "padR2",
+          5.0
+        ],
+        [
+          "ribL0",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR0",
+          "chest",
+          5.0
+        ],
+        [
+          "ribL1",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR1",
+          "chest",
+          5.0
+        ],
+        [
+          "ribL2",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR2",
+          "chest",
+          5.0
+        ],
+        [
+          "ribL3",
+          "chest",
+          5.0
+        ],
+        [
+          "ribR3",
+          "chest",
+          5.0
+        ],
+        [
+          "sternumL",
+          "chest",
+          4.0
+        ],
+        [
+          "sternumR",
+          "chest",
+          4.0
+        ],
+        [
+          "eyeC2",
+          "chest",
+          4.0
+        ],
+        [
+          "eyeC3",
+          "chest",
+          4.0
+        ],
+        [
+          "spine0",
+          "chest",
+          4.0
+        ],
+        [
+          "spine1",
+          "chest",
+          4.0
+        ],
+        [
+          "spine2",
+          "chest",
+          4.0
+        ],
+        [
+          "spine3",
+          "chest",
+          4.0
+        ]
+      ],
+      "gap_max_px": 8.0,
+      "hard_gaps": [],
+      "top_px": -152.0,
+      "bottom_px": 102.0,
+      "height_px": 254.0,
+      "height_blocks": 15.88,
+      "width_px": 166.0,
+      "depth_px": 82.0,
+      "x_range": [
+        -83.0,
+        83.0
+      ],
+      "y_range": [
+        -152.0,
+        102.0
+      ],
+      "z_range": [
+        -46.0,
+        36.0
+      ],
+      "flat_faces": 100,
+      "size_ok": true
+    }
+  },
+  "old_models": {
+    "phase1": {
+      "class": "EvilArmModel",
+      "cubes": 39,
+      "parts": 39,
+      "tex": [
+        1024,
+        1024
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "holes_real": 0,
+      "gaps": [
+        [
+          "forearm",
+          "elbow",
+          8.0
+        ],
+        [
+          "tent0",
+          "forearm",
+          3.2
+        ],
+        [
+          "tent2",
+          "forearm",
+          3.2
+        ]
+      ],
+      "gap_max_px": 8.0,
+      "hard_gaps": [],
+      "top_px": -54.0,
+      "bottom_px": 157.0,
+      "height_px": 211.0,
+      "height_blocks": 13.19,
+      "width_px": 72.0,
+      "depth_px": 60.0,
+      "x_range": [
+        -36.0,
+        36.0
+      ],
+      "y_range": [
+        -54.0,
+        157.0
+      ],
+      "z_range": [
+        -34.0,
+        26.0
+      ],
+      "flat_faces": 48,
+      "size_ok": true
+    },
+    "phase2": {
+      "class": "EvilHeadModel",
+      "cubes": 47,
+      "parts": 47,
+      "tex": [
+        1024,
+        1024
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "holes_real": 0,
+      "gaps": [
+        [
+          "arm2",
+          "head",
+          10.0
+        ]
+      ],
+      "gap_max_px": 10.0,
+      "hard_gaps": [],
+      "top_px": -92.0,
+      "bottom_px": 95.0,
+      "height_px": 187.0,
+      "height_blocks": 11.69,
+      "width_px": 96.0,
+      "depth_px": 73.0,
+      "x_range": [
+        -60.0,
+        36.0
+      ],
+      "y_range": [
+        -92.0,
+        95.0
+      ],
+      "z_range": [
+        -38.0,
+        35.0
+      ],
+      "flat_faces": 60,
+      "size_ok": true
+    },
+    "phase3": {
+      "class": "EvilUpperModel",
+      "cubes": 72,
+      "parts": 72,
+      "tex": [
+        1024,
+        1024
+      ],
+      "uv_oob": 0,
+      "uv_cross": 0,
+      "holes_real": 0,
+      "gaps": [],
+      "gap_max_px": 0.0,
+      "hard_gaps": [],
+      "top_px": -148.0,
+      "bottom_px": 102.0,
+      "height_px": 250.0,
+      "height_blocks": 15.62,
+      "width_px": 112.0,
+      "depth_px": 65.0,
+      "x_range": [
+        -56.0,
+        56.0
+      ],
+      "y_range": [
+        -148.0,
+        102.0
+      ],
+      "z_range": [
+        -34.0,
+        31.0
+      ],
+      "flat_faces": 84,
+      "size_ok": true
+    }
+  },
+  "java_diff_old_new": {
+    "EvilArmModel": {
+      "lines_old": 315,
+      "lines_new": 315,
+      "changed": 78,
+      "non_texoffs": 0,
+      "non_texoffs_samples": []
+    },
+    "EvilHeadModel": {
+      "lines_old": 362,
+      "lines_new": 362,
+      "changed": 94,
+      "non_texoffs": 0,
+      "non_texoffs_samples": []
+    },
+    "EvilUpperModel": {
+      "lines_old": 515,
+      "lines_new": 767,
+      "changed": 942,
+      "non_texoffs": 750,
+      "non_texoffs_samples": [
+        "-    private final ModelPart padL;",
+        "-    private final ModelPart padR;",
+        "-    private final ModelPart rib0;",
+        "-    private final ModelPart rib1;",
+        "-    private final ModelPart rib2;",
+        "-    private final ModelPart rib3;",
+        "+    private final ModelPart chestPlate;",
+        "+    private final ModelPart chestPlateTop;"
+      ]
+    }
+  },
+  "phase12_old_new_pixel": {
+    "phase1": {
+      "mean_abs_diff": 0.292,
+      "max_diff": 193,
+      "pixels_over_24_pct": 0.113,
+      "silhouette_iou_old_vs_new": 1.0
+    },
+    "phase2": {
+      "mean_abs_diff": 0.488,
+      "max_diff": 198,
+      "pixels_over_24_pct": 0.31,
+      "silhouette_iou_old_vs_new": 1.0
+    }
+  },
+  "images": {
+    "three_phase": "工程/角色设计/round6/evil-heaven/evil_three_phase.png",
+    "silhouettes": "工程/角色设计/round6/evil-heaven/evil_silhouettes.png",
+    "phase12_ba": "工程/角色设计/round6/evil-heaven/evil_phase12_before_after.png",
+    "upper_ba": "工程/角色设计/round6/evil-heaven/evil_upper_before_after.png"
+  }
+}

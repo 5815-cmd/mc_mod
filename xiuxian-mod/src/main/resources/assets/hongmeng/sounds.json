@@ -1,0 +1,236 @@
+{
+    "phase": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "hongmeng:phase",
+        "stream": false
+      }
+    ]
+  },
+  "cast_metal": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_metal",
+        "stream": false
+      }
+    ]
+  },
+  "cast_wood": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_wood",
+        "stream": false
+      }
+    ]
+  },
+  "cast_water": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_water",
+        "stream": false
+      }
+    ]
+  },
+  "cast_fire": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_fire",
+        "stream": false
+      }
+    ]
+  },
+  "cast_earth": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_earth",
+        "stream": false
+      }
+    ]
+  },
+  "cast_ice": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_ice",
+        "stream": false
+      }
+    ]
+  },
+  "cast_thunder": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_thunder",
+        "stream": false
+      }
+    ]
+  },
+  "cast_wind": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_wind",
+        "stream": false
+      }
+    ]
+  },
+  "cast_none": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:cast_none",
+        "stream": false
+      }
+    ]
+  },
+  "tribulation_bolt": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "hongmeng:tribulation_bolt",
+        "stream": false
+      }
+    ]
+  },
+  "tribulation_charge": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "hongmeng:tribulation_charge",
+        "stream": false
+      }
+    ]
+  },
+  "bgm_calm": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "hongmeng:bgm_calm",
+        "stream": true
+      }
+    ]
+  },
+  "bgm_dark": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "hongmeng:bgm_dark",
+        "stream": true
+      }
+    ]
+  },
+  "bgm_boss": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "hongmeng:bgm_boss",
+        "stream": true
+      }
+    ]
+  },
+  "bgm_tribulation": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "hongmeng:bgm_tribulation",
+        "stream": true
+      }
+    ]
+  },
+  "stage_charge": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:stage_charge",
+        "stream": false
+      }
+    ]
+  },
+  "stage_burst": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:stage_burst",
+        "stream": false
+      }
+    ]
+  },
+  "stage_aftermath": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:stage_aftermath",
+        "stream": false
+      }
+    ]
+  },
+  "boss_ambush": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "hongmeng:boss_ambush",
+        "stream": false
+      }
+    ]
+  },
+  "boss_cataclysm": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "hongmeng:boss_cataclysm",
+        "stream": false
+      }
+    ]
+  },
+"meditation": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:meditation",
+        "stream": false
+      }
+    ]
+  },
+  "breakthrough_success": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:breakthrough_success",
+        "stream": false
+      }
+    ]
+  },
+  "breakthrough_fail": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:breakthrough_fail",
+        "stream": false
+      }
+    ]
+  },
+  "awaken": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:awaken",
+        "stream": false
+      }
+    ]
+  },
+  "sword_qi": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "hongmeng:sword_qi",
+        "stream": false
+      }
+    ]
+  }
+}

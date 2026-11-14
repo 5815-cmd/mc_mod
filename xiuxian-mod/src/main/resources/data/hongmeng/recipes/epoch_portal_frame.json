@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KKK",
+    "KLK",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "L": {
+      "item": "hongmeng:xueluo_essence"
+    }
+  },
+  "result": {
+    "item": "hongmeng:epoch_portal_frame",
+    "count": 1
+  }
+}

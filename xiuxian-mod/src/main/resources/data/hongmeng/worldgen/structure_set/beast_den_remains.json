@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 9,
+    "salt": 20261225
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:beast_den_remains",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PCP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "hongmeng:kongming_lan_petal"
+    },
+    "C": {
+      "item": "hongmeng:spirit_crystal_ore"
+    }
+  },
+  "result": {
+    "item": "hongmeng:talent_reset_pill",
+    "count": 1
+  }
+}

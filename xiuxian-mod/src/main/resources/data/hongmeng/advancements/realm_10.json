@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:lingye"
+    },
+    "title": {
+      "text": "鸿蒙"
+    },
+    "description": {
+      "text": "踏入第 10 境 —— 此界之巅"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "realm_10"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "hongmeng:epoch_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 20261009,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "hongmeng:epoch_meadow",
+        "hongmeng:epoch_paddy",
+        "hongmeng:epoch_ruins"
+      ],
+      "scale": 48
+    }
+  }
+}

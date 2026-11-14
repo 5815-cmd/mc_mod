@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "ABC",
+    "CC "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "B": {
+      "item": "hongmeng:career_armor_xue_1_chestplate"
+    },
+    "C": {
+      "item": "hongmeng:lingye"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_xue_2_chestplate",
+    "count": 1
+  }
+}

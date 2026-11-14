@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:yunmeng_marsh"
+  ],
+  "spawners": {
+    "type": "hongmeng:venom_toad",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

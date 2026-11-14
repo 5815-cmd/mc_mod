@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 88,
+    "separation": 52,
+    "salt": 20261113
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:lingmai_dongfu",
+      "weight": 1
+    }
+  ]
+}

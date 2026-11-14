@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:epoch_meadow",
+    "hongmeng:epoch_paddy",
+    "hongmeng:beast_grove",
+    "hongmeng:beast_mire",
+    "hongmeng:demon_cavern",
+    "hongmeng:void_abyss"
+  ],
+  "features": "hongmeng:leiyin_cao_realm_sparse",
+  "step": "vegetal_decoration"
+}

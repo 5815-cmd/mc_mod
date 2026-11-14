@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:epoch_portal_frame"
+    },
+    "title": {
+      "text": "深入秘境"
+    },
+    "description": {
+      "text": "首次进入秘境副本"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "first_dungeon"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

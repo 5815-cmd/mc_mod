@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "C": {
+      "item": "hongmeng:kongming_essence"
+    }
+  },
+  "result": {
+    "item": "hongmeng:beast_portal_frame",
+    "count": 1
+  }
+}

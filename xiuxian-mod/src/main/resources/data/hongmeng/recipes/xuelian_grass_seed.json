@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "hongmeng:lingye"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:xuelian_grass_seed",
+    "count": 2
+  }
+}

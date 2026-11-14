@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 8,
+    "salt": 20261224
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:beast_bone_pile",
+      "weight": 1
+    }
+  ]
+}

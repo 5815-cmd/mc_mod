@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "hongmeng:spirit_iron_ore",
+    "hongmeng:deepslate_spirit_iron_ore",
+    "hongmeng:boss_summon_altar",
+    "hongmeng:boss_summon_altar_epoch",
+    "hongmeng:boss_summon_altar_demon",
+    "hongmeng:root_altar",
+    "hongmeng:alchemy_furnace",
+    "hongmeng:spirit_stone_ore",
+    "hongmeng:deepslate_spirit_stone_ore"
+  ]
+}

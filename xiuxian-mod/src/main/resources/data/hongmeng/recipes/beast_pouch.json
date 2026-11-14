@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "SGS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "G": {
+      "item": "hongmeng:kong_ming_shi"
+    }
+  },
+  "result": {
+    "item": "hongmeng:beast_pouch",
+    "count": 1
+  }
+}

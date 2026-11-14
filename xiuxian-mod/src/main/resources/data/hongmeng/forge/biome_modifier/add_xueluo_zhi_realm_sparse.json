@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:epoch_meadow",
+    "hongmeng:epoch_paddy",
+    "hongmeng:epoch_ruins",
+    "hongmeng:beast_bonefield",
+    "hongmeng:beast_grove",
+    "hongmeng:beast_mire"
+  ],
+  "features": "hongmeng:xueluo_zhi_realm_sparse",
+  "step": "vegetal_decoration"
+}

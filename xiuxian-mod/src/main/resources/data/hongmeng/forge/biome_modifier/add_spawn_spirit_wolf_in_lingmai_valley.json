@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:lingmai_valley"
+  ],
+  "spawners": {
+    "type": "hongmeng:spirit_wolf",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

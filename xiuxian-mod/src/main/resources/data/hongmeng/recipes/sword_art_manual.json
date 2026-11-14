@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MCM",
+    "LBL",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "hongmeng:spirit_crystal_ore"
+    },
+    "C": {
+      "item": "hongmeng:kongming_lan_petal"
+    },
+    "L": {
+      "item": "hongmeng:lingye"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "hongmeng:sword_art_manual",
+    "count": 1
+  }
+}

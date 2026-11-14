@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:epoch_paddy",
+    "hongmeng:beast_mire"
+  ],
+  "features": "hongmeng:hanbing_teng_realm_dense",
+  "step": "vegetal_decoration"
+}

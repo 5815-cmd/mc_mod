@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:epoch_ruins",
+    "hongmeng:demon_grove",
+    "hongmeng:void_isles",
+    "hongmeng:void_stardust"
+  ],
+  "features": "hongmeng:leiyin_cao_realm_normal",
+  "step": "vegetal_decoration"
+}

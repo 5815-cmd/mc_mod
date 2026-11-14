@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="鸿蒙修仙 Hongmeng Cultivation"
+authors="${mod_authors}"
+description='''以小说《谁把我仙侠游戏退出键扣了？》为蓝本的修仙模组。
+
+主角就是你自己。落地即被塞进「鸿蒙修仙传」，没有退出键，挨打会疼，死了要算业力。
+灵根随机觉醒；修为可以打坐、杀怪、做任务、撞奇遇、嗑丹药——路不止一条。
+
+内容：灵根觉醒与品质随机、境界阶梯（练气到鸿蒙）、打坐与多途径修为、
+业力系统、开局任务链与奇遇、纪元之门副本、真实痛觉与没有退出键的沉浸机制。
+基于 Forge 1.20.1。'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

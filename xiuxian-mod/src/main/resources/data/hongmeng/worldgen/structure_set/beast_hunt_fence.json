@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 8,
+    "salt": 20261226
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:beast_hunt_fence",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hongmeng:kongming_ore"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:kongming_essence",
+    "count": 2
+  }
+}

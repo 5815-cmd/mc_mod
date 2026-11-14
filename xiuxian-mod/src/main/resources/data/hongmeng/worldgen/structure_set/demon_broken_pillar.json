@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 26,
+    "separation": 7,
+    "salt": 20261229
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:demon_broken_pillar",
+      "weight": 1
+    }
+  ]
+}

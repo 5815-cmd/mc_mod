@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "ABC",
+    "C  "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "B": {
+      "item": "hongmeng:career_weapon_spear_4"
+    },
+    "C": {
+      "item": "hongmeng:zhenyuan_crystal"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_weapon_spear_5",
+    "count": 1
+  }
+}

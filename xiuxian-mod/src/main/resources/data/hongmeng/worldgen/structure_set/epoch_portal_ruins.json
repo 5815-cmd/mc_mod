@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 28,
+    "separation": 7,
+    "salt": 20261223
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:epoch_portal_ruins",
+      "weight": 1
+    }
+  ]
+}

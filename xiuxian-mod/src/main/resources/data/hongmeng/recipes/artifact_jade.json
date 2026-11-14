@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CIC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "hongmeng:spirit_crystal"
+    },
+    "I": {
+      "item": "hongmeng:lingye"
+    }
+  },
+  "result": {
+    "item": "hongmeng:artifact_1_jade",
+    "count": 1
+  }
+}

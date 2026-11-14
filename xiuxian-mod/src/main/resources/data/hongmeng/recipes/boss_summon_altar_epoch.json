@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "C": {
+      "item": "hongmeng:xuelian_grass_petal"
+    }
+  },
+  "result": {
+    "item": "hongmeng:boss_summon_altar_epoch",
+    "count": 1
+  }
+}

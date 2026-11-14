@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:lingye"
+    },
+    "title": {
+      "text": "屠戮头目"
+    },
+    "description": {
+      "text": "击杀一只头目"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "kill_boss"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

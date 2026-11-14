@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "B": {
+      "item": "hongmeng:xueluo_essence"
+    },
+    "C": {
+      "item": "hongmeng:career_weapon_scythe_7"
+    },
+    "D": {
+      "item": "hongmeng:blood_core"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_weapon_scythe_8",
+    "count": 1
+  }
+}

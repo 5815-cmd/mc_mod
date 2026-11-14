@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KXK",
+    "XLX",
+    "KXK"
+  ],
+  "key": {
+    "K": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "X": {
+      "item": "hongmeng:xueluo_essence"
+    },
+    "L": {
+      "item": "hongmeng:lingye"
+    }
+  },
+  "result": {
+    "item": "hongmeng:pill_shuangdao",
+    "count": 1
+  }
+}

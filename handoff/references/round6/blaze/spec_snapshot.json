@@ -1,0 +1,2756 @@
+{
+  "class": "BlazeEmperorModel",
+  "zh": "焚天炎帝",
+  "en": "Blaze Emperor · Lava Titan",
+  "identifier": "geometry.blaze_emperor_model",
+  "tex": [
+    256,
+    256
+  ],
+  "parts": [
+    {
+      "name": "hips",
+      "parent": null,
+      "pivot": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -14.0,
+            -6.0,
+            -7.0
+          ],
+          "size": [
+            28.0,
+            6.0,
+            12.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            0,
+            82
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -13.0,
+            -5.0,
+            -7.0
+          ],
+          "size": [
+            26.0,
+            2.0,
+            12.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            180,
+            135
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "waist",
+      "parent": "hips",
+      "pivot": [
+        0.0,
+        -6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -16.0,
+            -4.0,
+            -8.0
+          ],
+          "size": [
+            32.0,
+            4.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            0,
+            144
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            -8.0,
+            -9.0
+          ],
+          "size": [
+            24.0,
+            4.0,
+            4.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            111,
+            190
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -17.0,
+            -3.0,
+            -2.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            224,
+            72
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            15.0,
+            -3.0,
+            -2.0
+          ],
+          "size": [
+            2.0,
+            3.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            94,
+            82
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "thighL",
+      "parent": "hips",
+      "pivot": [
+        12.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            16.0,
+            8.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            0,
+            101
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            4.0,
+            -6.0
+          ],
+          "size": [
+            16.0,
+            3.0,
+            8.0
+          ],
+          "mat": "lava",
+          "uv": [
+            41,
+            166
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shinL",
+      "parent": "thighL",
+      "pivot": [
+        0.0,
+        9.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -7.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            14.0,
+            7.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            0,
+            120
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            2.0,
+            -5.5
+          ],
+          "size": [
+            14.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            221,
+            204
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            3.0,
+            -7.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            232,
+            197
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hoofL",
+      "parent": "shinL",
+      "pivot": [
+        0.0,
+        7.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -7.0
+          ],
+          "size": [
+            18.0,
+            4.0,
+            14.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            81,
+            88
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            1.0,
+            -8.0
+          ],
+          "size": [
+            18.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            202
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -9.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            2.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            81,
+            82
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            5.0,
+            0.0,
+            -9.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            2.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            53,
+            101
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "thighR",
+      "parent": "hips",
+      "pivot": [
+        -12.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            16.0,
+            8.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            53,
+            107
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            4.0,
+            -6.0
+          ],
+          "size": [
+            16.0,
+            3.0,
+            8.0
+          ],
+          "mat": "lava",
+          "uv": [
+            90,
+            166
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shinR",
+      "parent": "thighR",
+      "pivot": [
+        0.0,
+        9.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -7.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            14.0,
+            7.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            49,
+            126
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            2.0,
+            -5.5
+          ],
+          "size": [
+            14.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            220,
+            213
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            3.0,
+            -7.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            156,
+            199
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hoofR",
+      "parent": "shinR",
+      "pivot": [
+        0.0,
+        7.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -7.0
+          ],
+          "size": [
+            18.0,
+            4.0,
+            14.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            146,
+            98
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            1.0,
+            -8.0
+          ],
+          "size": [
+            18.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            215
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -9.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            2.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            66,
+            101
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            5.0,
+            0.0,
+            -9.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            2.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            0,
+            172
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "torso",
+      "parent": "hips",
+      "pivot": [
+        0.0,
+        -6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -20.0,
+            -28.0,
+            -6.0
+          ],
+          "size": [
+            40.0,
+            28.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            0,
+            43
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -18.0,
+            -32.0,
+            -5.0
+          ],
+          "size": [
+            36.0,
+            4.0,
+            8.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            153,
+            165
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -20.0,
+            -28.0,
+            -7.0
+          ],
+          "size": [
+            40.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            0,
+            207
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -20.0,
+            -6.0,
+            -7.0
+          ],
+          "size": [
+            40.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            154,
+            209
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -22.0,
+            -26.0,
+            -5.0
+          ],
+          "size": [
+            2.0,
+            18.0,
+            2.0
+          ],
+          "mat": "obsidian_dark",
+          "uv": [
+            248,
+            31
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            20.0,
+            -26.0,
+            -5.0
+          ],
+          "size": [
+            2.0,
+            18.0,
+            2.0
+          ],
+          "mat": "obsidian_dark",
+          "uv": [
+            248,
+            52
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -22.0,
+            -22.0,
+            -6.0
+          ],
+          "size": [
+            1.0,
+            8.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            163,
+            43
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            21.0,
+            -22.0,
+            -6.0
+          ],
+          "size": [
+            1.0,
+            8.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            224,
+            62
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "furnace",
+      "parent": "torso",
+      "pivot": [
+        0.0,
+        -14.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -14.0,
+            -13.0,
+            -2.0
+          ],
+          "size": [
+            28.0,
+            28.0,
+            2.0
+          ],
+          "mat": "core_glow",
+          "uv": [
+            170,
+            31
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            -14.0,
+            -2.5
+          ],
+          "size": [
+            30.0,
+            2.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            156,
+            204
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            12.0,
+            -2.5
+          ],
+          "size": [
+            30.0,
+            2.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            89,
+            206
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -15.0,
+            -14.0,
+            -2.5
+          ],
+          "size": [
+            2.0,
+            28.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            235,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            13.0,
+            -14.0,
+            -2.5
+          ],
+          "size": [
+            2.0,
+            28.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            244,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -14.0,
+            -5.0,
+            -3.0
+          ],
+          "size": [
+            28.0,
+            2.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            0,
+            211
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -14.0,
+            3.0,
+            -3.0
+          ],
+          "size": [
+            28.0,
+            2.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            59,
+            211
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "ventL",
+      "parent": "torso",
+      "pivot": [
+        16.0,
+        -14.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -10.0,
+            -2.0
+          ],
+          "size": [
+            6.0,
+            20.0,
+            2.0
+          ],
+          "mat": "vent_glow",
+          "uv": [
+            231,
+            31
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            -8.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            1.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            237,
+            208
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            4.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            1.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            132,
+            217
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "ventR",
+      "parent": "torso",
+      "pivot": [
+        -16.0,
+        -14.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -10.0,
+            -2.0
+          ],
+          "size": [
+            6.0,
+            20.0,
+            2.0
+          ],
+          "mat": "vent_glow",
+          "uv": [
+            231,
+            54
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            -8.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            1.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            147,
+            217
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            4.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            1.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            162,
+            217
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "pauldronL",
+      "parent": "torso",
+      "pivot": [
+        22.0,
+        -26.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -6.0
+          ],
+          "size": [
+            18.0,
+            7.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            127,
+            117
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -4.0,
+            -1.0,
+            -5.0
+          ],
+          "size": [
+            18.0,
+            2.0,
+            4.0
+          ],
+          "mat": "gold",
+          "uv": [
+            111,
+            199
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "pauldronL2",
+      "parent": "pauldronL",
+      "pivot": [
+        0.0,
+        7.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            10.0,
+            4.0,
+            10.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            183,
+            62
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            2.0,
+            -10.0,
+            -3.0
+          ],
+          "size": [
+            3.0,
+            10.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            244,
+            98
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -3.0,
+            -8.0,
+            4.0
+          ],
+          "size": [
+            3.0,
+            8.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            242,
+            165
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "pauldronR",
+      "parent": "torso",
+      "pivot": [
+        -22.0,
+        -26.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -14.0,
+            0.0,
+            -6.0
+          ],
+          "size": [
+            18.0,
+            7.0,
+            10.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            184,
+            117
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -14.0,
+            -1.0,
+            -5.0
+          ],
+          "size": [
+            18.0,
+            2.0,
+            4.0
+          ],
+          "mat": "gold",
+          "uv": [
+            44,
+            200
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "pauldronR2",
+      "parent": "pauldronR",
+      "pivot": [
+        0.0,
+        7.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            10.0,
+            4.0,
+            10.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            180,
+            150
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -5.0,
+            -10.0,
+            -3.0
+          ],
+          "size": [
+            3.0,
+            10.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            244,
+            112
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            0.0,
+            -8.0,
+            4.0
+          ],
+          "size": [
+            3.0,
+            8.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            139,
+            166
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "armL",
+      "parent": "torso",
+      "pivot": [
+        23.0,
+        -22.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            12.0,
+            15.0,
+            8.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            101,
+            43
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            2.0,
+            -4.0
+          ],
+          "size": [
+            14.0,
+            3.0,
+            8.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            49,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            5.0,
+            -6.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            163,
+            53
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "foreL",
+      "parent": "armL",
+      "pivot": [
+        0.0,
+        16.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            12.0,
+            8.0,
+            8.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            98,
+            135
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            2.0,
+            -4.5
+          ],
+          "size": [
+            14.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            39,
+            215
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            3.0,
+            -6.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            243,
+            199
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "fistL",
+      "parent": "foreL",
+      "pivot": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -12.0,
+            0.0,
+            -9.0
+          ],
+          "size": [
+            24.0,
+            24.0,
+            18.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            17.0,
+            -9.5
+          ],
+          "size": [
+            24.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            118,
+            213
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            1.0,
+            -9.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            168,
+            190
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            3.0,
+            -10.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            59,
+            190
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            5.0,
+            3.0,
+            -10.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            72,
+            190
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "fingersL",
+      "parent": "fistL",
+      "pivot": [
+        0.0,
+        13.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -12.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            11.0,
+            5.0,
+            6.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            146,
+            86
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            1.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            11.0,
+            5.0,
+            6.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            139,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            1.0,
+            -3.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            127,
+            107
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "armR",
+      "parent": "torso",
+      "pivot": [
+        -23.0,
+        -22.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            12.0,
+            15.0,
+            8.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            142,
+            62
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            2.0,
+            -4.0
+          ],
+          "size": [
+            14.0,
+            3.0,
+            8.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            94,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            5.0,
+            -6.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            120,
+            126
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "foreR",
+      "parent": "armR",
+      "pivot": [
+        0.0,
+        16.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            12.0,
+            8.0,
+            8.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            139,
+            135
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            2.0,
+            -4.5
+          ],
+          "size": [
+            14.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            70,
+            215
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            3.0,
+            -6.5
+          ],
+          "size": [
+            4.0,
+            3.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            89,
+            200
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "fistR",
+      "parent": "foreR",
+      "pivot": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -12.0,
+            0.0,
+            -9.0
+          ],
+          "size": [
+            24.0,
+            24.0,
+            18.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            85,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            17.0,
+            -9.5
+          ],
+          "size": [
+            24.0,
+            2.0,
+            1.0
+          ],
+          "mat": "gold",
+          "uv": [
+            169,
+            213
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -12.0,
+            1.0,
+            -9.5
+          ],
+          "size": [
+            24.0,
+            5.0,
+            1.0
+          ],
+          "mat": "iron",
+          "uv": [
+            168,
+            197
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -10.0,
+            3.0,
+            -10.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            85,
+            190
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            5.0,
+            3.0,
+            -10.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            1.0
+          ],
+          "mat": "crack_glow",
+          "uv": [
+            98,
+            190
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "fingersR",
+      "parent": "fistR",
+      "pivot": [
+        0.0,
+        13.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -12.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            11.0,
+            5.0,
+            6.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            174,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            1.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            11.0,
+            5.0,
+            6.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            209,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            10.0,
+            1.0,
+            -3.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            5.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            44,
+            190
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "torso",
+      "pivot": [
+        0.0,
+        -32.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -10.0,
+            -18.0,
+            -6.0
+          ],
+          "size": [
+            20.0,
+            18.0,
+            12.0
+          ],
+          "mat": "obsidian",
+          "uv": [
+            170,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -16.0,
+            -8.0
+          ],
+          "size": [
+            22.0,
+            3.0,
+            2.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            0,
+            138
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            -14.0,
+            -8.5
+          ],
+          "size": [
+            18.0,
+            10.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            0,
+            159
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -8.0,
+            -12.0,
+            -9.0
+          ],
+          "size": [
+            5.0,
+            3.0,
+            1.0
+          ],
+          "mat": "eye_glow",
+          "uv": [
+            26,
+            172
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            3.0,
+            -12.0,
+            -9.0
+          ],
+          "size": [
+            5.0,
+            3.0,
+            1.0
+          ],
+          "mat": "eye_glow",
+          "uv": [
+            219,
+            197
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -9.0,
+            -5.0,
+            -8.5
+          ],
+          "size": [
+            3.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            98,
+            126
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            6.0,
+            -5.0,
+            -8.5
+          ],
+          "size": [
+            3.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            109,
+            126
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "jaw",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -4.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            16.0,
+            3.0,
+            8.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            0,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            1.0,
+            -4.0
+          ],
+          "size": [
+            14.0,
+            1.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            101,
+            217
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "mane",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -8.0,
+        6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -13.0,
+            -10.0,
+            1.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            4.0
+          ],
+          "mat": "mane_glow",
+          "uv": [
+            142,
+            43
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            7.0,
+            -10.0,
+            1.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            4.0
+          ],
+          "mat": "mane_glow",
+          "uv": [
+            106,
+            107
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -6.0,
+            -16.0,
+            2.0
+          ],
+          "size": [
+            12.0,
+            14.0,
+            4.0
+          ],
+          "mat": "mane_glow",
+          "uv": [
+            211,
+            98
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hornL",
+      "parent": "head",
+      "pivot": [
+        7.0,
+        -16.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -8.0,
+            -2.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            5.0
+          ],
+          "mat": "bone",
+          "uv": [
+            85,
+            152
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -15.0,
+            -1.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            4.0
+          ],
+          "mat": "bone",
+          "uv": [
+            153,
+            152
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.5,
+            -22.0,
+            -0.5
+          ],
+          "size": [
+            3.0,
+            7.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            244,
+            177
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            2.0,
+            -13.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            241,
+            126
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hornR",
+      "parent": "head",
+      "pivot": [
+        -7.0,
+        -16.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -8.0,
+            -2.0
+          ],
+          "size": [
+            5.0,
+            8.0,
+            5.0
+          ],
+          "mat": "bone",
+          "uv": [
+            106,
+            152
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.0,
+            -15.0,
+            -1.0
+          ],
+          "size": [
+            4.0,
+            7.0,
+            4.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            190
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.5,
+            -22.0,
+            -0.5
+          ],
+          "size": [
+            3.0,
+            7.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            244,
+            188
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -4.0,
+            -13.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "gold",
+          "uv": [
+            85,
+            144
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown",
+      "parent": "head",
+      "pivot": [
+        0.0,
+        -16.0,
+        2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.5,
+            -16.0,
+            -1.5
+          ],
+          "size": [
+            5.0,
+            16.0,
+            4.0
+          ],
+          "mat": "gold",
+          "uv": [
+            101,
+            67
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.5,
+            -19.0,
+            -0.5
+          ],
+          "size": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            219,
+            190
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "back",
+      "parent": "torso",
+      "pivot": [
+        0.0,
+        -2.0,
+        6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -10.0,
+            -14.0,
+            0.0
+          ],
+          "size": [
+            20.0,
+            14.0,
+            6.0
+          ],
+          "mat": "iron",
+          "uv": [
+            183,
+            77
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            -32.0,
+            2.0
+          ],
+          "size": [
+            4.0,
+            16.0,
+            4.0
+          ],
+          "mat": "iron",
+          "uv": [
+            120,
+            67
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            3.0,
+            -32.0,
+            2.0
+          ],
+          "size": [
+            4.0,
+            16.0,
+            4.0
+          ],
+          "mat": "iron",
+          "uv": [
+            236,
+            77
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -7.0,
+            -34.0,
+            2.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            4.0
+          ],
+          "mat": "pipe_glow",
+          "uv": [
+            41,
+            159
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            3.0,
+            -34.0,
+            2.0
+          ],
+          "size": [
+            4.0,
+            2.0,
+            4.0
+          ],
+          "mat": "pipe_glow",
+          "uv": [
+            58,
+            159
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -5.0,
+            -8.0,
+            6.0
+          ],
+          "size": [
+            10.0,
+            7.0,
+            3.0
+          ],
+          "mat": "pipe_glow",
+          "uv": [
+            17,
+            190
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        },
+        {
+          "pos": [
+            -11.0,
+            -10.0,
+            5.0
+          ],
+          "size": [
+            3.0,
+            10.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            127,
+            152
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            8.0,
+            -10.0,
+            5.0
+          ],
+          "size": [
+            3.0,
+            10.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            140,
+            152
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "chainL",
+      "parent": "hips",
+      "pivot": [
+        14.0,
+        -6.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            170,
+            152
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            3.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            75,
+            159
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -1.0,
+            6.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "iron",
+          "uv": [
+            232,
+            190
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -4.0,
+            9.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            8.0,
+            6.0
+          ],
+          "mat": "lava_dark",
+          "uv": [
+            221,
+            150
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        },
+        {
+          "pos": [
+            -2.5,
+            11.0,
+            -5.0
+          ],
+          "size": [
+            5.0,
+            4.0,
+            1.0
+          ],
+          "mat": "core_glow",
+          "uv": [
+            13,
+            172
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    }
+  ]
+}

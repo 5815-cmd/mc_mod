@@ -1,0 +1,126 @@
+{
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "t_body": "hongmeng:block/huoyan_hua_stage0"
+  },
+  "elements": [
+    {
+      "name": "stem",
+      "from": [
+        7.1,
+        0.0,
+        7.95
+      ],
+      "to": [
+        8.9,
+        6.0,
+        8.05
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            10.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            10.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        }
+      }
+    },
+    {
+      "name": "stem",
+      "from": [
+        7.95,
+        0.0,
+        7.1
+      ],
+      "to": [
+        8.05,
+        6.0,
+        8.9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            10.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            10.0,
+            16.0,
+            16.0
+          ],
+          "texture": "t_body"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.95,
+          0.0,
+          7.1
+        ],
+        "axis": "y",
+        "angle": 45.0
+      }
+    },
+    {
+      "name": "mid_leaf",
+      "from": [
+        4.0,
+        2.52,
+        7.9
+      ],
+      "to": [
+        12.0,
+        3.6,
+        8.1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            12.4,
+            16.0,
+            13.48
+          ],
+          "texture": "t_body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            12.4,
+            16.0,
+            13.48
+          ],
+          "texture": "t_body"
+        }
+      },
+      "rotation": {
+        "origin": [
+          4.0,
+          2.52,
+          7.9
+        ],
+        "axis": "y",
+        "angle": 22.5
+      }
+    }
+  ]
+}

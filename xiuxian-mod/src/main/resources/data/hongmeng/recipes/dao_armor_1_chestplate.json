@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "hongmeng:spirit_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "hongmeng:dao_armor_1_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:epoch_paddy",
+    "hongmeng:beast_grove",
+    "hongmeng:beast_mire"
+  ],
+  "features": "hongmeng:kongming_lan_realm_normal",
+  "step": "vegetal_decoration"
+}

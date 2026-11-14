@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:pill_exp_immortal"
+    },
+    "title": {
+      "text": "一代宗师"
+    },
+    "description": {
+      "text": "累计修为达到 100 万"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "cult_100w"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QGQ",
+    "OTO",
+    "BBB"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz_bricks"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "hongmeng:evil_altar",
+    "count": 1
+  }
+}

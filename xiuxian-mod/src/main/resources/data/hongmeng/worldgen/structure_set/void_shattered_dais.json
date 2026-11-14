@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 9,
+    "salt": 20261231
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:void_shattered_dais",
+      "weight": 1
+    }
+  ]
+}

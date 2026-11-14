@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:epoch_meadow",
+    "hongmeng:epoch_ruins",
+    "hongmeng:beast_bonefield",
+    "hongmeng:demon_scorch",
+    "hongmeng:demon_grove",
+    "hongmeng:void_stardust",
+    "hongmeng:void_abyss"
+  ],
+  "features": "hongmeng:hanbing_teng_realm_sparse",
+  "step": "vegetal_decoration"
+}

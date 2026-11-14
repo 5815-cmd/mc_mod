@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:void_isles",
+    "hongmeng:void_abyss"
+  ],
+  "spawners": {
+    "type": "hongmeng:void_jelly",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

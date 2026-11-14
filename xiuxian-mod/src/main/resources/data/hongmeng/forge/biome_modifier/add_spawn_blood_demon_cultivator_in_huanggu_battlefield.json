@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:huanggu_battlefield"
+  ],
+  "spawners": {
+    "type": "hongmeng:blood_demon_cultivator",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

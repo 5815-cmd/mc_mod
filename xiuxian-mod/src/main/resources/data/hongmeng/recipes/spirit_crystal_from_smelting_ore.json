@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "hongmeng:spirit_crystal_ore"
+  },
+  "result": "hongmeng:spirit_crystal",
+  "experience": 1,
+  "cookingtime": 200
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:lingye"
+    },
+    "title": {
+      "text": "金丹"
+    },
+    "description": {
+      "text": "踏入第 3 境"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "realm_3"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

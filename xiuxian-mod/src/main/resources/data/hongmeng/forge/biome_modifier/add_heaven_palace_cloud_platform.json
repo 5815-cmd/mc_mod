@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:heaven_palace"
+  ],
+  "features": "hongmeng:heaven_palace_cloud_platform",
+  "step": "underground_ores"
+}

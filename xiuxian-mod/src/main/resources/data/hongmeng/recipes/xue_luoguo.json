@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hongmeng:xueluo_zhi_petal"
+    },
+    {
+      "item": "hongmeng:xueluo_zhi_petal"
+    },
+    {
+      "item": "hongmeng:lingye"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:xue_luoguo",
+    "count": 1
+  }
+}

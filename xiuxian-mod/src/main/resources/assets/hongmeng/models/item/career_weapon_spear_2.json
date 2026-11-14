@@ -1,0 +1,6 @@
+{
+  "parent": "builtin/entity",
+  "textures": {
+    "particle": "hongmeng:item/career_spear_t2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "hongmeng:lingye"
+    },
+    {
+      "item": "hongmeng:lingye"
+    },
+    {
+      "item": "hongmeng:lingye"
+    },
+    {
+      "item": "hongmeng:lingye"
+    },
+    {
+      "item": "hongmeng:lingye"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:kongming_lan_seed",
+    "count": 2
+  }
+}

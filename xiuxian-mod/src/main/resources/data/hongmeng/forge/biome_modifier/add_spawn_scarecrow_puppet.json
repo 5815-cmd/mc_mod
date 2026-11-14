@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:epoch_meadow",
+    "hongmeng:epoch_paddy"
+  ],
+  "spawners": {
+    "type": "hongmeng:scarecrow_puppet",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BBA"
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:xueluo_essence"
+    },
+    "B": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "C": {
+      "item": "hongmeng:career_armor_gui_9_helmet"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_gui_10_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "B": {
+      "item": "hongmeng:xueluo_essence"
+    },
+    "C": {
+      "item": "hongmeng:career_armor_jian_7_chestplate"
+    },
+    "D": {
+      "item": "hongmeng:puppet_core"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_armor_jian_8_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:pill_zhuji"
+    },
+    "title": {
+      "text": "筑基"
+    },
+    "description": {
+      "text": "踏入第 2 境"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "realm_2"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

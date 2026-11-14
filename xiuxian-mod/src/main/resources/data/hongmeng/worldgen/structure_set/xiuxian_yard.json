@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 12,
+    "salt": 20261101
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:xiuxian_yard",
+      "weight": 1
+    }
+  ]
+}

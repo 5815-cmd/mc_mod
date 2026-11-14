@@ -1,0 +1,17 @@
+{
+  "type": "hongmeng:demon_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 20261011,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "hongmeng:demon_scorch",
+        "hongmeng:demon_grove",
+        "hongmeng:demon_cavern"
+      ],
+      "scale": 40
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hongmeng:item/manual_jin_gang_hu_ti"
+  }
+}

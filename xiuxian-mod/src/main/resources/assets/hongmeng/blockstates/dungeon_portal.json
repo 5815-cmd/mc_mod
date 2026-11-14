@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "dungeon=epoch_realm,axis=x": { "model": "hongmeng:block/dungeon_portal_epoch_ns" },
+    "dungeon=epoch_realm,axis=z": { "model": "hongmeng:block/dungeon_portal_epoch_ew" },
+    "dungeon=beast_realm,axis=x": { "model": "hongmeng:block/dungeon_portal_beast_ns" },
+    "dungeon=beast_realm,axis=z": { "model": "hongmeng:block/dungeon_portal_beast_ew" },
+    "dungeon=demon_realm,axis=x": { "model": "hongmeng:block/dungeon_portal_demon_ns" },
+    "dungeon=demon_realm,axis=z": { "model": "hongmeng:block/dungeon_portal_demon_ew" },
+    "dungeon=void_realm,axis=x": { "model": "hongmeng:block/dungeon_portal_void_ns" },
+    "dungeon=void_realm,axis=z": { "model": "hongmeng:block/dungeon_portal_void_ew" }
+  }
+}

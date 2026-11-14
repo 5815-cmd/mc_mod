@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hongmeng:pill_xiling"
+    },
+    "title": {
+      "text": "大道可期"
+    },
+    "description": {
+      "text": "累计修为达到 1000 万"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "hongmeng:cultivation",
+      "conditions": {
+        "id": "cult_1000w"
+      }
+    }
+  },
+  "parent": "hongmeng:awaken"
+}

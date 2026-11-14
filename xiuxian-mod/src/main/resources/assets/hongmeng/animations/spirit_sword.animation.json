@@ -1,0 +1,68 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "idle": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "gem_lower": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "keyframes": []
+        },
+        "blade_01": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              -2
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "swing": {
+      "loop": false,
+      "animation_length": 0.5,
+      "bones": {
+        "guard": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.18": [
+              0,
+              -35,
+              0
+            ],
+            "0.5": [
+              0,
+              20,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

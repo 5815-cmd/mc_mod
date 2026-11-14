@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 56,
+    "separation": 20,
+    "salt": 20261206
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:demon_altar",
+      "weight": 1
+    }
+  ]
+}

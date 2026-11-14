@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:yunmeng_marsh"
+  ],
+  "features": "hongmeng:xuelian_grass_yunmeng_marsh",
+  "step": "vegetal_decoration"
+}

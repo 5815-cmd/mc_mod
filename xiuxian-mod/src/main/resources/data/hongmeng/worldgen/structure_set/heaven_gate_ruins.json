@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 24,
+    "salt": 20261301
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:heaven_gate_ruins",
+      "weight": 1
+    }
+  ]
+}

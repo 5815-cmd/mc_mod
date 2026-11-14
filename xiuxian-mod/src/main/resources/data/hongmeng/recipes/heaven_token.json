@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hongmeng:kong_ming_shi"
+    },
+    {
+      "item": "hongmeng:kong_ming_shi"
+    },
+    {
+      "item": "hongmeng:kongming_essence"
+    },
+    {
+      "item": "hongmeng:kongming_essence"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:spirit_crystal"
+    },
+    {
+      "item": "hongmeng:lingye"
+    }
+  ],
+  "result": {
+    "item": "hongmeng:heaven_token",
+    "count": 1
+  }
+}

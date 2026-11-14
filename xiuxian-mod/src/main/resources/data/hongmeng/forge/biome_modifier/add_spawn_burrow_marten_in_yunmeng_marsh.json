@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:yunmeng_marsh"
+  ],
+  "spawners": {
+    "type": "hongmeng:burrow_marten",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

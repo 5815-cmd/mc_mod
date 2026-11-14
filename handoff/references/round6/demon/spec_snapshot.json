@@ -1,0 +1,3747 @@
+{
+  "class": "BloodDemonModel",
+  "zh": "血魔老祖",
+  "en": "Blood Demon Elder",
+  "identifier": "geometry.blood_demon_model",
+  "tex": [
+    256,
+    256
+  ],
+  "parts": [
+    {
+      "name": "body",
+      "parent": null,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": []
+    },
+    {
+      "name": "hip",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -12.0,
+            -8.0,
+            -7.0
+          ],
+          "size": [
+            24.0,
+            7.0,
+            15.0
+          ],
+          "mat": "armor",
+          "uv": [
+            0,
+            115
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "waist",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -10.0,
+            -8.0,
+            -6.0
+          ],
+          "size": [
+            20.0,
+            7.0,
+            13.0
+          ],
+          "mat": "armor",
+          "uv": [
+            0,
+            138
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "skirt1",
+      "parent": "hip",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -12.0,
+            0.0,
+            -8.0
+          ],
+          "size": [
+            24.0,
+            8.0,
+            16.0
+          ],
+          "mat": "robe",
+          "uv": [
+            97,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "skirt2",
+      "parent": "skirt1",
+      "pivot": [
+        0.0,
+        6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -15.0,
+            0.0,
+            -9.0
+          ],
+          "size": [
+            30.0,
+            7.0,
+            18.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            0,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "skirt3",
+      "parent": "skirt2",
+      "pivot": [
+        0.0,
+        6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -17.0,
+            0.0,
+            -9.0
+          ],
+          "size": [
+            34.0,
+            6.0,
+            19.0
+          ],
+          "mat": "robe",
+          "uv": [
+            84,
+            63
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "skirt4",
+      "parent": "skirt3",
+      "pivot": [
+        0.0,
+        5.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -20.0,
+            0.0,
+            -11.0
+          ],
+          "size": [
+            40.0,
+            7.0,
+            22.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            85,
+            33
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "foot_l",
+      "parent": "skirt4",
+      "pivot": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            0.0,
+            -6.0
+          ],
+          "size": [
+            6.0,
+            3.0,
+            8.0
+          ],
+          "mat": "bone",
+          "uv": [
+            182,
+            214
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "foot_r",
+      "parent": "skirt4",
+      "pivot": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            3.0,
+            0.0,
+            -6.0
+          ],
+          "size": [
+            6.0,
+            3.0,
+            8.0
+          ],
+          "mat": "bone",
+          "uv": [
+            78,
+            215
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "chest",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -16.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -13.0,
+            -24.0,
+            -8.0
+          ],
+          "size": [
+            26.0,
+            24.0,
+            16.0
+          ],
+          "mat": "red",
+          "uv": [
+            0,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "collar",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -15.0,
+            -3.0,
+            -9.0
+          ],
+          "size": [
+            30.0,
+            3.0,
+            16.0
+          ],
+          "mat": "armor",
+          "uv": [
+            0,
+            159
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "chest_plate1",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -18.0,
+        -9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -13.0,
+            -8.0,
+            -2.0
+          ],
+          "size": [
+            26.0,
+            8.0,
+            2.0
+          ],
+          "mat": "armor",
+          "uv": [
+            107,
+            215
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "chest_plate2",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -8.0,
+        -9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -11.0,
+            -10.0,
+            -2.0
+          ],
+          "size": [
+            22.0,
+            9.0,
+            2.0
+          ],
+          "mat": "armor",
+          "uv": [
+            191,
+            77
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "core",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -14.0,
+        -9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            -5.0,
+            -3.0
+          ],
+          "size": [
+            10.0,
+            10.0,
+            3.0
+          ],
+          "mat": "core",
+          "uv": [
+            215,
+            197
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rib_l0",
+      "parent": "chest",
+      "pivot": [
+        14.0,
+        -18.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            16.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rib_r0",
+      "parent": "chest",
+      "pivot": [
+        -14.0,
+        -18.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            16.0
+          ],
+          "mat": "bone",
+          "uv": [
+            93,
+            160
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rib_l1",
+      "parent": "chest",
+      "pivot": [
+        14.0,
+        -10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            16.0
+          ],
+          "mat": "bone",
+          "uv": [
+            130,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rib_r1",
+      "parent": "chest",
+      "pivot": [
+        -14.0,
+        -10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            16.0
+          ],
+          "mat": "bone",
+          "uv": [
+            167,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rib_l2",
+      "parent": "chest",
+      "pivot": [
+        14.0,
+        -2.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            16.0
+          ],
+          "mat": "bone",
+          "uv": [
+            204,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "rib_r2",
+      "parent": "chest",
+      "pivot": [
+        -14.0,
+        -2.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            0.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            16.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            179
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_left",
+      "parent": "chest",
+      "pivot": [
+        14.0,
+        -24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            -8.0
+          ],
+          "size": [
+            18.0,
+            8.0,
+            16.0
+          ],
+          "mat": "armor",
+          "uv": [
+            178,
+            89
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_left2",
+      "parent": "shoulder_left",
+      "pivot": [
+        1.0,
+        -6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            -6.0
+          ],
+          "size": [
+            14.0,
+            5.0,
+            13.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            146,
+            159
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_spike_left_0",
+      "parent": "shoulder_left",
+      "pivot": [
+        4.0,
+        -6.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            247,
+            88
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_spike_left_1",
+      "parent": "shoulder_left",
+      "pivot": [
+        9.0,
+        -6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            247,
+            97
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_spike_left_2",
+      "parent": "shoulder_left",
+      "pivot": [
+        14.0,
+        -6.0,
+        7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            79,
+            115
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_right",
+      "parent": "chest",
+      "pivot": [
+        -14.0,
+        -24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -18.0,
+            -6.0,
+            -8.0
+          ],
+          "size": [
+            18.0,
+            8.0,
+            16.0
+          ],
+          "mat": "armor",
+          "uv": [
+            97,
+            114
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_right2",
+      "parent": "shoulder_right",
+      "pivot": [
+        -1.0,
+        -6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -14.0,
+            -6.0,
+            -6.0
+          ],
+          "size": [
+            14.0,
+            5.0,
+            13.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            201,
+            159
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_spike_right_0",
+      "parent": "shoulder_right",
+      "pivot": [
+        -4.0,
+        -6.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            88,
+            115
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_spike_right_1",
+      "parent": "shoulder_right",
+      "pivot": [
+        -9.0,
+        -6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            239,
+            123
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "shoulder_spike_right_2",
+      "parent": "shoulder_right",
+      "pivot": [
+        -14.0,
+        -6.0,
+        7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            248,
+            123
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "neck_mid",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -24.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            -8.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            182,
+            197
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "head_mid",
+      "parent": "neck_mid",
+      "pivot": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            -14.0,
+            -8.0
+          ],
+          "size": [
+            16.0,
+            16.0,
+            16.0
+          ],
+          "mat": "red",
+          "uv": [
+            85,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown_base",
+      "parent": "head_mid",
+      "pivot": [
+        0.0,
+        -14.0,
+        -1.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -9.0,
+            -5.0,
+            -9.0
+          ],
+          "size": [
+            18.0,
+            5.0,
+            18.0
+          ],
+          "mat": "crown",
+          "uv": [
+            166,
+            114
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown_gem",
+      "parent": "crown_base",
+      "pivot": [
+        0.0,
+        -4.0,
+        -9.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          "size": [
+            4.0,
+            4.0,
+            1.0
+          ],
+          "mat": "gem",
+          "uv": [
+            239,
+            132
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown_spike_0",
+      "parent": "crown_base",
+      "pivot": [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.5,
+            -5.0,
+            -1.5
+          ],
+          "size": [
+            3.0,
+            5.0,
+            3.0
+          ],
+          "mat": "bone",
+          "uv": [
+            239,
+            114
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown_spike_1",
+      "parent": "crown_base",
+      "pivot": [
+        -6.0,
+        -5.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -4.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            37,
+            82
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown_spike_2",
+      "parent": "crown_base",
+      "pivot": [
+        6.0,
+        -5.0,
+        6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -4.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            78,
+            198
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown_spike_3",
+      "parent": "crown_base",
+      "pivot": [
+        -6.0,
+        -5.0,
+        6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -4.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            242,
+            202
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "crown_spike_4",
+      "parent": "crown_base",
+      "pivot": [
+        6.0,
+        -5.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -4.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            78,
+            205
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_l1",
+      "parent": "head_mid",
+      "pivot": [
+        7.0,
+        -12.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.35
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "size": [
+            3.0,
+            8.0,
+            3.0
+          ],
+          "mat": "horn",
+          "uv": [
+            37,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_l2",
+      "parent": "horn_l1",
+      "pivot": [
+        1.0,
+        -7.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.3
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "horn",
+          "uv": [
+            79,
+            124
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_r1",
+      "parent": "head_mid",
+      "pivot": [
+        -7.0,
+        -12.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.35
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -8.0,
+            0.0
+          ],
+          "size": [
+            3.0,
+            8.0,
+            3.0
+          ],
+          "mat": "horn",
+          "uv": [
+            241,
+            76
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_r2",
+      "parent": "horn_r1",
+      "pivot": [
+        -1.0,
+        -7.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.3
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "horn",
+          "uv": [
+            88,
+            124
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye_mid",
+      "parent": "head_mid",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -13.0,
+            -9.0
+          ],
+          "size": [
+            4.0,
+            3.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            79,
+            133
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye_l",
+      "parent": "head_mid",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -9.0,
+            -9.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            232,
+            23
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye_r",
+      "parent": "head_mid",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            3.0,
+            -9.0,
+            -9.0
+          ],
+          "size": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            31,
+            219
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "jaw_mid",
+      "parent": "head_mid",
+      "pivot": [
+        0.0,
+        -2.0,
+        -8.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -7.0,
+            0.0,
+            -7.0
+          ],
+          "size": [
+            14.0,
+            4.0,
+            9.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            0,
+            198
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_mid_0",
+      "parent": "jaw_mid",
+      "pivot": [
+        -5.0,
+        -2.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -0.5,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            250,
+            46
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_mid_1",
+      "parent": "jaw_mid",
+      "pivot": [
+        -1.7000000000000002,
+        -2.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -0.5,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            250,
+            50
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_mid_2",
+      "parent": "jaw_mid",
+      "pivot": [
+        1.5999999999999996,
+        -2.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -0.5,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            250,
+            54
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_mid_3",
+      "parent": "jaw_mid",
+      "pivot": [
+        4.899999999999999,
+        -2.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -0.5,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            250,
+            58
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "fang_mid_l",
+      "parent": "jaw_mid",
+      "pivot": [
+        -6.0,
+        -2.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            246,
+            209
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "fang_mid_r",
+      "parent": "jaw_mid",
+      "pivot": [
+        4.0,
+        -2.0,
+        -6.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            31,
+            212
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "side_neck_l",
+      "parent": "chest",
+      "pivot": [
+        15.0,
+        -26.0,
+        -3.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -10.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            6.0
+          ],
+          "mat": "armor",
+          "uv": [
+            96,
+            139
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "head_l",
+      "parent": "side_neck_l",
+      "pivot": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -7.0,
+            -7.0
+          ],
+          "size": [
+            12.0,
+            14.0,
+            14.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            179,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_side_left1",
+      "parent": "head_l",
+      "pivot": [
+        5.0,
+        -6.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.4
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "horn",
+          "uv": [
+            146,
+            139
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_side_left2",
+      "parent": "horn_side_left1",
+      "pivot": [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.3
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "horn",
+          "uv": [
+            247,
+            106
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye_side_l1",
+      "parent": "head_l",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            -4.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            179,
+            29
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye_side_l2",
+      "parent": "head_l",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -4.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            186,
+            29
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "jaw_l",
+      "parent": "head_l",
+      "pivot": [
+        0.0,
+        0.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            10.0,
+            3.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            31,
+            224
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_l0",
+      "parent": "jaw_l",
+      "pivot": [
+        -3.0,
+        -1.0,
+        -5.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            250,
+            62
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_l1",
+      "parent": "jaw_l",
+      "pivot": [
+        2.0,
+        -1.0,
+        -5.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            250,
+            66
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "side_neck_r",
+      "parent": "chest",
+      "pivot": [
+        -15.0,
+        -26.0,
+        -3.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            -10.0,
+            -3.0
+          ],
+          "size": [
+            6.0,
+            14.0,
+            6.0
+          ],
+          "mat": "armor",
+          "uv": [
+            121,
+            139
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "head_r",
+      "parent": "side_neck_r",
+      "pivot": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -6.0,
+            -7.0,
+            -7.0
+          ],
+          "size": [
+            12.0,
+            14.0,
+            14.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            0,
+            41
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_side_right1",
+      "parent": "head_r",
+      "pivot": [
+        -5.0,
+        -6.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -6.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            6.0,
+            2.0
+          ],
+          "mat": "horn",
+          "uv": [
+            155,
+            139
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "horn_side_right2",
+      "parent": "horn_side_right1",
+      "pivot": [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.3
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -2.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "horn",
+          "uv": [
+            146,
+            148
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye_side_r1",
+      "parent": "head_r",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            -4.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            193,
+            29
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "eye_side_r2",
+      "parent": "head_r",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            2.0,
+            -4.0,
+            -8.0
+          ],
+          "size": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "mat": "eye",
+          "uv": [
+            200,
+            29
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "jaw_r",
+      "parent": "head_r",
+      "pivot": [
+        0.0,
+        0.0,
+        -7.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -5.0,
+            0.0,
+            -5.0
+          ],
+          "size": [
+            10.0,
+            3.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            211,
+            224
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_r0",
+      "parent": "jaw_r",
+      "pivot": [
+        -3.0,
+        -1.0,
+        -5.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            250,
+            70
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "tooth_r1",
+      "parent": "jaw_r",
+      "pivot": [
+        2.0,
+        -1.0,
+        -5.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            2.0,
+            1.0
+          ],
+          "mat": "bone",
+          "uv": [
+            46,
+            82
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_u1_left",
+      "parent": "chest",
+      "pivot": [
+        13.0,
+        -24.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.55
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            13.0,
+            7.0
+          ],
+          "mat": "red",
+          "uv": [
+            210,
+            56
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_f1_left",
+      "parent": "arm_u1_left",
+      "pivot": [
+        0.0,
+        13.0,
+        0.0
+      ],
+      "rot": [
+        0.35,
+        0.0,
+        0.35
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            7.0,
+            11.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            37,
+            179
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "blade1_left",
+      "parent": "arm_f1_left",
+      "pivot": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -2.0
+          ],
+          "size": [
+            2.0,
+            18.0,
+            4.0
+          ],
+          "mat": "blade",
+          "uv": [
+            232,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "edge1_left",
+      "parent": "blade1_left",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            1.0,
+            18.0,
+            1.0
+          ],
+          "mat": "edge",
+          "uv": [
+            245,
+            0
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_u2_left",
+      "parent": "chest",
+      "pivot": [
+        12.0,
+        -14.0,
+        2.0
+      ],
+      "rot": [
+        0.25,
+        0.0,
+        -0.15
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            13.0,
+            7.0
+          ],
+          "mat": "armor",
+          "uv": [
+            67,
+            138
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_f2_left",
+      "parent": "arm_u2_left",
+      "pivot": [
+        0.0,
+        12.0,
+        0.0
+      ],
+      "rot": [
+        0.45,
+        0.0,
+        0.15
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            10.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            95,
+            179
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hand2_left",
+      "parent": "arm_f2_left",
+      "pivot": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            8.0,
+            5.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            47,
+            198
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger2_left_0",
+      "parent": "hand2_left",
+      "pivot": [
+        -2.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            164,
+            215
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger2_left_1",
+      "parent": "hand2_left",
+      "pivot": [
+        1.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            173,
+            215
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_u3_left",
+      "parent": "chest",
+      "pivot": [
+        13.0,
+        -4.0,
+        -1.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.35
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            13.0,
+            7.0
+          ],
+          "mat": "red",
+          "uv": [
+            166,
+            138
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_f3_left",
+      "parent": "arm_u3_left",
+      "pivot": [
+        0.0,
+        13.0,
+        0.0
+      ],
+      "rot": [
+        0.2,
+        0.0,
+        -0.25
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            10.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            95,
+            197
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hand3_left",
+      "parent": "arm_f3_left",
+      "pivot": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            8.0,
+            5.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            47,
+            211
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger3_left_0",
+      "parent": "hand3_left",
+      "pivot": [
+        -2.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            246,
+            216
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger3_left_1",
+      "parent": "hand3_left",
+      "pivot": [
+        1.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            164,
+            222
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_u1_right",
+      "parent": "chest",
+      "pivot": [
+        -13.0,
+        -24.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.55
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -8.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            8.0,
+            13.0,
+            7.0
+          ],
+          "mat": "red",
+          "uv": [
+            53,
+            68
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_f1_right",
+      "parent": "arm_u1_right",
+      "pivot": [
+        0.0,
+        13.0,
+        0.0
+      ],
+      "rot": [
+        0.35,
+        0.0,
+        -0.35
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -4.0
+          ],
+          "size": [
+            7.0,
+            11.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            66,
+            179
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "blade1_right",
+      "parent": "arm_f1_right",
+      "pivot": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -2.0
+          ],
+          "size": [
+            2.0,
+            18.0,
+            4.0
+          ],
+          "mat": "blade",
+          "uv": [
+            241,
+            23
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "edge1_right",
+      "parent": "blade1_right",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            1.0,
+            18.0,
+            1.0
+          ],
+          "mat": "edge",
+          "uv": [
+            250,
+            0
+          ],
+          "mirror": false,
+          "glow": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_u2_right",
+      "parent": "chest",
+      "pivot": [
+        -12.0,
+        -14.0,
+        2.0
+      ],
+      "rot": [
+        0.25,
+        0.0,
+        0.15
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -7.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            13.0,
+            7.0
+          ],
+          "mat": "armor",
+          "uv": [
+            195,
+            138
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_f2_right",
+      "parent": "arm_u2_right",
+      "pivot": [
+        0.0,
+        12.0,
+        0.0
+      ],
+      "rot": [
+        0.45,
+        0.0,
+        -0.15
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            10.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            124,
+            197
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hand2_right",
+      "parent": "arm_f2_right",
+      "pivot": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            8.0,
+            5.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            215,
+            211
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger2_right_0",
+      "parent": "hand2_right",
+      "pivot": [
+        -2.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            173,
+            222
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger2_right_1",
+      "parent": "hand2_right",
+      "pivot": [
+        1.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            246,
+            223
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_u3_right",
+      "parent": "chest",
+      "pivot": [
+        -13.0,
+        -4.0,
+        -1.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.35
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -7.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            13.0,
+            7.0
+          ],
+          "mat": "red",
+          "uv": [
+            224,
+            138
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "arm_f3_right",
+      "parent": "arm_u3_right",
+      "pivot": [
+        0.0,
+        13.0,
+        0.0
+      ],
+      "rot": [
+        0.2,
+        0.0,
+        0.25
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -3.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            7.0,
+            10.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            153,
+            197
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "hand3_right",
+      "parent": "arm_f3_right",
+      "pivot": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            8.0,
+            5.0,
+            7.0
+          ],
+          "mat": "red_dark",
+          "uv": [
+            0,
+            212
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger3_right_0",
+      "parent": "hand3_right",
+      "pivot": [
+        -2.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            66,
+            224
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "finger3_right_1",
+      "parent": "hand3_right",
+      "pivot": [
+        1.0,
+        5.0,
+        -2.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -1.0
+          ],
+          "size": [
+            2.0,
+            4.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            0,
+            225
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "spine",
+      "parent": "chest",
+      "pivot": [
+        0.0,
+        -24.0,
+        9.0
+      ],
+      "rot": [
+        -0.12,
+        0.0,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -4.0,
+            0.0,
+            -3.0
+          ],
+          "size": [
+            8.0,
+            26.0,
+            6.0
+          ],
+          "mat": "bone",
+          "uv": [
+            150,
+            0
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "spine_spike_0",
+      "parent": "spine",
+      "pivot": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            155,
+            148
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "spine_spike_1",
+      "parent": "spine",
+      "pivot": [
+        0.0,
+        6.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            130,
+            160
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "spine_spike_2",
+      "parent": "spine",
+      "pivot": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            130,
+            168
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "spine_spike_3",
+      "parent": "spine",
+      "pivot": [
+        0.0,
+        14.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            241,
+            178
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "spine_spike_4",
+      "parent": "spine",
+      "pivot": [
+        0.0,
+        18.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            241,
+            186
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "spine_spike_5",
+      "parent": "spine",
+      "pivot": [
+        0.0,
+        22.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            242,
+            194
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_bone1_left",
+      "parent": "chest",
+      "pivot": [
+        10.0,
+        -10.0,
+        9.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.5
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            12.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            241,
+            46
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_bone2_left",
+      "parent": "wing_bone1_left",
+      "pivot": [
+        0.0,
+        12.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        -0.4
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            191,
+            63
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_mem_left",
+      "parent": "wing_bone1_left",
+      "pivot": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            -7.0
+          ],
+          "size": [
+            1.0,
+            12.0,
+            14.0
+          ],
+          "mat": "mist",
+          "uv": [
+            210,
+            29
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_bone1_right",
+      "parent": "chest",
+      "pivot": [
+        -10.0,
+        -10.0,
+        9.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            12.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            241,
+            61
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_bone2_right",
+      "parent": "wing_bone1_right",
+      "pivot": [
+        0.0,
+        12.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.0,
+        0.4
+      ],
+      "boxes": [
+        {
+          "pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            2.0,
+            10.0,
+            2.0
+          ],
+          "mat": "bone",
+          "uv": [
+            200,
+            63
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "wing_mem_right",
+      "parent": "wing_bone1_right",
+      "pivot": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "rot": null,
+      "boxes": [
+        {
+          "pos": [
+            -1.0,
+            0.0,
+            -7.0
+          ],
+          "size": [
+            1.0,
+            12.0,
+            14.0
+          ],
+          "mat": "mist",
+          "uv": [
+            53,
+            41
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "mist_a",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -18.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -18.0,
+            -2.0,
+            -16.0
+          ],
+          "size": [
+            36.0,
+            3.0,
+            1.0
+          ],
+          "mat": "mist",
+          "uv": [
+            75,
+            227
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "name": "mist_b",
+      "parent": "body",
+      "pivot": [
+        0.0,
+        -12.0,
+        0.0
+      ],
+      "rot": [
+        0.0,
+        -0.3,
+        0.0
+      ],
+      "boxes": [
+        {
+          "pos": [
+            -16.0,
+            -2.0,
+            12.0
+          ],
+          "size": [
+            32.0,
+            3.0,
+            1.0
+          ],
+          "mat": "mist",
+          "uv": [
+            66,
+            232
+          ],
+          "mirror": false,
+          "glow": false,
+          "detail": null
+        }
+      ]
+    }
+  ]
+}

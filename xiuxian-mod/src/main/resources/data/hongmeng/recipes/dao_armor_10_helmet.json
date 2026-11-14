@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MAM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "hongmeng:xueluo_essence"
+    },
+    "A": {
+      "item": "hongmeng:dao_armor_9_helmet"
+    }
+  },
+  "result": {
+    "item": "hongmeng:dao_armor_10_helmet",
+    "count": 1
+  }
+}

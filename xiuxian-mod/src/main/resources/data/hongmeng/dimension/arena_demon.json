@@ -1,0 +1,25 @@
+{
+  "type": "hongmeng:arena_demon",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "hongmeng:arena_demon_hell",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:netherrack",
+          "height": 20
+        },
+        {
+          "block": "minecraft:blackstone",
+          "height": 3
+        }
+      ]
+    }
+  }
+}

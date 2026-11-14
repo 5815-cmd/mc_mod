@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAB",
+    "BCB",
+    "B  "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:beast_heart"
+    },
+    "B": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "C": {
+      "item": "hongmeng:career_weapon_greatsword_8"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_weapon_greatsword_9",
+    "count": 1
+  }
+}

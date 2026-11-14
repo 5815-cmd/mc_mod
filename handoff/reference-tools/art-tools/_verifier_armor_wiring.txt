@@ -1,0 +1,43 @@
+        // ---- R-2/C 全量注册：200 甲 + 60 武器 ----
+        String armorSrc = readSource(
+                "src/main/java/com/hongmeng/xiuxian/item/armor/ModCareerArmor.java");
+        check("职业甲按 5 职业 × 10 境界 × 4 部位注册 200 件",
+                armorSrc.contains("Career.values()")
+                        && armorSrc.contains("CareerArmorRealm.MAX_REALM")
+                        && armorSrc.contains("CareerArmorRealm.itemName"), "");
+        int armorModels = 200;
+        for (var c : com.hongmeng.xiuxian.talent.Career.values()) {
+            for (int realm = 1; realm <= 10; realm++) {
+                for (String slot : com.hongmeng.xiuxian.item.armor.CareerArmorRealm.SLOTS) {
+                    String id = com.hongmeng.xiuxian.item.armor.CareerArmorRealm
+                            .itemName(c, realm, slot);
+                    if (findResource("assets/hongmeng/models/item/" + id + ".json") == null) {
+                        armorModels--;
+                    }
+                }
+            }
+        }
+        int armorIcons = 60;
+        int armorSets = 0;
+        for (var set : com.hongmeng.xiuxian.item.armor.CareerArmorSet.values()) {
+            String base = "career_armor_" + set.career().id() + "_" + set.tier().iv();
+            armorSets++;
+            if (findResource("assets/hongmeng/geo/" + base + ".geo.json") != null
+                    && findResource("assets/hongmeng/textures/item/" + base + ".png") != null) {
+                // 15 组外观的 geo/贴图
+            } else {
+                armorSets += 1000;
+            }
+            for (String slot : com.hongmeng.xiuxian.item.armor.CareerArmorSet.SLOTS) {
+                if (findResource("assets/hongmeng/textures/item/" + base + "_" + slot
+                        + ".png") == null) {
+                    armorIcons--;
+                }
+            }
+        }
+        check("职业甲 15 组外观的 geo/贴图齐全", armorSets == 15, "共 " + armorSets + " 组");
+        check("200 件职业甲物品模型齐全", armorModels == 200,
+                armorModels + "/200");
+        check("60 个境界档图标齐全（每件模型引用对应档图标）", armorIcons == 60,
+                armorIcons + "/60");
+

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:lingmai_valley"
+  ],
+  "features": "hongmeng:xuelian_grass_lingmai_valley",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:heaven_cloudsea"
+  ],
+  "features": "hongmeng:heaven_cloudsea_flowerfield",
+  "step": "vegetal_decoration"
+}

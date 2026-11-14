@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "hongmeng:kongming_essence"
+    },
+    "B": {
+      "item": "hongmeng:xueluo_essence"
+    },
+    "C": {
+      "item": "hongmeng:career_weapon_spear_7"
+    },
+    "D": {
+      "item": "hongmeng:beast_heart"
+    }
+  },
+  "result": {
+    "item": "hongmeng:career_weapon_spear_8",
+    "count": 1
+  }
+}

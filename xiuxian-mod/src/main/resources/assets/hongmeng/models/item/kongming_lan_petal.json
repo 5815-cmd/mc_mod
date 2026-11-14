@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hongmeng:item/kongming_lan_petal"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:heaven_starfall"
+  ],
+  "features": "hongmeng:heaven_starfall_broken_steps",
+  "step": "local_modifications"
+}

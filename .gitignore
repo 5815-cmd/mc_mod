@@ -1,0 +1,44 @@
+﻿# Gradle / build outputs
+xiuxian-mod/.gradle/
+xiuxian-mod/build/
+xiuxian-mod/run/
+xiuxian-mod/logs/
+xiuxian-mod/.gradle-home/
+.gradle-home/
+build/
+run/
+logs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+bin/
+.settings/
+.classpath
+.project
+*.launch
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local temp / logs
+*.log
+*.bak
+*.orig
+*.tmp
+*.rej
+*.patch.log
+
+# Local root jar output (keep xiuxian-mod/libs)
+/*.jar
+/*.zip
+
+# Python caches
+__pycache__/
+*.pyc
+

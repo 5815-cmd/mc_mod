@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "hongmeng:spirit_crystal_ore",
+    "hongmeng:deepslate_spirit_crystal_ore",
+    "hongmeng:xueluo_ore",
+    "hongmeng:epoch_portal_frame",
+    "hongmeng:beast_portal_frame",
+    "hongmeng:demon_portal_frame",
+    "hongmeng:void_portal_frame",
+    "hongmeng:boss_summon_altar_beast",
+    "hongmeng:deepslate_xueluo_ore"
+  ]
+}

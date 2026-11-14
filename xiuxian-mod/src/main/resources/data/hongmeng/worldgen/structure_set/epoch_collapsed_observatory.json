@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 9,
+    "salt": 20261222
+  },
+  "structures": [
+    {
+      "structure": "hongmeng:epoch_collapsed_observatory",
+      "weight": 1
+    }
+  ]
+}

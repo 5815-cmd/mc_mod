@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "SGS",
+    "LSL"
+  ],
+  "key": {
+    "L": {
+      "item": "hongmeng:lingye"
+    },
+    "S": {
+      "item": "hongmeng:spirit_iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "hongmeng:zhaohua_dan",
+    "count": 1
+  }
+}

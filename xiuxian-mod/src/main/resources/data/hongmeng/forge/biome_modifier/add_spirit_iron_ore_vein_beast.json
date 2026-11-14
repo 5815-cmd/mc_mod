@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "hongmeng:beast_bonefield",
+    "hongmeng:beast_grove",
+    "hongmeng:beast_mire"
+  ],
+  "features": "hongmeng:spirit_iron_ore_vein_beast",
+  "step": "underground_ores"
+}

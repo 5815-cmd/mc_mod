@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hongmeng:item/dao_armor_2_helmet"
+  }
+}

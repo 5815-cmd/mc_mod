@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "hongmeng:yunmeng_marsh"
+  ],
+  "spawners": {
+    "type": "hongmeng:spirit_wolf",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

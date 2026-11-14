@@ -1,0 +1,175 @@
+    private static void careerArmorSetRules() {
+        section("职业甲（15 套数据）");
+
+        var sets = com.hongmeng.xiuxian.item.armor.CareerArmorSet.values();
+        check("职业甲恰有 15 套（5 职业 × 入门/进阶/名器）", sets.length == 15,
+                sets.length + " 套");
+
+        int missing = 0;
+        StringBuilder lack = new StringBuilder();
+        for (var c : com.hongmeng.xiuxian.talent.Career.values()) {
+            for (var t : com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.values()) {
+                if (com.hongmeng.xiuxian.item.armor.CareerArmorSet.of(c, t) == null) {
+                    missing++;
+                    lack.append(c.cn()).append("/").append(t.cn()).append(" ");
+                }
+            }
+        }
+        check("每职业都有入门/进阶/名器三套（一套不缺）", missing == 0,
+                missing == 0 ? "15 套齐全" : ("缺：" + lack));
+
+        // ---- 套名 / 物品 ID 唯一 ----
+        java.util.Set<String> suitNames = new java.util.HashSet<>();
+        java.util.Set<String> itemNames = new java.util.HashSet<>();
+        boolean uniqueOk = true;
+        for (var s : sets) {
+            if (!suitNames.add(s.suitCn())) {
+                uniqueOk = false;
+            }
+            for (String slot : com.hongmeng.xiuxian.item.armor.CareerArmorSet.SLOTS) {
+                if (!itemNames.add(s.itemName(slot))) {
+                    uniqueOk = false;
+                }
+            }
+        }
+        check("15 套套名与 60 个物品 ID 全部唯一", uniqueOk,
+                "套名 " + suitNames.size() + " 个 / 物品 " + itemNames.size() + " 个");
+
+        // ---- 系数：0.50 / 0.58 / 0.64 ----
+        check("护甲系数恰为 0.50（入门）/ 0.58（进阶）/ 0.64（名器）",
+                Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.BASIC
+                        .armorFactor() - 0.50D) < 1.0E-9D
+                        && Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.ADVANCED
+                        .armorFactor() - 0.58D) < 1.0E-9D
+                        && Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.MASTER
+                        .armorFactor() - 0.64D) < 1.0E-9D,
+                "0.50 / 0.58 / 0.64（道袍 0.70）");
+
+        // ---- 每境：入门 < 进阶 < 名器 < 道袍；随境界单调不降 ----
+        boolean ladderOk = true;
+        boolean monoOk = true;
+        StringBuilder ladderDetail = new StringBuilder();
+        int[][] prev = new int[5][3];
+        for (int[] row : prev) {
+            java.util.Arrays.fill(row, -1);
+        }
+        var careers = com.hongmeng.xiuxian.talent.Career.values();
+        for (int tier = 1; tier <= 10; tier++) {
+            double dao = com.hongmeng.xiuxian.core.RealmStats.armorTotal(tier);
+            for (int ci = 0; ci < careers.length; ci++) {
+                var c = careers[ci];
+                var b = com.hongmeng.xiuxian.item.armor.CareerArmorSet
+                        .of(c, com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.BASIC);
+                var a = com.hongmeng.xiuxian.item.armor.CareerArmorSet
+                        .of(c, com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.ADVANCED);
+                var m = com.hongmeng.xiuxian.item.armor.CareerArmorSet
+                        .of(c, com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.MASTER);
+                int vb = b.totalArmorAt(tier);
+                int va = a.totalArmorAt(tier);
+                int vm = m.totalArmorAt(tier);
+                if (!(vb < va && va < vm && vm < dao)) {
+                    ladderOk = false;
+                    ladderDetail.append(String.format(java.util.Locale.ROOT,
+                            "第%d境 %s: %d/%d/%d/%.0f ", tier, c.cn(), vb, va, vm, dao));
+                }
+                if (tier > 1 && (vb < prev[ci][0] || va < prev[ci][1] || vm < prev[ci][2])) {
+                    monoOk = false;
+                }
+                prev[ci][0] = vb;
+                prev[ci][1] = va;
+                prev[ci][2] = vm;
+            }
+        }
+        check("每境护甲满足 入门 < 进阶 < 名器 < 道袍（动态成长不越界）", ladderOk,
+                ladderOk ? "10 境 × 5 职业全部成立"
+                        : ladderDetail.substring(0, Math.min(300, ladderDetail.length())));
+        check("职业甲护甲随境界单调不降", monoOk, "");
+
+        // ---- 生命 / 韧性 ----
+        check("生命加成 入门 +2%/件、进阶 +3%/件、名器 +4%/件",
+                Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.BASIC
+                        .healthPerPiece() - 0.02D) < 1.0E-9D
+                        && Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.ADVANCED
+                        .healthPerPiece() - 0.03D) < 1.0E-9D
+                        && Math.abs(com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.MASTER
+                        .healthPerPiece() - 0.04D) < 1.0E-9D,
+                "总 +8% / +12% / +16%");
+        boolean toughOk = true;
+        StringBuilder toughDetail = new StringBuilder();
+        for (int tier = 1; tier <= 10; tier++) {
+            double daoTotal = 4.0D * com.hongmeng.xiuxian.item.armor.DaoArmorTier
+                    .of(tier).toughness();
+            for (var c : careers) {
+                for (var t : com.hongmeng.xiuxian.item.armor.CareerArmorSet.Tier.values()) {
+                    var s = com.hongmeng.xiuxian.item.armor.CareerArmorSet.of(c, t);
+                    double total = 4.0D * s.toughnessPerPieceAt(tier);
+                    if (total >= daoTotal) {
+                        toughOk = false;
+                        toughDetail.append(String.format(java.util.Locale.ROOT,
+                                "第%d境 %s%s: %.2f/%.2f ",
+                                tier, c.cn(), t.cn(), total, daoTotal));
+                    }
+                }
+            }
+        }
+        check("职业甲韧性不超过同境道袍（纯防御仍归道袍）", toughOk,
+                toughOk ? "10 境 × 15 套全部成立"
+                        : toughDetail.substring(0, Math.min(300, toughDetail.length())));
+
+        // ---- 2/4 件套表与玩家方案 §5 + C 扩充逐条一致 ----
+        String[][] expect = {
+                {"JIAN_BASIC", "2:ATTACK_SPEED=0.08;4:SWORD_INTENT=0.20;"},
+                {"JIAN_ADVANCED", "2:SWORD_INTENT_FULL_DAMAGE=0.15;"
+                        + "4:SWORD_QI_RANGE=0.30;4:SWORD_AURA=0.25;"},
+                {"XUE_BASIC", "2:LIFESTEAL=0.08;4:BLOOD_MAX=0.20;"},
+                {"XUE_ADVANCED", "2:STAGGER_RATIO=0.15;"
+                        + "4:LOW_HP_DAMAGE=0.25;4:BLOOD_DASH_CD=0.20;"},
+                {"MO_BASIC", "2:PENETRATION=0.10;4:DEMON_GAIN=0.20;"},
+                {"MO_ADVANCED", "2:DEMON_CAP=0.25;"
+                        + "4:OVERFLOW_BURST=0.30;4:SELF_DAMAGE_CUT=0.50;"},
+                {"GUI_BASIC", "2:SOUL_MARK_DURATION=40.00;4:GHOST_REALM_RADIUS=0.20;"},
+                {"GUI_ADVANCED", "2:SOUL_BURST_DAMAGE=0.20;"
+                        + "4:PHASE_CD=0.25;4:GHOST_SLOW=0.15;"},
+                {"TI_BASIC", "2:KNOCKBACK_RESIST=0.50;4:SURGE_GAIN=0.20;"},
+                {"TI_ADVANCED", "2:LAST_STAND_TICKS=20.00;"
+                        + "4:SURGE_BURST=0.30;4:SHOCK_RADIUS=0.20;"},
+                {"JIAN_MASTER", "2:ATTACK_SPEED=0.10;"
+                        + "4:SWORD_QI_RANGE=0.40;4:SWORD_AURA=0.35;"},
+                {"XUE_MASTER", "2:LIFESTEAL=0.10;"
+                        + "4:LOW_HP_DAMAGE=0.35;4:BLOOD_MAX=0.30;"},
+                {"MO_MASTER", "2:PENETRATION=0.15;"
+                        + "4:DEMON_CAP=0.35;4:OVERFLOW_BURST=0.40;"},
+                {"GUI_MASTER", "2:SOUL_MARK_DURATION=60.00;"
+                        + "4:SOUL_BURST_DAMAGE=0.30;4:PHASE_CD=0.35;"},
+                {"TI_MASTER", "2:KNOCKBACK_RESIST=0.70;"
+                        + "4:SURGE_BURST=0.45;4:SHOCK_RADIUS=0.30;"},
+        };
+        int tableBad = 0;
+        StringBuilder tableDetail = new StringBuilder();
+        for (var s : sets) {
+            String expected = null;
+            for (String[] row : expect) {
+                if (row[0].equals(s.name())) {
+                    expected = row[1];
+                    break;
+                }
+            }
+            String actual = careerSetSignature(s);
+            if (expected == null || !expected.equals(actual)) {
+                tableBad++;
+                tableDetail.append(s.name()).append(" 实际=").append(actual).append(" ");
+            }
+        }
+        check("2/4 件套效果与玩家方案 §5 + C 扩充逐条一致", tableBad == 0,
+                tableBad == 0 ? "15 套 × 3 档全部对上"
+                        : ("不一致：" + tableDetail));
+
+        boolean nonEmpty = true;
+        for (var s : sets) {
+            if (s.setTwo().length == 0 || s.setFour().length == 0) {
+                nonEmpty = false;
+            }
+        }
+        check("每套 2 件套与 4 件套都有实际效果（不是白板）", nonEmpty, "");
+    }
+

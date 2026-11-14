@@ -1,0 +1,25 @@
+{
+  "type": "hongmeng:arena_beast",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "hongmeng:arena_beast_boneyard",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 20
+        },
+        {
+          "block": "minecraft:coarse_dirt",
+          "height": 3
+        }
+      ]
+    }
+  }
+}
